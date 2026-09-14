@@ -1,0 +1,14 @@
+creature 2073 generation 31 lineage 2 physical_cells 4
+module 0 orientation 0.0428293 phase -0.026838
+node 0 parent -1 edge 0,0 role 1 mode 0 strength 1 channel 0 neural 1 call -1 repeats 1 branches 1
+biases 0,0,0,0,0,0,0,0,
+weights 0,0,0,-0.0119334,0,-0.0339411,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+node 1 parent 0 edge 1.13056,0.11685 role 4 mode 0 strength 1 channel 0 neural 0 call -1 repeats 1 branches 1
+biases 0,0,0,0,0,0,0,0,
+weights 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.0106984,0,0,0,0,-0.117093,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+node 2 parent 1 edge -0.950566,0.870984 role 3 mode 0 strength 1.3 channel 7 neural 1 call -1 repeats 1 branches 1
+biases 0,0,0,0.0555849,0.0483557,0,0,0.35,
+weights 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.126835,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2.2,-0.15,-0.112088,0,0,0,
+node 3 parent 1 edge -1,-0.85 role 3 mode 0 strength 1.3 channel 7 neural 1 call -1 repeats 1 branches 1
+biases 0,0,0,0,0,0,0,0.35,
+weights 0,0,0,0,-0.109942,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.2,-0.15,0,0,0,0,

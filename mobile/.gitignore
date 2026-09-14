@@ -1,0 +1,7 @@
+build-host/
+build-ios/
+build-sim/
+build-release/
+build-sanitize/
+build-*/
+.DS_Store

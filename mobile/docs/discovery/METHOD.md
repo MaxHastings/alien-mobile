@@ -1,0 +1,25 @@
+# Creature discovery protocol
+
+The research executable links AlienMobileCore and steps the same CPU Simulation used by Simulator at 120 Hz. It does not implement a surrogate organism model or feed diagnostics into runtime selection. The initial historical catalog is archived verbatim, alongside primitive and contractile feeder seeds. All placements receive 1.0 energy per cell, capped by generic cell capacity. Research worlds begin without the reset food wake: establishment must use incoming resources. World-owned resource patches remain the playable six-patch ecology.
+
+Discovery colonies use three founders on different patches, independently randomized orientations and position offsets. They use the existing generic MutationRates defaults, including structural edits, instead of the historical founders' unusually conservative mutation rates. No controller or geometry optimization code exists. Real births inherit real mutations; energy, physical contact, death, construction and competition within a colony determine which descendants exist. The archive takes the first 40 generation-two-or-later adults per colony that have produced at least two mature children. This intentionally preserves candidates rather than claiming an optimal genome; it biases toward early establishment. Candidates undergo independent replay before selection.
+
+Training seeds are 201, 238, 275. Profiles: default emission 9; concentrated, scarcer and faster drifting patches (6); diffuse, richer patches with faster mote drift (12). Each run lasts 600 simulated seconds. Different starting architectures have independent colonies so early loss of one concept does not prevent exploration of its descendants. Extinct colonies are not rescued.
+
+Replay seeds 809 and 1223 are screening environments, not final holdouts. Screening includes two new conditions: feast/famine (40 seconds off per 60 seconds) and a smaller bounded tank with periodic local player-current disturbances. No equal-share or equal-win-rate target applies. Late births, sustained mature descendants, architecture, ablations and observed motion are interpreted together; there is no combined fitness score.
+
+Genomes are exported with every inherited field at float roundtrip precision, read back, and equality checked. Commands, genome files and per-ten-second histories are retained. A CSV alone is not evidence of functional specialization: finalists additionally require physical observation and mechanism ablation.
+
+## Code-grounded possibility inventory
+
+- Morphology: tree genomes, physical spring edges, node stiffness, generic braces and angular constraints; branching/repeated developmental modules and phase advance. Geometry changes contact interception, drag, torque, energy diffusion distance, attack accessibility and building cost.
+- Movement: positive thrust along a physical edge, paid by local energy. Contractile motors change spring rest length; bending motors change angular targets. Internal forces conserve center-of-mass momentum; isotropic cell drag does not provide swimming from contraction alone. Articulation can still change contact coverage and steering under external thrust.
+- Signals: eight channels, one-step bidirectional genomic-edge propagation; residual relay with continuous corrections or replacement tanh networks; recurrent self weights. Generators overwrite the oscillator channel using sine/square time signals. They generate signals, not energy.
+- Sensing: local finite-food gradient/intensity, nearest foreign physical cell or obstacles in local axes. Sensor range squared incurs upkeep. There is no species-aware target AI.
+- Memory: low-pass integration or finite delay ring, with upkeep. Sender/receiver organs broadcast previous committed signals with distance attenuation and energy payment. Implementation exists; ecological usefulness must be established separately.
+- Food and energy: all exposed cells intercept finite particles by contact, shared by spare capacity. Depots increase storage; energy and raw prey material diffuse over physical connections. Local starvation removes cells, fragments die, and a fraction of material recycles. No organism is immortal.
+- Combat: activated attackers pay upkeep and extraction costs, ray-blocked local access, raw material requires digestors and loses energy at conversion. Defenders protect themselves and direct neighbors by spending their energy.
+- Construction: paid staged offspring development, physical birth tether, inherited module invocation, finite capacity reservation and release policy. Failure/sterility is heritable and is not repaired by copying the parent.
+- Mutation: neural, geometry, property, role, insert/delete, module duplication/deletion, section copy/move, construction edits, and slow independent meta-mutation. Validation bounds syntax and memory, not ecological viability.
+
+Primary sources: core/src/{Behavior,Ecology,Simulation,World,Damage,Development,StructuralMutation,CpuPhysicsBackend}.cpp and core/include/alienmobile/{Behavior,Genome,SimulationConfig,Types}.h.

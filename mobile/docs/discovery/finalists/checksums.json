@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Skiff",
+    "sha256": "f960a1a475971e853a681049073883cd57c7fc21aca23d5d286ad767eed1429b"
+  },
+  {
+    "name": "Thread",
+    "sha256": "abbceabfe157e472d99bcff70d0a8dcd40db62ce4cd56558ad1a65950af83f41"
+  },
+  {
+    "name": "Whorl",
+    "sha256": "f4d053cc16e02a22234087ed93f36faca4fbd7f9f8b2c2594ca7de62eddbed55"
+  },
+  {
+    "name": "Husk",
+    "sha256": "4a42b926edde111032c196f97a941096b931b442eaa9bb39578621a2358a3160"
+  }
+]

@@ -1,0 +1,29 @@
+# Local OS, editor and Python state
+.DS_Store
+__pycache__/
+*.py[cod]
+.idea/
+.vscode/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.mobileprovision
+
+# Native/CMake output
+build/
+build-*/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# Historical research output stays local. Keep reports, the catalog fixtures
+# required by tests, and the bounded current playtest evidence.
+/mobile/docs/**/*
+!/mobile/docs/**/
+!/mobile/docs/**/*.md
+!/mobile/docs/discovery/finalists/**
+!/mobile/docs/hybrid-final/**
