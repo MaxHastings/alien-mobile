@@ -1,0 +1,13 @@
+body,compiled,reproduction,seconds,food,organ_cost,dissipated,death_cause
+compact,0,1,21.2083,0.12,1.28095,2.82802,root_starvation
+compact,0,0,42.8417,1.08,1.7484,3.3556,root_starvation
+compact,1,1,120,16.0028,26.2849,105.109,alive
+compact,1,0,120,12.7728,2.37887,9.6,alive
+long,0,1,45.4833,2.688,3.54219,10.4988,root_starvation
+long,0,0,110.558,14.16,5.25797,18.8649,root_starvation
+long,1,1,120,32.2925,10.291,73.3556,alive
+long,1,0,120,25.3779,2.79734,21.12,alive
+hunter,0,1,24.6833,0.96,1.6873,5.50598,root_starvation
+hunter,0,0,40.325,2.904,2.12084,6.80716,root_starvation
+hunter,1,1,25.6333,0.50401,1.23514,5.55529,root_starvation
+hunter,1,0,47.775,3.72,1.6038,8.1522,root_starvation

@@ -1,0 +1,4 @@
+left torque=0.68457 right torque=-0.68457
+creature receptor turns toward either side: passed
+sensor beyond motor: baseline=0 compiled=1.63197
+64-cell prepare latency ms median=0.038875 p95=0.043125 max=0.056792

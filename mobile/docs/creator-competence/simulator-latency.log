@@ -1,0 +1,3 @@
+Timestamp               Ty Process[PID:TID]
+2026-09-14 08:53:25.495 Df AlienMobileApp[46818:63fad3] Creator DNA prepared in 0.036 ms
+2026-09-14 08:53:33.590 Df log[47398:0] [com.apple.log:] log run noninteractively, parent: 45362 (launchd_sim), args: 'log' 'show' '--last' '5m' '--style' 'compact' '--predicate' 'eventMessage CONTAINS "Creator DNA prepared"'

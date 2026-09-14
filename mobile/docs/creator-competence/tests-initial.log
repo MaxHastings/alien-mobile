@@ -1,0 +1,78 @@
+Internal ctest changing into directory: /Users/maxhastings/Documents/ChatGPT/ALIEN/mobile/build-release
+Test project /Users/maxhastings/Documents/ChatGPT/ALIEN/mobile/build-release
+      Start 23: AlienMobileCatalogEcologyTests
+      Start 30: AlienMobilePlayerExperimentTests
+      Start 31: AlienMobileCreatorTests
+      Start 17: AlienMobileEcologyTests
+ 1/32 Test #31: AlienMobileCreatorTests ...............   Passed   15.82 sec
+      Start 27: AlienMobileMetalTests
+ 2/32 Test #17: AlienMobileEcologyTests ...............   Passed   24.44 sec
+      Start 13: AlienMobileStructuralMutationTests
+ 3/32 Test #30: AlienMobilePlayerExperimentTests ......   Passed   26.17 sec
+      Start  2: AlienMobileCompetitionObserverTests
+ 4/32 Test  #2: AlienMobileCompetitionObserverTests ...   Passed    4.60 sec
+      Start  4: AlienMobilePlaytestWorldTests
+ 5/32 Test #13: AlienMobileStructuralMutationTests ....   Passed    7.94 sec
+      Start 25: AlienMobileSessionTests
+ 6/32 Test  #4: AlienMobilePlaytestWorldTests .........   Passed    4.56 sec
+      Start 29: AlienMobileMutagenTests
+ 7/32 Test #29: AlienMobileMutagenTests ...............   Passed    0.36 sec
+      Start 16: AlienMobileHuntingTests
+ 8/32 Test #16: AlienMobileHuntingTests ...............   Passed    2.75 sec
+      Start 15: AlienMobileLocomotionDiversityTests
+ 9/32 Test #25: AlienMobileSessionTests ...............   Passed    8.14 sec
+      Start 21: AlienMobileGardenContinuityTests
+10/32 Test #15: AlienMobileLocomotionDiversityTests ...   Passed    2.15 sec
+      Start 19: AlienMobileBehaviorMutationTests
+11/32 Test #21: AlienMobileGardenContinuityTests ......   Passed    0.76 sec
+      Start 18: AlienMobileBehaviorSelectionTests
+12/32 Test #19: AlienMobileBehaviorMutationTests ......   Passed    0.78 sec
+      Start  1: AlienMobileHotpathTests
+13/32 Test  #1: AlienMobileHotpathTests ...............   Passed    0.03 sec
+      Start 12: AlienMobileArticulationTests
+14/32 Test #12: AlienMobileArticulationTests ..........   Passed    0.27 sec
+      Start 20: AlienMobileBehaviorTests
+15/32 Test #18: AlienMobileBehaviorSelectionTests .....   Passed    0.61 sec
+      Start 28: AlienMobileDiscoveryCatalogTests
+16/32 Test #28: AlienMobileDiscoveryCatalogTests ......   Passed    0.01 sec
+      Start 26: AlienMobileMetalGridTests
+17/32 Test #26: AlienMobileMetalGridTests .............   Passed    0.12 sec
+      Start 14: AlienMobileDevelopmentTests
+18/32 Test #14: AlienMobileDevelopmentTests ...........   Passed    0.10 sec
+      Start 10: AlienMobileFunctionalTests
+19/32 Test #10: AlienMobileFunctionalTests ............   Passed    0.00 sec
+      Start  5: AlienMobileDevelopingOrgansTests
+20/32 Test  #5: AlienMobileDevelopingOrgansTests ......   Passed    0.00 sec
+      Start  8: AlienMobileMutationContinuityTests
+21/32 Test  #8: AlienMobileMutationContinuityTests ....   Passed    0.08 sec
+      Start  9: AlienMobileSpatialTests
+22/32 Test  #9: AlienMobileSpatialTests ...............   Passed    0.04 sec
+      Start  3: AlienMobileResourceBedTests
+23/32 Test  #3: AlienMobileResourceBedTests ...........   Passed    0.01 sec
+      Start  6: AlienMobileEvolvabilityTests
+24/32 Test  #6: AlienMobileEvolvabilityTests ..........   Passed    0.07 sec
+      Start 11: AlienMobileDamageTests
+25/32 Test #11: AlienMobileDamageTests ................   Passed    0.02 sec
+      Start 24: AlienMobileCoreTests
+26/32 Test #20: AlienMobileBehaviorTests ..............   Passed    0.84 sec
+      Start 22: AlienMobileSpecimenCatalogTests
+27/32 Test #22: AlienMobileSpecimenCatalogTests .......   Passed    0.03 sec
+      Start  7: AlienMobileComplexityEconomyTests
+28/32 Test  #7: AlienMobileComplexityEconomyTests .....   Passed    0.01 sec
+      Start 32: AlienMobileCreatorCompetenceTests
+29/32 Test #32: AlienMobileCreatorCompetenceTests .....Subprocess aborted***Exception:   0.04 sec
+Assertion failed: (neuralChange), function main, file CreatorCompetenceTests.cpp, line 53.
+left torque=0.68457 right torque=-0.68457
+sensor beyond motor: baseline=0.168113 compiled=0.720472
+
+30/32 Test #24: AlienMobileCoreTests ..................   Passed    0.32 sec
+31/32 Test #27: AlienMobileMetalTests .................   Passed   27.31 sec
+32/32 Test #23: AlienMobileCatalogEcologyTests ........   Passed  166.87 sec
+
+97% tests passed, 1 tests failed out of 32
+
+Total Test time (real) = 166.88 sec
+
+The following tests FAILED:
+	 32 - AlienMobileCreatorCompetenceTests (Subprocess aborted)
+Errors while running CTest

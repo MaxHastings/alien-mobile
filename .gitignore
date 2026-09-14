@@ -27,3 +27,5 @@ xcuserdata/
 !/mobile/docs/**/*.md
 !/mobile/docs/discovery/finalists/**
 !/mobile/docs/hybrid-final/**
+
+!/mobile/docs/creator-competence/**

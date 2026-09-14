@@ -1,5 +1,6 @@
 #import "CreatureEditor.h"
 #include "alienmobile/Creator.h"
+#include <chrono>
 using namespace alienmobile;
 @interface BodyCanvas : UIView
 @property(nonatomic) Genome* genome;
@@ -77,15 +78,15 @@ using namespace alienmobile;
 @interface CreatureEditor () <UITextFieldDelegate>
 @end
 @implementation CreatureEditor {
-    SpecimenSnapshot _specimen;void (^_completion)(SpecimenSnapshot);BodyCanvas* _canvas;UILabel* _detail;UITextField* _name;std::vector<Genome> _undo;
+    Genome _source;SpecimenSnapshot _specimen;void (^_completion)(SpecimenSnapshot);BodyCanvas* _canvas;UILabel* _detail;UITextField* _name;std::vector<Genome> _undo;
 }
-- (instancetype)initWithSpecimen:(SpecimenSnapshot)s completion:(void (^)(SpecimenSnapshot))completion {if(self=[super init]){_specimen=s;_specimen.genome=editableBody(s.genome);_completion=[completion copy];}return self;}
+- (instancetype)initWithSpecimen:(SpecimenSnapshot)s completion:(void (^)(SpecimenSnapshot))completion {if(self=[super init]){_specimen=s;_source=s.genome;_specimen.genome=editableBody(s.genome);_completion=[completion copy];}return self;}
 - (UIButton*)button:(NSString*)title action:(SEL)action tag:(NSInteger)tag {UIButton* b=[UIButton buttonWithType:UIButtonTypeSystem];[b setTitle:title forState:UIControlStateNormal];[b setTitleColor:[UIColor colorWithWhite:.94 alpha:1] forState:UIControlStateNormal];b.tag=tag;b.titleLabel.font=[UIFont systemFontOfSize:14 weight:UIFontWeightSemibold];b.backgroundColor=[UIColor colorWithWhite:1 alpha:.07];b.layer.cornerRadius=12;[b.heightAnchor constraintEqualToConstant:44].active=YES;[b addTarget:self action:action forControlEvents:UIControlEventTouchUpInside];return b;}
 - (void)viewDidLoad {
     [super viewDidLoad];self.view.backgroundColor=[UIColor colorWithRed:.025 green:.045 blue:.065 alpha:1];self.modalInPresentation=YES;
     UIStackView* stack=[[UIStackView alloc] init];stack.axis=UILayoutConstraintAxisVertical;stack.spacing=12;stack.translatesAutoresizingMaskIntoConstraints=NO;[self.view addSubview:stack];
     _name=[[UITextField alloc] init];_name.text=[NSString stringWithUTF8String:_specimen.name.c_str()];_name.textColor=UIColor.whiteColor;_name.font=[UIFont systemFontOfSize:24 weight:UIFontWeightSemibold];_name.accessibilityLabel=@"Creature name";_name.returnKeyType=UIReturnKeyDone;_name.delegate=self;[stack addArrangedSubview:_name];
-    UILabel* tip=[[UILabel alloc] init];tip.text=@"Tap a cell to change its role. Drag it to reshape.\nTap empty space to grow from the selected cell.";tip.numberOfLines=2;tip.font=[UIFont systemFontOfSize:14];tip.textColor=UIColor.lightGrayColor;[stack addArrangedSubview:tip];
+    UILabel* tip=[[UILabel alloc] init];tip.text=@"Tap a cell to change its role. Drag it to reshape.\nTap empty space to grow. Edited bodies adapt their signals.";tip.numberOfLines=3;tip.font=[UIFont systemFontOfSize:14];tip.textColor=UIColor.lightGrayColor;[stack addArrangedSubview:tip];
     _canvas=[[BodyCanvas alloc] init];_canvas.genome=&_specimen.genome;_canvas.hue=_specimen.lineageHue;_canvas.backgroundColor=[UIColor colorWithWhite:1 alpha:.025];_canvas.layer.cornerRadius=20;[stack addArrangedSubview:_canvas];[_canvas.heightAnchor constraintGreaterThanOrEqualToConstant:170].active=YES;
     _detail=[[UILabel alloc] init];_detail.numberOfLines=2;_detail.font=[UIFont systemFontOfSize:13];_detail.textColor=UIColor.lightGrayColor;[stack addArrangedSubview:_detail];
     NSArray* names=@[@"Body",@"Motor",@"Sensor",@"Storage",@"Attack",@"Digest"];
@@ -98,13 +99,22 @@ using namespace alienmobile;
 }
 - (void)update {auto& n=_specimen.genome.genes[0].nodes[_canvas.selected];NSArray* names=@[@"Body · connects and absorbs food",@"Constructor · grows offspring; keep this cell",@"Oscillator · inherited rhythm",@"Motor · paid thrust in the marked direction",@"Sensor · relays local food signals",@"Creature sensor",@"Attack · extracts on physical contact",@"Digest · converts captured material",@"Storage · larger energy reservoir",@"Defender",@"Memory",@"Obstacle sensor",@"Sender",@"Receiver"];
     _detail.text=names[NSUInteger(n.behavior.role)];[_canvas setNeedsDisplay];[_canvas setNeedsLayout];}
-- (void)role:(UIButton*)b {[self remember];if(!changeOrgan(_specimen.genome,_canvas.selected,CellRole(b.tag)))_detail.text=@"The constructor stays so offspring can develop.";else [self update];}
+- (void)chooseRole:(CellRole)role {[self remember];if(!changeOrgan(_specimen.genome,_canvas.selected,role))_detail.text=@"The constructor stays so offspring can develop.";else [self update];}
+- (void)role:(UIButton*)b {
+    if(b.tag!=NSInteger(CellRole::EnergySensor)){[self chooseRole:CellRole(b.tag)];return;}
+    UIAlertController* menu=[UIAlertController alertControllerWithTitle:@"Sense nearby…" message:@"Signals travel through the body. Motors respond using their marked directions." preferredStyle:UIAlertControllerStyleActionSheet];
+    [menu addAction:[UIAlertAction actionWithTitle:@"Food" style:UIAlertActionStyleDefault handler:^(UIAlertAction* a){[self chooseRole:CellRole::EnergySensor];}]];
+    [menu addAction:[UIAlertAction actionWithTitle:@"Creatures" style:UIAlertActionStyleDefault handler:^(UIAlertAction* a){[self chooseRole:CellRole::CreatureSensor];}]];
+    [menu addAction:[UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:nil]];
+    menu.popoverPresentationController.sourceView=b;menu.popoverPresentationController.sourceRect=b.bounds;
+    [self presentViewController:menu animated:YES completion:nil];
+}
 - (void)turn:(UIButton*)b {[self remember];auto copy=_specimen.genome;auto& n=copy.genes[0].nodes[_canvas.selected];if(n.behavior.role==CellRole::Motor){n.behavior.axisAngle+=M_PI/4;if(n.behavior.axisAngle>3.14159)n.behavior.axisAngle-=2*M_PI;}else if(_canvas.selected){auto v=n.relativePosition;float a=M_PI/6;moveBodyCell(copy,_canvas.selected,{float(v.x*cos(a)-v.y*sin(a)),float(v.x*sin(a)+v.y*cos(a))});}if(validCreatorBody(copy))_specimen.genome=copy;[self update];}
 - (void)remove:(UIButton*)b {[self remember];if(removeBodyCell(_specimen.genome,_canvas.selected)){_canvas.selected=0;[self update];}else _detail.text=@"Choose an outer tip. Keep the constructor and two cells.";}
 - (BOOL)textFieldShouldReturn:(UITextField*)field {[field resignFirstResponder];return YES;}
 - (void)remember {_undo.push_back(_specimen.genome);if(_undo.size()>30)_undo.erase(_undo.begin());}
 - (void)undo:(UIButton*)button {if(_undo.empty())return;_specimen.genome=_undo.back();_undo.pop_back();_canvas.selected=std::min<NSInteger>(_canvas.selected,_specimen.genome.genes[0].nodes.size()-1);[self update];}
 - (void)grow:(UIButton*)button {auto p=[_canvas positions];auto v=p[_canvas.selected];float start=atan2(v.y,v.x);for(int i=0;i<12;++i)if([_canvas growAtAngle:start+i*M_PI/6])return;_detail.text=@"No room here. Choose another cell to grow from.";}
-- (void)releaseBody:(UIButton*)b {if(!validCreatorBody(_specimen.genome))return;NSString* name=[_name.text stringByTrimmingCharactersInSet:NSCharacterSet.whitespaceAndNewlineCharacterSet];_specimen.name=name.length?std::string([name substringWithRange:[name rangeOfComposedCharacterSequencesForRange:NSMakeRange(0,MIN(name.length,40))]].UTF8String):"My creature";_specimen.ecology="Mine";_specimen.initialEnergy=1.f;auto specimen=_specimen;auto completion=_completion;[self dismissViewControllerAnimated:YES completion:^{completion(specimen);}];}
+- (void)releaseBody:(UIButton*)b {if(!validCreatorBody(_specimen.genome))return;auto start=std::chrono::steady_clock::now();_specimen.genome=prepareCreatorRelease(_specimen.genome,_source);NSLog(@"Creator DNA prepared in %.3f ms",std::chrono::duration<double,std::milli>(std::chrono::steady_clock::now()-start).count());NSString* name=[_name.text stringByTrimmingCharactersInSet:NSCharacterSet.whitespaceAndNewlineCharacterSet];_specimen.name=name.length?std::string([name substringWithRange:[name rangeOfComposedCharacterSequencesForRange:NSMakeRange(0,MIN(name.length,40))]].UTF8String):"My creature";_specimen.ecology="Mine";_specimen.initialEnergy=1.f;auto specimen=_specimen;auto completion=_completion;[self dismissViewControllerAnimated:YES completion:^{completion(specimen);}];}
 - (void)cancel:(UIButton*)b {[self dismissViewControllerAnimated:YES completion:self.onCancel];}
 @end
