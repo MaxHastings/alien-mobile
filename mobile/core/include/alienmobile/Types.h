@@ -61,8 +61,10 @@ struct AngularConstraint {
 
 struct ConstructorState {
     enum Status { Idle, Constructing, Cooldown };
+    enum Wait { None, Energy, Capacity, Development };
 
     Status status = Idle;
+    Wait wait = None; // Observation only; never consulted by biology.
     uint32_t nextNode = 0;
     uint32_t offspringCreatureId = kInvalidId;
     float timer = 0.0f;
@@ -122,7 +124,7 @@ inline bool operator==(Connection const& left, Connection const& right)
 
 inline bool operator==(ConstructorState const& left, ConstructorState const& right)
 {
-    return left.status == right.status && left.nextNode == right.nextNode && left.offspringCreatureId == right.offspringCreatureId
+    return left.status == right.status && left.wait == right.wait && left.nextNode == right.nextNode && left.offspringCreatureId == right.offspringCreatureId
         && left.timer == right.timer;
 }
 

@@ -6,8 +6,10 @@ struct NativeGameState;
 @interface GameViewController : UIViewController <UIGestureRecognizerDelegate> {
     NativeGameState* _state;
     Renderer* _renderer;
-    UIButton *_childButton, *_saveButton, *_speedButton, *_pauseButton, *_mutagenButton, *_currentButton, *_catalogButton, *_foodButton;
+    UIButton *_editButton, *_wideButton, *_childButton, *_saveButton, *_speedButton, *_pauseButton, *_mutagenButton, *_currentButton, *_catalogButton, *_foodButton;
     BOOL _paused, _creatorOpen;
+    CFTimeInterval _noticeUntil;
+    bool _libraryReadOnly;
     UILabel *_hint;
     UIView* _catalogTray;
     NSTimer* _statusTimer;

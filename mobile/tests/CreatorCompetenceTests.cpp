@@ -29,7 +29,7 @@ int main(){
  for(auto s:makeCuratedSpecimenCatalog()){
   assert(prepareCreatorRelease(editableBody(s.genome),s.genome)==s.genome);
   auto edit=editableBody(s.genome);assert(addBodyCell(edit,0,{0,1.1f}));
-  assert(prepareCreatorRelease(edit,s.genome)==compileCreatorBody(edit));
+  assert(prepareCreatorRelease(edit,s.genome)==edit); // A body edit is not permission to replace all control.
  }
  auto compact=compileCreatorBody(fixtures[0].genome);
  auto left=torque(compact,{2,2}),right=torque(compact,{2,-2});

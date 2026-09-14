@@ -2,8 +2,16 @@
 #include "alienmobile/Development.h"
 #include <algorithm>
 namespace alienmobile {
-// An edit copy expands bounded development into ordinary genes. The original
-// specimen remains exact. Controllers and physical geometry are retained.
+// A root-only, valid body gives the player a genuinely blank starting point.
+// The editor can grow it from there; it is not one of the curated templates.
+inline Genome makeCreatorStarterGenome() {
+    Genome result;
+    result.genes[0].nodes.push_back(GenomeNode{-1, {}, true});
+    return result;
+}
+
+// The canvas is an expressed view. Release maps local edits back into the
+// developmental program when unambiguous; otherwise the UI discloses unfolding.
 inline Genome editableBody(Genome const& source) {
     Genome result; result.mutationRates=source.mutationRates;
     DevelopmentCursor cursor;
@@ -29,6 +37,7 @@ inline bool changeOrgan(Genome& g,size_t index,CellRole role) {
     if(!validCreatorBody(g))return false;
     auto copy=g;auto& nodes=copy.genes[0].nodes;
     if(index==0 || index>=nodes.size() || nodes[index].constructorCell)return false;
+    if(nodes[index].behavior.role==role)return true;
     nodes[index].behavior=seededOrgan(role);
     if(!validCreatorBody(copy))return false;g=copy;return true;
 }
@@ -131,10 +140,49 @@ inline Genome compileCreatorBody(Genome const& body) {
     }
     return result;
 }
-// Opening, naming, or undoing an edit must not flatten a saved developmental
-// program or replace a successful inherited controller.
+// Preserve unexpressed genes, growth timing and shared developmental calls for
+// edits to uniquely expressed nodes. Editing one instance of a repeated node or
+// changing topology requires an explicitly disclosed independent body copy.
+inline std::optional<Genome> retainedCreatorProgram(Genome const& edited,Genome const& source) {
+    auto baseline=editableBody(source);
+    if(edited==baseline)return source;
+    if(!validCreatorBody(edited) || edited.genes[0].nodes.size()!=baseline.genes[0].nodes.size())return {};
+    std::vector<DevelopedNode> map;DevelopmentCursor cursor;
+    while(auto n=cursor.next(source))map.push_back(*n);
+    auto result=source;
+    for(size_t i=0;i<map.size();++i) {
+        auto const& before=baseline.genes[0].nodes[i];auto const& after=edited.genes[0].nodes[i];
+        if(before==after)continue;
+        if(before.parentNode!=after.parentNode || before.constructorCell!=after.constructorCell)return {};
+        auto const& m=map[i];unsigned uses=0;
+        for(auto const& other:map)uses+=other.gene==m.gene && other.node==m.node;
+        if(uses!=1)return {};
+        auto& target=result.genes[m.gene].nodes[m.node];
+        if(!(before.relativePosition==after.relativePosition)) {
+            float rotation=std::atan2(before.relativePosition.y,before.relativePosition.x)
+                -std::atan2(target.relativePosition.y,target.relativePosition.x);
+            auto v=after.relativePosition;float c=std::cos(rotation),s=std::sin(rotation);
+            target.relativePosition={v.x*c+v.y*s,-v.x*s+v.y*c};
+        }
+        if(!(before.behavior==after.behavior)) {
+            float originalPhase=target.behavior.phase;target.behavior=after.behavior;
+            target.behavior.phase=originalPhase+(after.behavior.phase-before.behavior.phase);
+            target.behavior.phase-=std::floor(target.behavior.phase);
+        }
+        target.stiffness=after.stiffness;
+    }
+    if(!isValidDevelopmentGenome(result) || !measureDevelopment(result).complete())return {};
+    return result;
+}
+inline bool creatorUnfoldsDevelopment(Genome const& edited,Genome const& source) {
+    bool hasProgram=source.genes.size()!=1 || source.entryGene!=0;
+    for(auto const& gene:source.genes){hasProgram|=gene.orientation!=0 || gene.phaseAdvance!=0;
+        for(auto const& node:gene.nodes)hasProgram|=node.construction.targetGene>=0;}
+    return hasProgram && !retainedCreatorProgram(edited,source).has_value();
+}
 inline Genome prepareCreatorRelease(Genome const& edited,Genome const& source) {
-    return edited==editableBody(source) ? source : compileCreatorBody(edited);
+    auto retained=retainedCreatorProgram(edited,source);
+    return retained ? *retained : edited;
 }
 
 }

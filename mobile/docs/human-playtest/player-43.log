@@ -1,0 +1,1 @@
+scenario=player-empty seed=43 seconds=600 authored_cells=5 descendants=31 different_from_ancestor=28 different_cell_count=7 generation=8 living_family=2 ancestor_max_displacement=38.5494 ancestor_max_cell_food=33.208 ancestor_integrated_thrust=454.495 capacity_wait_steps=0 starvation_losses=127 damage_losses=0 invalid_development=0 world_births=31 world_deaths=55

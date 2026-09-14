@@ -1,0 +1,14 @@
+Internal ctest changing into directory: /Users/maxhastings/Documents/ChatGPT/ALIEN/mobile/build-release
+Test project /Users/maxhastings/Documents/ChatGPT/ALIEN/mobile/build-release
+    Start 31: AlienMobileCreatorTests
+1/4 Test #31: AlienMobileCreatorTests .............   Passed    9.21 sec
+    Start 32: AlienMobileCreatorCompetenceTests
+2/4 Test #32: AlienMobileCreatorCompetenceTests ...   Passed    0.06 sec
+    Start 33: AlienMobileBiologyBridgeTests
+3/4 Test #33: AlienMobileBiologyBridgeTests .......   Passed    0.60 sec
+    Start 34: AlienMobileLibraryTests
+4/4 Test #34: AlienMobileLibraryTests .............   Passed    0.01 sec
+
+100% tests passed, 0 tests failed out of 4
+
+Total Test time (real) =   9.87 sec

@@ -28,6 +28,7 @@ void World::reset()
 
 void World::reset(SimulationConfig config)
 {
+    lifeEvents.clear();lastPlacementFailure=PlacementFailure::None;
     _config = config;
     motes.clear(); resourcePatches.clear(); playerCurrents.clear(); mutagen={};
     nextMoteId=0; emissionAccumulator=0; ecologicalTime=0; energyLedger={};
@@ -57,7 +58,7 @@ void World::reset(SimulationConfig config)
             resourcePatches.push_back({anchor,6.2831853f*rng.nextUnit(),0});
         }
     }
-    if(config.ecosystemSeed) {
+    if(config.ecosystemSeed && !config.emptyStart) {
       if(config.catalogSeed) {
         // A deliberately light opening cast.  They are ordinary catalog
         // snapshots placed once at reset; no catalog material is injected
@@ -155,6 +156,20 @@ void World::reset(SimulationConfig config)
         } else for(int i=0;i<160;++i) {
             // Reset seeds a short, already-moving resource wake. It is not a
             // reservoir: every packet is free, finite, and expires or is eaten.
+            float a=rng.nextUnit()*6.2831853f, r=std::sqrt(rng.nextUnit())
+                *(config.autonomousResources ? config.autonomousPatchRadius : config.energySourceRadius);
+            Vec2 dir{std::cos(a),std::sin(a)};
+            float speed=config.moteDriftSpeedMin+(config.moteDriftSpeedMax-config.moteDriftSpeedMin)*rng.nextUnit();
+            Vec2 origin=config.autonomousResources && !resourcePatches.empty()
+                ? resourcePatchPosition(unsigned(i)%resourcePatches.size()) : energySource.position;
+            addMote(origin+dir*r,dir*std::max(0.f,speed),config.moteEnergy);
+            energyLedger.seeded+=config.moteEnergy;
+        }
+    } else if(config.emptyStart) {
+        // An empty player aquarium still receives the finite environmental
+        // wake below, but no organism is injected by reset.
+        energyLedger.organismSeeded=0;
+        for(int i=0;i<160;++i) {
             float a=rng.nextUnit()*6.2831853f, r=std::sqrt(rng.nextUnit())
                 *(config.autonomousResources ? config.autonomousPatchRadius : config.energySourceRadius);
             Vec2 dir{std::cos(a),std::sin(a)};
@@ -591,15 +606,17 @@ void World::addFounder(Genome g, Vec2 p, float angle, float hue) {
 
 uint32_t World::addSpecimen(SpecimenSnapshot const& specimen, Vec2 position, float angle)
 {
+    lastPlacementFailure=PlacementFailure::None;
+    auto fail=[&](PlacementFailure reason){lastPlacementFailure=reason;return kInvalidId;};
     if(!isValidDevelopmentGenome(specimen.genome) || !std::isfinite(position.x)
         || !std::isfinite(position.y) || !std::isfinite(angle)
-        || !std::isfinite(specimen.initialEnergy) || specimen.initialEnergy<=0) return kInvalidId;
+        || !std::isfinite(specimen.initialEnergy) || specimen.initialEnergy<=0) return fail(PlacementFailure::InvalidData);
     auto summary=measureDevelopment(specimen.genome);
     std::size_t reserved=cells.size();
     for(auto const& pending:creatures) if(!pending.mature && !pending.fragment && !pending.developmentFailed)
         reserved+=pending.expectedCells>pending.bodyNodes.size() ? pending.expectedCells-pending.bodyNodes.size() : 0;
-    if(!summary.complete() || summary.cells>_config.maxCellCount
-        || reserved>_config.maxCellCount-summary.cells) return kInvalidId;
+    if(!summary.complete())return fail(PlacementFailure::Development);
+    if(summary.cells>_config.maxCellCount || reserved>_config.maxCellCount-summary.cells)return fail(PlacementFailure::Capacity);
     // Preflight the complete developed body. Rejection is atomic: no partial
     // organisms, consumed identities, or cells outside the tank.
     DevelopmentCursor cursor;std::vector<Vec2> positions;
@@ -611,14 +628,14 @@ uint32_t World::addSpecimen(SpecimenSnapshot const& specimen, Vec2 position, flo
             std::sin(angle)*edge.x+std::cos(angle)*edge.y};
         if(!_config.toroidal && (p.x<_config.worldMinX+_config.cellRadius
             || p.x>_config.worldMaxX-_config.cellRadius || p.y<_config.worldMinY+_config.cellRadius
-            || p.y>_config.worldMaxY-_config.cellRadius)) return kInvalidId;
+            || p.y>_config.worldMaxY-_config.cellRadius)) return fail(PlacementFailure::Bounds);
         for(auto const& cell:cells) if(cell.alive && length(displacement(p,cell.position))<2*_config.cellRadius)
-            return kInvalidId;
+            return fail(PlacementFailure::Occupied);
         positions.push_back(p);
     }
     auto const before=creatures.size();
     addFounder(specimen.genome,position,angle,specimen.lineageHue);
-    if(creatures.size()==before) return kInvalidId;
+    if(creatures.size()==before) return fail(PlacementFailure::Development);
     auto& creature=creatures.back();
     // This is the same finite starting reserve every ordinary founder gets;
     // the catalog merely stores it as data so a discovery can be replayed.
@@ -632,19 +649,22 @@ uint32_t World::addSpecimen(SpecimenSnapshot const& specimen, Vec2 position, flo
 
 uint32_t World::addSpecimenNearby(SpecimenSnapshot const& specimen, Vec2 requested)
 {
-    if(!isFinite(requested) || !isValidDevelopmentGenome(specimen.genome))return kInvalidId;
+    lastPlacementFailure=PlacementFailure::None;
+    auto fail=[&](PlacementFailure reason){lastPlacementFailure=reason;return kInvalidId;};
+    if(!isFinite(requested) || !isValidDevelopmentGenome(specimen.genome))return fail(PlacementFailure::InvalidData);
     auto summary=measureDevelopment(specimen.genome);
     std::size_t reserved=cells.size();
     for(auto const& pending:creatures)if(!pending.mature && !pending.fragment && !pending.developmentFailed)
         reserved+=pending.expectedCells>pending.bodyNodes.size()?pending.expectedCells-pending.bodyNodes.size():0;
-    if(!summary.complete() || reserved+summary.cells>_config.maxCellCount)return kInvalidId;
+    if(!summary.complete())return fail(PlacementFailure::Development);
+    if(reserved+summary.cells>_config.maxCellCount)return fail(PlacementFailure::Capacity);
     std::vector<Vec2> offsets;DevelopmentCursor cursor;
     while(auto node=cursor.next(specimen.genome))offsets.push_back(node->physical.parentNode<0?Vec2{}:offsets[node->physical.parentNode]+node->physical.relativePosition);
     float minX=_config.worldMinX+_config.cellRadius,maxX=_config.worldMaxX-_config.cellRadius;
     float minY=_config.worldMinY+_config.cellRadius,maxY=_config.worldMaxY-_config.cellRadius;
     for(auto p:offsets){minX=std::max(minX,_config.worldMinX+_config.cellRadius-p.x);maxX=std::min(maxX,_config.worldMaxX-_config.cellRadius-p.x);
         minY=std::max(minY,_config.worldMinY+_config.cellRadius-p.y);maxY=std::min(maxY,_config.worldMaxY-_config.cellRadius-p.y);}
-    if(minX>maxX || minY>maxY)return kInvalidId;
+    if(minX>maxX || minY>maxY)return fail(PlacementFailure::Bounds);
     requested={clamp(requested.x,minX,maxX),clamp(requested.y,minY,maxY)};
     std::vector<Vec2> candidates{requested};
     float step=std::max(.45f,2*_config.cellRadius);
@@ -654,7 +674,7 @@ uint32_t World::addSpecimenNearby(SpecimenSnapshot const& specimen, Vec2 request
         for(auto offset:offsets){for(auto const& cell:cells)if(cell.alive && length(displacement(origin+offset,cell.position))<2*_config.cellRadius){clear=false;break;}if(!clear)break;}
         if(clear)return addSpecimen(specimen,origin);
     }
-    return kInvalidId;
+    return fail(PlacementFailure::Occupied);
 }
 
 void World::createInitialOrganism()

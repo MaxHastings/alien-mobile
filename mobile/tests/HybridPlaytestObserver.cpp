@@ -9,14 +9,17 @@
 #include <set>
 using namespace alienmobile;
 int main(int argc,char** argv) {
-    if(argc!=4)return 2;
+    if(argc!=4 && argc!=5)return 2;
     unsigned seed=std::stoul(argv[1]),seconds=std::stoul(argv[2]);std::string stem=argv[3];
     auto config=evolutionPlaytestConfig();config.randomSeed=seed;
+    bool emptyStart=argc==5 && std::string(argv[4])=="empty";
+    if(emptyStart){config.emptyStart=true;config.ecosystemSeed=config.catalogSeed=false;}
     World world(config);Simulation simulation(world,config);
     auto specimen=makeCuratedSpecimenCatalog()[0];specimen.name="Fanfin";
-    specimen.genome=editableBody(specimen.genome);
+    auto source=specimen.genome;specimen.genome=editableBody(source);
     assert(addBodyCell(specimen.genome,0,{-1.15f,0}));
     assert(changeOrgan(specimen.genome,4,CellRole::Motor));
+    specimen.genome=prepareCreatorRelease(specimen.genome,source);
     {std::ofstream dna(stem+"-ancestor.dna");genomeio::writeGenome(dna,specimen.genome);}
     auto id=world.addSpecimenNearby(specimen,world.resourcePatchPosition(2));
     assert(id!=kInvalidId);simulation.notifyTopologyChanged();
@@ -27,7 +30,7 @@ int main(int argc,char** argv) {
         simulation.step();
         if(step%120==0)assert(world.allValuesFinite() && world.allConnectionsValid());
         if(auto parent=world.findCreature(id)) {
-            maxDistance=std::max(maxDistance,length(world.cells[parent->rootCell].position-start));
+            if(parent->rootCell<world.cells.size())maxDistance=std::max(maxDistance,length(world.cells[parent->rootCell].position-start));
             for(auto i:world.cellIndicesForCreature(id)){food=std::max(food,world.cells[i].acquiredEnergy);thrust+=length(world.cells[i].motorThrust)*config.fixedTimeStep;}
         }
         for(auto const& c:world.creatures)if(c.ancestorId==id && c.generation && c.mature && !c.fragment && seen.insert(c.id).second) {
@@ -38,8 +41,9 @@ int main(int argc,char** argv) {
         }
     }
     unsigned alive=0;for(auto const& c:world.creatures)alive+=c.ancestorId==id && c.mature && !c.fragment;
-    std::cout<<"seed="<<seed<<" seconds="<<seconds<<" authored_cells=5 descendants="<<children<<" different_from_ancestor="<<changed
+    std::cout<<"scenario="<<(emptyStart?"player-empty":"mixed")<<" seed="<<seed<<" seconds="<<seconds<<" authored_cells=5 descendants="<<children<<" different_from_ancestor="<<changed
         <<" different_cell_count="<<structural<<" generation="<<maxGeneration<<" living_family="<<alive
         <<" ancestor_max_displacement="<<maxDistance<<" ancestor_max_cell_food="<<food<<" ancestor_integrated_thrust="<<thrust
+        <<" capacity_wait_steps="<<simulation.stats().capacityWaitSteps<<" starvation_losses="<<simulation.stats().starvationLosses<<" damage_losses="<<simulation.stats().damageLosses<<" invalid_development="<<simulation.stats().invalidDevelopmentAttempts
         <<" world_births="<<simulation.stats().births<<" world_deaths="<<simulation.stats().deaths<<'\n';
 }

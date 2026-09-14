@@ -23,6 +23,9 @@ struct SimulationConfig {
     bool spatialResources = false;
     bool gardenSeed = false;
     bool catalogSeed = false;
+    // Player-controlled worlds may begin with food but no resident organism.
+    // When false, the legacy unconfigured fallback still creates its starter.
+    bool emptyStart = false;
     bool mixedSeed = false;
     bool heterogeneousBeds = false;
     bool minimalOrigin = false;

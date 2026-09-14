@@ -1,0 +1,10 @@
+Internal ctest changing into directory: /Users/maxhastings/Documents/ChatGPT/ALIEN/mobile/build-bridge-asan
+Test project /Users/maxhastings/Documents/ChatGPT/ALIEN/mobile/build-bridge-asan
+    Start 33: AlienMobileBiologyBridgeTests
+1/2 Test #33: AlienMobileBiologyBridgeTests ....   Passed   19.97 sec
+    Start 34: AlienMobileLibraryTests
+2/2 Test #34: AlienMobileLibraryTests ..........   Passed    0.16 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =  20.13 sec

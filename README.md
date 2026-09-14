@@ -3,8 +3,10 @@
 A native iOS creature creator connected to a physical evolutionary terrarium.
 **The player authors the ancestor. The simulation authors the lineage.**
 
-Choose a template, edit real connected-cell anatomy, release it, follow its offspring,
-and save an interesting descendant for another experiment.
+Start with an empty aquarium, choose exactly what to place, or make a creature from a
+blank root. Edit real connected-cell anatomy, choose its color, release it, follow its
+offspring, and save an interesting descendant for another experiment. A controlled
+12-second trial compares the original with your edits before release.
 
 ## Run on iPhone Simulator
 
@@ -33,13 +35,12 @@ ctest --test-dir mobile/build-release --output-on-failure -j4
 
 ## Current status
 
-**Playable with specific caveats.** The create/release/follow/save loop has been
-exercised in Simulator, with headless simulation and sanitizer checks. Physical-device
-qualification and direct drag/pinch interaction verification remain incomplete.
-Development breadth is frozen pending formative human feedback.
-
+**Ready for human playtest in iPhone Simulator.** The Release create/compare/release/
+follow/save/reload loop is verified alongside 34 core tests, focused sanitizer checks,
+and ten-minute simulation observations. Physical-device qualification is out of scope
+for this pass. Human touch feel and enjoyment remain the next test.
 - [Controls and implementation overview](mobile/README.md)
-- [Current playtest handoff and evidence](mobile/docs/hybrid-final/HANDOFF.md)
+- [Current playtest handoff and evidence](mobile/docs/human-playtest/HANDOFF.md)
 - [Catalog genome fixtures](mobile/docs/discovery/finalists)
 
 `mobile/core` contains the simulation, `mobile/ios` the UIKit/Metal app,

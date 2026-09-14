@@ -173,6 +173,10 @@ fragment float4 cellFragment(CellOutput input [[stage_in]])
         float rim = (1.0f - smoothstep(0.008f, 0.008f + aa, abs(r - 0.97f))) * 0.25f;
         return float4(input.color.rgb, input.color.a * (falloff + rim));
     }
+    if(input.kind>4.5f) {
+        float ring=1-smoothstep(.018f,.018f+aa,abs(r-.82f));
+        return float4(input.color.rgb,input.color.a*ring);
+    }
     if(input.kind>3.5f) {
         return float4(input.color.rgb,input.color.a*exp(-r*r*7.0f));
     }

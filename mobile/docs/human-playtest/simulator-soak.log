@@ -1,0 +1,859 @@
+2026-09-14 15:00:12.081 AlienMobileApp[74573:6797801] ALIEN initial seed=12456327927996130667
+2026-09-14 15:00:12.258 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:12.258 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:13.270 AlienMobileApp[74573:6797801] ALIEN device: fps=58.32 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:13.270 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.6021 renderGpuMs=0.1661 memoryMB=233.8 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:13.270 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:13.270 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:14.286 AlienMobileApp[74573:6797801] ALIEN device: fps=60.01 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:14.287 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.8169 renderGpuMs=0.1654 memoryMB=235.0 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:14.287 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:14.287 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:15.287 AlienMobileApp[74573:6797801] ALIEN device: fps=59.99 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:15.287 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=1.1340 renderGpuMs=0.1995 memoryMB=235.1 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:15.287 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:15.287 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:16.286 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:16.287 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.7602 renderGpuMs=0.1673 memoryMB=234.6 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:16.287 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:16.287 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:17.303 AlienMobileApp[74573:6797801] ALIEN device: fps=59.99 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:17.303 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.5891 renderGpuMs=0.3078 memoryMB=234.3 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:17.303 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:17.304 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:18.319 AlienMobileApp[74573:6797801] ALIEN device: fps=60.02 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:18.320 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.6815 renderGpuMs=0.1440 memoryMB=234.2 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:18.320 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:18.320 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:19.320 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:19.320 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.8980 renderGpuMs=0.1435 memoryMB=234.2 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:19.320 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:19.321 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:20.319 AlienMobileApp[74573:6797801] ALIEN device: fps=59.99 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:20.320 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=1.3439 renderGpuMs=0.2002 memoryMB=234.2 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:20.320 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:20.320 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:21.336 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:21.337 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.8517 renderGpuMs=0.1904 memoryMB=234.2 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:21.337 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:21.338 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:22.353 AlienMobileApp[74573:6797801] ALIEN device: fps=48.20 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:22.353 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.4500 renderGpuMs=0.1395 memoryMB=277.6 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:22.354 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:22.354 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:23.369 AlienMobileApp[74573:6797801] ALIEN device: fps=59.05 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:23.369 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.7616 renderGpuMs=0.2641 memoryMB=278.7 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:23.370 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:23.370 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:24.385 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:24.386 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.9136 renderGpuMs=0.1405 memoryMB=278.7 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:24.386 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:24.386 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:25.385 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:25.386 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=1.4938 renderGpuMs=0.1092 memoryMB=278.7 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:25.386 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:25.387 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:26.402 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:26.402 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.8069 renderGpuMs=0.1661 memoryMB=278.7 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:26.402 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:26.402 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:27.402 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:27.402 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.7547 renderGpuMs=0.1468 memoryMB=278.7 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:27.403 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:27.403 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:28.402 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:28.402 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.6679 renderGpuMs=1.7011 memoryMB=279.0 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:28.402 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:28.402 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:29.419 AlienMobileApp[74573:6797801] ALIEN device: fps=59.01 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:29.419 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.8002 renderGpuMs=0.3422 memoryMB=275.3 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:29.420 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:29.421 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:30.435 AlienMobileApp[74573:6797801] ALIEN device: fps=60.01 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:30.436 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.9073 renderGpuMs=0.1937 memoryMB=275.3 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:30.436 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:30.436 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:31.435 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:31.436 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.9152 renderGpuMs=0.1512 memoryMB=275.3 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:31.436 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:31.436 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:32.452 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:32.452 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=1.4121 renderGpuMs=0.1587 memoryMB=275.3 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:32.453 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:32.454 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:33.452 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:33.452 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.9032 renderGpuMs=0.1165 memoryMB=275.2 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:33.453 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:33.453 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:34.468 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:34.469 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.9822 renderGpuMs=0.1598 memoryMB=275.2 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:34.469 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:34.470 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:35.485 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:35.485 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=1.1607 renderGpuMs=0.2341 memoryMB=275.2 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:35.486 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:35.486 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:36.502 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:36.502 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.6351 renderGpuMs=0.1323 memoryMB=275.2 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:36.502 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:36.502 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:37.502 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:37.502 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.8112 renderGpuMs=0.1444 memoryMB=275.2 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:37.503 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:37.503 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:38.518 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:38.518 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.6278 renderGpuMs=0.1242 memoryMB=275.3 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:38.518 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:38.519 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:39.535 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:39.535 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.7213 renderGpuMs=0.2525 memoryMB=275.2 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:39.535 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:39.536 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:40.535 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:40.535 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.7668 renderGpuMs=0.1595 memoryMB=275.2 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:40.536 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:40.536 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:41.551 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:41.552 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.8832 renderGpuMs=0.3046 memoryMB=275.2 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:41.552 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:41.552 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:42.551 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:42.552 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.8895 renderGpuMs=0.2917 memoryMB=275.3 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:42.552 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:42.553 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:43.568 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:43.568 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=1.0950 renderGpuMs=0.1381 memoryMB=275.3 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:43.569 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:43.569 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:44.585 AlienMobileApp[74573:6797801] ALIEN device: fps=60.01 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:44.585 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.8065 renderGpuMs=0.1544 memoryMB=275.3 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:44.585 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:44.585 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:45.601 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:45.601 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.7566 renderGpuMs=0.1265 memoryMB=275.3 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:45.601 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:45.602 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:46.618 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:46.618 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.7294 renderGpuMs=0.2231 memoryMB=275.3 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:46.618 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:46.618 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:47.618 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:47.618 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.7700 renderGpuMs=0.2075 memoryMB=275.3 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:47.619 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:47.619 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:48.634 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:48.634 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.9126 renderGpuMs=0.1265 memoryMB=275.3 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:48.635 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:48.635 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:49.634 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:49.635 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=0.7313 renderGpuMs=0.1890 memoryMB=275.3 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:49.635 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:49.635 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:50.651 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.00000 behaviorMutations=0
+2026-09-14 15:00:50.652 AlienMobileApp[74573:6797801] ECOSYSTEM tps=0.0 biologyMs=0.0000 syncMs=0.0000 metalMs=0.0000 renderCpuMs=1.0231 renderGpuMs=0.1942 memoryMB=275.3 motes=160 attacked=0.000 digested=0.000 emitted=0.000 recycled=0.000
+2026-09-14 15:00:50.652 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.00 livingCells=0 debrisCells=0 livingOrganisms=0
+2026-09-14 15:00:50.652 AlienMobileApp[74573:6797801] ALIEN debug: creatures=0 cells=0 generation=0 lineages=0 births=0 deaths=0 mutations=0 speed=0.0x
+2026-09-14 15:00:51.668 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.01011 behaviorMutations=1
+2026-09-14 15:00:51.668 AlienMobileApp[74573:6797801] ECOSYSTEM tps=30.5 biologyMs=0.0803 syncMs=0.0003 metalMs=0.0000 renderCpuMs=2.1222 renderGpuMs=0.2642 memoryMB=275.6 motes=173 attacked=0.000 digested=0.000 emitted=1.977 recycled=0.000
+2026-09-14 15:00:51.669 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=0.26 livingCells=4 debrisCells=0 livingOrganisms=2
+2026-09-14 15:00:51.669 AlienMobileApp[74573:6797801] ALIEN debug: creatures=2 cells=4 generation=1 lineages=1 births=0 deaths=0 mutations=1 speed=1.0x
+2026-09-14 15:00:52.668 AlienMobileApp[74573:6797801] ALIEN device: fps=59.99 thermal=0 motorEnergy=0.05028 behaviorMutations=1
+2026-09-14 15:00:52.668 AlienMobileApp[74573:6797801] ECOSYSTEM tps=121.0 biologyMs=0.0606 syncMs=0.0003 metalMs=0.0000 renderCpuMs=2.5892 renderGpuMs=0.1696 memoryMB=275.6 motes=235 attacked=0.000 digested=0.000 emitted=9.618 recycled=0.000
+2026-09-14 15:00:52.669 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=1.27 livingCells=5 debrisCells=0 livingOrganisms=2
+2026-09-14 15:00:52.669 AlienMobileApp[74573:6797801] ALIEN debug: creatures=2 cells=5 generation=1 lineages=1 births=0 deaths=0 mutations=1 speed=1.0x
+2026-09-14 15:00:53.668 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.08587 behaviorMutations=1
+2026-09-14 15:00:53.669 AlienMobileApp[74573:6797801] ECOSYSTEM tps=120.0 biologyMs=0.0750 syncMs=0.0004 metalMs=0.0000 renderCpuMs=1.2612 renderGpuMs=0.2106 memoryMB=275.7 motes=296 attacked=0.000 digested=0.000 emitted=17.045 recycled=0.000
+2026-09-14 15:00:53.669 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=2.27 livingCells=5 debrisCells=0 livingOrganisms=2
+2026-09-14 15:00:53.669 AlienMobileApp[74573:6797801] ALIEN debug: creatures=2 cells=5 generation=1 lineages=1 births=0 deaths=0 mutations=1 speed=1.0x
+2026-09-14 15:00:54.684 AlienMobileApp[74573:6797801] ALIEN device: fps=60.01 thermal=0 motorEnergy=0.12444 behaviorMutations=1
+2026-09-14 15:00:54.685 AlienMobileApp[74573:6797801] ECOSYSTEM tps=119.0 biologyMs=0.0772 syncMs=0.0004 metalMs=0.0000 renderCpuMs=1.4600 renderGpuMs=0.2370 memoryMB=275.7 motes=349 attacked=0.000 digested=0.000 emitted=24.340 recycled=0.000
+2026-09-14 15:00:54.685 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=3.28 livingCells=6 debrisCells=0 livingOrganisms=2
+2026-09-14 15:00:54.685 AlienMobileApp[74573:6797801] ALIEN debug: creatures=2 cells=6 generation=1 lineages=1 births=0 deaths=0 mutations=1 speed=1.0x
+2026-09-14 15:00:55.701 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.18083 behaviorMutations=1
+2026-09-14 15:00:55.701 AlienMobileApp[74573:6797801] ECOSYSTEM tps=120.0 biologyMs=0.0767 syncMs=0.0004 metalMs=0.0000 renderCpuMs=1.1882 renderGpuMs=0.2398 memoryMB=275.7 motes=403 attacked=0.000 digested=0.000 emitted=31.464 recycled=0.000
+2026-09-14 15:00:55.701 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=4.29 livingCells=7 debrisCells=0 livingOrganisms=2
+2026-09-14 15:00:55.701 AlienMobileApp[74573:6797801] ALIEN debug: creatures=2 cells=7 generation=1 lineages=1 births=0 deaths=0 mutations=1 speed=1.0x
+2026-09-14 15:00:56.701 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.25064 behaviorMutations=1
+2026-09-14 15:00:56.702 AlienMobileApp[74573:6797801] ECOSYSTEM tps=126.0 biologyMs=0.0791 syncMs=0.0004 metalMs=0.0000 renderCpuMs=1.9478 renderGpuMs=0.2002 memoryMB=275.7 motes=458 attacked=0.000 digested=0.000 emitted=38.548 recycled=0.000
+2026-09-14 15:00:56.702 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=5.34 livingCells=8 debrisCells=0 livingOrganisms=3
+2026-09-14 15:00:56.702 AlienMobileApp[74573:6797801] ALIEN debug: creatures=3 cells=8 generation=2 lineages=1 births=1 deaths=0 mutations=2 speed=2.0x
+2026-09-14 15:00:57.702 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.38300 behaviorMutations=1
+2026-09-14 15:00:57.702 AlienMobileApp[74573:6797801] ECOSYSTEM tps=241.0 biologyMs=0.0710 syncMs=0.0003 metalMs=0.0000 renderCpuMs=1.5456 renderGpuMs=0.2128 memoryMB=275.8 motes=554 attacked=0.000 digested=0.000 emitted=51.270 recycled=0.000
+2026-09-14 15:00:57.703 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=7.35 livingCells=9 debrisCells=0 livingOrganisms=3
+2026-09-14 15:00:57.703 AlienMobileApp[74573:6797801] ALIEN debug: creatures=3 cells=9 generation=2 lineages=1 births=1 deaths=0 mutations=2 speed=2.0x
+2026-09-14 15:00:58.718 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.52176 behaviorMutations=1
+2026-09-14 15:00:58.718 AlienMobileApp[74573:6797801] ECOSYSTEM tps=239.0 biologyMs=0.0808 syncMs=0.0003 metalMs=0.0000 renderCpuMs=2.2279 renderGpuMs=0.2143 memoryMB=275.8 motes=641 attacked=0.000 digested=0.000 emitted=63.003 recycled=0.000
+2026-09-14 15:00:58.719 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=9.38 livingCells=10 debrisCells=0 livingOrganisms=3
+2026-09-14 15:00:58.719 AlienMobileApp[74573:6797801] ALIEN debug: creatures=3 cells=10 generation=2 lineages=1 births=1 deaths=0 mutations=2 speed=2.0x
+2026-09-14 15:00:59.718 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.64496 behaviorMutations=2
+2026-09-14 15:00:59.718 AlienMobileApp[74573:6797801] ECOSYSTEM tps=240.0 biologyMs=0.0803 syncMs=0.0003 metalMs=0.0000 renderCpuMs=1.7944 renderGpuMs=0.1617 memoryMB=275.8 motes=720 attacked=0.000 digested=0.000 emitted=73.659 recycled=0.000
+2026-09-14 15:00:59.718 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=11.38 livingCells=10 debrisCells=0 livingOrganisms=4
+2026-09-14 15:00:59.718 AlienMobileApp[74573:6797801] ALIEN debug: creatures=4 cells=10 generation=2 lineages=1 births=1 deaths=0 mutations=3 speed=2.0x
+2026-09-14 15:01:00.734 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.74317 behaviorMutations=2
+2026-09-14 15:01:00.735 AlienMobileApp[74573:6797801] ECOSYSTEM tps=240.0 biologyMs=0.0857 syncMs=0.0002 metalMs=0.0000 renderCpuMs=1.7907 renderGpuMs=0.0768 memoryMB=275.9 motes=793 attacked=0.000 digested=0.000 emitted=83.830 recycled=0.000
+2026-09-14 15:01:00.735 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=13.41 livingCells=12 debrisCells=0 livingOrganisms=4
+2026-09-14 15:01:00.735 AlienMobileApp[74573:6797801] ALIEN debug: creatures=4 cells=12 generation=2 lineages=1 births=1 deaths=0 mutations=3 speed=2.0x
+2026-09-14 15:01:01.751 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=0.91746 behaviorMutations=2
+2026-09-14 15:01:01.752 AlienMobileApp[74573:6797801] ECOSYSTEM tps=240.0 biologyMs=0.0925 syncMs=0.0002 metalMs=0.0000 renderCpuMs=1.8615 renderGpuMs=0.1583 memoryMB=275.9 motes=867 attacked=0.000 digested=0.000 emitted=93.719 recycled=0.000
+2026-09-14 15:01:01.752 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=15.44 livingCells=14 debrisCells=0 livingOrganisms=4
+2026-09-14 15:01:01.752 AlienMobileApp[74573:6797801] ALIEN debug: creatures=4 cells=14 generation=2 lineages=1 births=2 deaths=0 mutations=3 speed=2.0x
+2026-09-14 15:01:02.752 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=1.12565 behaviorMutations=2
+2026-09-14 15:01:02.752 AlienMobileApp[74573:6797801] ECOSYSTEM tps=241.0 biologyMs=0.0984 syncMs=0.0003 metalMs=0.0000 renderCpuMs=2.1097 renderGpuMs=0.1884 memoryMB=275.9 motes=939 attacked=0.000 digested=0.000 emitted=103.632 recycled=0.000
+2026-09-14 15:01:02.753 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=17.45 livingCells=15 debrisCells=0 livingOrganisms=4
+2026-09-14 15:01:02.753 AlienMobileApp[74573:6797801] ALIEN debug: creatures=4 cells=15 generation=2 lineages=1 births=3 deaths=0 mutations=3 speed=2.0x
+2026-09-14 15:01:03.770 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=1.38787 behaviorMutations=2
+2026-09-14 15:01:03.770 AlienMobileApp[74573:6797801] ECOSYSTEM tps=249.8 biologyMs=0.1056 syncMs=0.0003 metalMs=0.0000 renderCpuMs=1.9175 renderGpuMs=0.3390 memoryMB=275.9 motes=1015 attacked=0.000 digested=0.000 emitted=114.671 recycled=0.000
+2026-09-14 15:01:03.770 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=19.57 livingCells=15 debrisCells=0 livingOrganisms=4
+2026-09-14 15:01:03.770 AlienMobileApp[74573:6797801] ALIEN debug: creatures=4 cells=15 generation=2 lineages=1 births=3 deaths=0 mutations=3 speed=4.0x
+2026-09-14 15:01:04.785 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=1.78774 behaviorMutations=4
+2026-09-14 15:01:04.785 AlienMobileApp[74573:6797801] ECOSYSTEM tps=466.2 biologyMs=0.1046 syncMs=0.0003 metalMs=0.0000 renderCpuMs=1.6392 renderGpuMs=0.2212 memoryMB=276.0 motes=1173 attacked=0.000 digested=0.000 emitted=138.022 recycled=0.000
+2026-09-14 15:01:04.785 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=23.52 livingCells=19 debrisCells=0 livingOrganisms=7
+2026-09-14 15:01:04.786 AlienMobileApp[74573:6797801] ALIEN debug: creatures=7 cells=19 generation=2 lineages=1 births=3 deaths=0 mutations=6 speed=4.0x
+2026-09-14 15:01:05.784 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=2.22023 behaviorMutations=4
+2026-09-14 15:01:05.784 AlienMobileApp[74573:6797801] ECOSYSTEM tps=468.0 biologyMs=0.1147 syncMs=0.0002 metalMs=0.0000 renderCpuMs=1.2880 renderGpuMs=0.1751 memoryMB=276.0 motes=1376 attacked=0.000 digested=0.000 emitted=165.078 recycled=0.000
+2026-09-14 15:01:05.784 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=27.42 livingCells=24 debrisCells=0 livingOrganisms=7
+2026-09-14 15:01:05.785 AlienMobileApp[74573:6797801] ALIEN debug: creatures=7 cells=24 generation=2 lineages=1 births=4 deaths=0 mutations=6 speed=4.0x
+2026-09-14 15:01:06.786 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=2.64445 behaviorMutations=4
+2026-09-14 15:01:06.786 AlienMobileApp[74573:6797801] ECOSYSTEM tps=472.0 biologyMs=0.1200 syncMs=0.0002 metalMs=0.0000 renderCpuMs=1.3546 renderGpuMs=0.2050 memoryMB=276.0 motes=1611 attacked=0.000 digested=0.000 emitted=195.066 recycled=0.000
+2026-09-14 15:01:06.786 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=31.35 livingCells=24 debrisCells=0 livingOrganisms=8
+2026-09-14 15:01:06.786 AlienMobileApp[74573:6797801] ALIEN debug: creatures=8 cells=24 generation=3 lineages=1 births=4 deaths=0 mutations=6 speed=4.0x
+2026-09-14 15:01:07.802 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=3.02357 behaviorMutations=5
+2026-09-14 15:01:07.803 AlienMobileApp[74573:6797801] ECOSYSTEM tps=471.1 biologyMs=0.1258 syncMs=0.0002 metalMs=0.0000 renderCpuMs=1.6330 renderGpuMs=0.2833 memoryMB=276.1 motes=1847 attacked=0.000 digested=0.000 emitted=225.423 recycled=0.048
+2026-09-14 15:01:07.803 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=35.34 livingCells=23 debrisCells=1 livingOrganisms=8
+2026-09-14 15:01:07.803 AlienMobileApp[74573:6797801] ALIEN debug: creatures=9 cells=24 generation=3 lineages=1 births=4 deaths=1 mutations=7 speed=4.0x
+2026-09-14 15:01:08.819 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=3.53845 behaviorMutations=5
+2026-09-14 15:01:08.819 AlienMobileApp[74573:6797801] ECOSYSTEM tps=464.3 biologyMs=0.1402 syncMs=0.0002 metalMs=0.0000 renderCpuMs=1.4113 renderGpuMs=0.2239 memoryMB=276.1 motes=2036 attacked=0.000 digested=0.000 emitted=252.493 recycled=0.072
+2026-09-14 15:01:08.819 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=39.28 livingCells=26 debrisCells=0 livingOrganisms=8
+2026-09-14 15:01:08.820 AlienMobileApp[74573:6797801] ALIEN debug: creatures=8 cells=26 generation=3 lineages=1 births=4 deaths=1 mutations=7 speed=4.0x
+2026-09-14 15:01:09.836 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=4.13797 behaviorMutations=5
+2026-09-14 15:01:09.836 AlienMobileApp[74573:6797801] ECOSYSTEM tps=471.2 biologyMs=0.1447 syncMs=0.0002 metalMs=0.0000 renderCpuMs=1.4546 renderGpuMs=0.1777 memoryMB=276.1 motes=2180 attacked=0.000 digested=0.000 emitted=275.820 recycled=0.072
+2026-09-14 15:01:09.836 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=43.27 livingCells=28 debrisCells=0 livingOrganisms=8
+2026-09-14 15:01:09.837 AlienMobileApp[74573:6797801] ALIEN debug: creatures=8 cells=28 generation=3 lineages=1 births=5 deaths=1 mutations=7 speed=4.0x
+2026-09-14 15:01:10.837 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=4.84765 behaviorMutations=5
+2026-09-14 15:01:10.837 AlienMobileApp[74573:6797801] ECOSYSTEM tps=467.0 biologyMs=0.1555 syncMs=0.0002 metalMs=0.0000 renderCpuMs=1.3662 renderGpuMs=0.1754 memoryMB=276.1 motes=2312 attacked=0.000 digested=0.000 emitted=295.487 recycled=0.072
+2026-09-14 15:01:10.838 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=47.16 livingCells=29 debrisCells=0 livingOrganisms=8
+2026-09-14 15:01:10.838 AlienMobileApp[74573:6797801] ALIEN debug: creatures=8 cells=29 generation=3 lineages=1 births=6 deaths=1 mutations=7 speed=4.0x
+2026-09-14 15:01:11.836 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=5.61105 behaviorMutations=5
+2026-09-14 15:01:11.836 AlienMobileApp[74573:6797801] ECOSYSTEM tps=464.0 biologyMs=0.1670 syncMs=0.0002 metalMs=0.0000 renderCpuMs=1.3117 renderGpuMs=0.2240 memoryMB=276.1 motes=2426 attacked=0.000 digested=0.000 emitted=314.536 recycled=0.072
+2026-09-14 15:01:11.837 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=51.03 livingCells=33 debrisCells=0 livingOrganisms=10
+2026-09-14 15:01:11.837 AlienMobileApp[74573:6797801] ALIEN debug: creatures=10 cells=33 generation=3 lineages=1 births=6 deaths=1 mutations=9 speed=4.0x
+2026-09-14 15:01:12.836 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=6.57957 behaviorMutations=5
+2026-09-14 15:01:12.836 AlienMobileApp[74573:6797801] ECOSYSTEM tps=466.0 biologyMs=0.1786 syncMs=0.0002 metalMs=0.0000 renderCpuMs=1.2542 renderGpuMs=0.2090 memoryMB=276.1 motes=2565 attacked=0.000 digested=0.000 emitted=335.940 recycled=0.072
+2026-09-14 15:01:12.836 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=54.91 livingCells=39 debrisCells=0 livingOrganisms=11
+2026-09-14 15:01:12.837 AlienMobileApp[74573:6797801] ALIEN debug: creatures=11 cells=39 generation=3 lineages=1 births=8 deaths=1 mutations=10 speed=4.0x
+2026-09-14 15:01:13.851 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=7.66221 behaviorMutations=5
+2026-09-14 15:01:13.851 AlienMobileApp[74573:6797801] ECOSYSTEM tps=471.2 biologyMs=0.1778 syncMs=0.0002 metalMs=0.0000 renderCpuMs=1.4969 renderGpuMs=0.2769 memoryMB=276.0 motes=2415 attacked=0.000 digested=0.000 emitted=361.972 recycled=0.072
+2026-09-14 15:01:13.851 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=58.90 livingCells=41 debrisCells=0 livingOrganisms=12
+2026-09-14 15:01:13.851 AlienMobileApp[74573:6797801] ALIEN debug: creatures=12 cells=41 generation=3 lineages=1 births=9 deaths=1 mutations=10 speed=4.0x
+2026-09-14 15:01:14.853 AlienMobileApp[74573:6797801] ALIEN device: fps=59.99 thermal=0 motorEnergy=8.85371 behaviorMutations=6
+2026-09-14 15:01:14.854 AlienMobileApp[74573:6797801] ECOSYSTEM tps=471.9 biologyMs=0.1800 syncMs=0.0002 metalMs=0.0000 renderCpuMs=1.3263 renderGpuMs=0.2206 memoryMB=276.2 motes=2436 attacked=0.000 digested=0.000 emitted=391.144 recycled=0.144
+2026-09-14 15:01:14.854 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=62.83 livingCells=42 debrisCells=1 livingOrganisms=13
+2026-09-14 15:01:14.854 AlienMobileApp[74573:6797801] ALIEN debug: creatures=14 cells=43 generation=3 lineages=1 births=9 deaths=2 mutations=12 speed=4.0x
+2026-09-14 15:01:15.868 AlienMobileApp[74573:6797801] ALIEN device: fps=60.01 thermal=0 motorEnergy=10.20927 behaviorMutations=6
+2026-09-14 15:01:15.868 AlienMobileApp[74573:6797801] ECOSYSTEM tps=465.3 biologyMs=0.1884 syncMs=0.0002 metalMs=0.0000 renderCpuMs=1.1558 renderGpuMs=0.1796 memoryMB=276.2 motes=2486 attacked=0.000 digested=0.000 emitted=421.530 recycled=0.168
+2026-09-14 15:01:15.868 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=66.78 livingCells=50 debrisCells=0 livingOrganisms=14
+2026-09-14 15:01:15.868 AlienMobileApp[74573:6797801] ALIEN debug: creatures=14 cells=50 generation=3 lineages=1 births=11 deaths=2 mutations=13 speed=4.0x
+2026-09-14 15:01:16.870 AlienMobileApp[74573:6797801] ALIEN device: fps=59.98 thermal=0 motorEnergy=11.55465 behaviorMutations=6
+2026-09-14 15:01:16.870 AlienMobileApp[74573:6797801] ECOSYSTEM tps=466.9 biologyMs=0.1914 syncMs=0.0002 metalMs=0.0000 renderCpuMs=1.4219 renderGpuMs=0.1949 memoryMB=276.2 motes=2537 attacked=0.000 digested=0.000 emitted=449.757 recycled=0.168
+2026-09-14 15:01:16.870 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=70.67 livingCells=52 debrisCells=0 livingOrganisms=14
+2026-09-14 15:01:16.871 AlienMobileApp[74573:6797801] ALIEN debug: creatures=14 cells=52 generation=3 lineages=1 births=13 deaths=2 mutations=13 speed=4.0x
+2026-09-14 15:01:17.886 AlienMobileApp[74573:6797801] ALIEN device: fps=60.01 thermal=0 motorEnergy=13.03031 behaviorMutations=9
+2026-09-14 15:01:17.887 AlienMobileApp[74573:6797801] ECOSYSTEM tps=472.2 biologyMs=0.1947 syncMs=0.0002 metalMs=0.0000 renderCpuMs=1.3462 renderGpuMs=0.1754 memoryMB=276.2 motes=2544 attacked=0.000 digested=0.000 emitted=474.897 recycled=0.168
+2026-09-14 15:01:17.887 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=74.67 livingCells=59 debrisCells=0 livingOrganisms=18
+2026-09-14 15:01:17.887 AlienMobileApp[74573:6797801] ALIEN debug: creatures=18 cells=59 generation=3 lineages=1 births=13 deaths=2 mutations=16 speed=4.0x
+2026-09-14 15:01:18.903 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=14.82932 behaviorMutations=11
+2026-09-14 15:01:18.904 AlienMobileApp[74573:6797801] ECOSYSTEM tps=464.3 biologyMs=0.2041 syncMs=0.0002 metalMs=0.0000 renderCpuMs=1.3205 renderGpuMs=0.1968 memoryMB=276.2 motes=2437 attacked=0.000 digested=0.000 emitted=495.827 recycled=0.240
+2026-09-14 15:01:18.904 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=78.60 livingCells=62 debrisCells=3 livingOrganisms=19
+2026-09-14 15:01:18.904 AlienMobileApp[74573:6797801] ALIEN debug: creatures=22 cells=65 generation=3 lineages=1 births=15 deaths=4 mutations=19 speed=4.0x
+2026-09-14 15:01:19.903 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=16.85457 behaviorMutations=14
+2026-09-14 15:01:19.903 AlienMobileApp[74573:6797801] ECOSYSTEM tps=473.0 biologyMs=0.2069 syncMs=0.0002 metalMs=0.0000 renderCpuMs=1.3227 renderGpuMs=0.0877 memoryMB=276.3 motes=2296 attacked=0.000 digested=0.000 emitted=515.095 recycled=0.787
+2026-09-14 15:01:19.904 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=82.54 livingCells=72 debrisCells=0 livingOrganisms=23
+2026-09-14 15:01:19.904 AlienMobileApp[74573:6797801] ALIEN debug: creatures=23 cells=72 generation=3 lineages=1 births=16 deaths=4 mutations=23 speed=4.0x
+2026-09-14 15:01:20.920 AlienMobileApp[74573:6797801] ALIEN device: fps=60.01 thermal=0 motorEnergy=18.90431 behaviorMutations=14
+2026-09-14 15:01:20.920 AlienMobileApp[74573:6797801] ECOSYSTEM tps=471.2 biologyMs=0.2136 syncMs=0.0002 metalMs=0.0000 renderCpuMs=1.3848 renderGpuMs=0.0563 memoryMB=276.3 motes=2154 attacked=0.000 digested=0.000 emitted=535.910 recycled=0.859
+2026-09-14 15:01:20.920 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=86.53 livingCells=83 debrisCells=1 livingOrganisms=26
+2026-09-14 15:01:20.920 AlienMobileApp[74573:6797801] ALIEN debug: creatures=27 cells=84 generation=3 lineages=1 births=19 deaths=5 mutations=26 speed=4.0x
+2026-09-14 15:01:21.936 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=21.54928 behaviorMutations=16
+2026-09-14 15:01:21.936 AlienMobileApp[74573:6797801] ECOSYSTEM tps=472.1 biologyMs=0.2200 syncMs=0.0002 metalMs=0.0000 renderCpuMs=1.4141 renderGpuMs=0.1725 memoryMB=276.3 motes=2011 attacked=0.000 digested=0.000 emitted=560.454 recycled=0.955
+2026-09-14 15:01:21.936 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=90.53 livingCells=98 debrisCells=1 livingOrganisms=30
+2026-09-14 15:01:21.936 AlienMobileApp[74573:6797801] ALIEN debug: creatures=31 cells=99 generation=4 lineages=1 births=23 deaths=6 mutations=30 speed=4.0x
+2026-09-14 15:01:22.953 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=24.47370 behaviorMutations=19
+2026-09-14 15:01:22.954 AlienMobileApp[74573:6797801] ECOSYSTEM tps=465.3 biologyMs=0.2287 syncMs=0.0002 metalMs=0.0000 renderCpuMs=1.3664 renderGpuMs=0.2411 memoryMB=276.3 motes=1944 attacked=0.000 digested=0.000 emitted=588.607 recycled=0.979
+2026-09-14 15:01:22.954 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=94.48 livingCells=115 debrisCells=0 livingOrganisms=38
+2026-09-14 15:01:22.954 AlienMobileApp[74573:6797801] ALIEN debug: creatures=38 cells=115 generation=5 lineages=1 births=27 deaths=6 mutations=37 speed=4.0x
+2026-09-14 15:01:23.971 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=27.66914 behaviorMutations=20
+2026-09-14 15:01:23.971 AlienMobileApp[74573:6797801] ECOSYSTEM tps=469.2 biologyMs=0.2376 syncMs=0.0002 metalMs=0.0000 renderCpuMs=1.3600 renderGpuMs=0.1900 memoryMB=276.3 motes=1891 attacked=0.000 digested=0.000 emitted=619.178 recycled=0.979
+2026-09-14 15:01:23.971 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=98.45 livingCells=131 debrisCells=0 livingOrganisms=42
+2026-09-14 15:01:23.971 AlienMobileApp[74573:6797801] ALIEN debug: creatures=42 cells=131 generation=5 lineages=3 births=30 deaths=6 mutations=41 speed=4.0x
+2026-09-14 15:01:24.987 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=31.53409 behaviorMutations=20
+2026-09-14 15:01:24.987 AlienMobileApp[74573:6797801] ECOSYSTEM tps=464.3 biologyMs=0.2464 syncMs=0.0002 metalMs=0.0000 renderCpuMs=1.3107 renderGpuMs=0.2618 memoryMB=276.3 motes=1817 attacked=0.000 digested=0.000 emitted=648.639 recycled=0.979
+2026-09-14 15:01:24.987 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=102.38 livingCells=151 debrisCells=0 livingOrganisms=47
+2026-09-14 15:01:24.987 AlienMobileApp[74573:6797801] ALIEN debug: creatures=47 cells=151 generation=5 lineages=3 births=32 deaths=6 mutations=44 speed=4.0x
+2026-09-14 15:01:25.987 AlienMobileApp[74573:6797801] ALIEN device: fps=59.99 thermal=0 motorEnergy=35.57067 behaviorMutations=23
+2026-09-14 15:01:25.987 AlienMobileApp[74573:6797801] ECOSYSTEM tps=468.9 biologyMs=0.2545 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.3915 renderGpuMs=0.1578 memoryMB=276.3 motes=1718 attacked=0.000 digested=0.000 emitted=674.657 recycled=0.979
+2026-09-14 15:01:25.987 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=106.29 livingCells=173 debrisCells=0 livingOrganisms=56
+2026-09-14 15:01:25.987 AlienMobileApp[74573:6797801] ALIEN debug: creatures=56 cells=173 generation=5 lineages=4 births=39 deaths=6 mutations=52 speed=4.0x
+2026-09-14 15:01:27.004 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=40.02805 behaviorMutations=24
+2026-09-14 15:01:27.004 AlienMobileApp[74573:6797801] ECOSYSTEM tps=476.1 biologyMs=0.2569 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.3850 renderGpuMs=0.1844 memoryMB=276.5 motes=1615 attacked=0.000 digested=0.000 emitted=697.338 recycled=1.027
+2026-09-14 15:01:27.004 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=110.33 livingCells=180 debrisCells=5 livingOrganisms=56
+2026-09-14 15:01:27.004 AlienMobileApp[74573:6797801] ALIEN debug: creatures=59 cells=185 generation=5 lineages=4 births=41 deaths=8 mutations=54 speed=4.0x
+2026-09-14 15:01:28.020 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=44.88565 behaviorMutations=25
+2026-09-14 15:01:28.021 AlienMobileApp[74573:6797801] ECOSYSTEM tps=471.2 biologyMs=0.2586 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.3791 renderGpuMs=0.2142 memoryMB=276.5 motes=1455 attacked=0.000 digested=0.000 emitted=717.112 recycled=3.804
+2026-09-14 15:01:28.021 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=114.32 livingCells=185 debrisCells=1 livingOrganisms=58
+2026-09-14 15:01:28.021 AlienMobileApp[74573:6797801] ALIEN debug: creatures=59 cells=186 generation=5 lineages=4 births=44 deaths=8 mutations=55 speed=4.0x
+2026-09-14 15:01:29.036 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=49.50403 behaviorMutations=26
+2026-09-14 15:01:29.037 AlienMobileApp[74573:6797801] ECOSYSTEM tps=463.3 biologyMs=0.2648 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.4118 renderGpuMs=0.1936 memoryMB=276.5 motes=1332 attacked=0.000 digested=0.000 emitted=736.823 recycled=3.900
+2026-09-14 15:01:29.037 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=118.24 livingCells=183 debrisCells=7 livingOrganisms=56
+2026-09-14 15:01:29.037 AlienMobileApp[74573:6797801] ALIEN debug: creatures=60 cells=190 generation=5 lineages=5 births=46 deaths=12 mutations=57 speed=4.0x
+2026-09-14 15:01:30.051 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=53.64290 behaviorMutations=28
+2026-09-14 15:01:30.051 AlienMobileApp[74573:6797801] ECOSYSTEM tps=471.2 biologyMs=0.2657 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.4878 renderGpuMs=0.1783 memoryMB=276.3 motes=1278 attacked=0.000 digested=0.000 emitted=759.901 recycled=4.376
+2026-09-14 15:01:30.051 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=122.23 livingCells=187 debrisCells=1 livingOrganisms=57
+2026-09-14 15:01:30.051 AlienMobileApp[74573:6797801] ALIEN debug: creatures=58 cells=188 generation=5 lineages=3 births=46 deaths=15 mutations=60 speed=4.0x
+2026-09-14 15:01:31.071 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=58.08231 behaviorMutations=30
+2026-09-14 15:01:31.071 AlienMobileApp[74573:6797801] ECOSYSTEM tps=468.2 biologyMs=0.2707 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.4773 renderGpuMs=0.1968 memoryMB=276.5 motes=1257 attacked=0.000 digested=0.000 emitted=786.973 recycled=4.544
+2026-09-14 15:01:31.071 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=126.20 livingCells=189 debrisCells=2 livingOrganisms=57
+2026-09-14 15:01:31.071 AlienMobileApp[74573:6797801] ALIEN debug: creatures=59 cells=191 generation=6 lineages=3 births=50 deaths=17 mutations=62 speed=4.0x
+2026-09-14 15:01:32.070 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=62.22294 behaviorMutations=31
+2026-09-14 15:01:32.071 AlienMobileApp[74573:6797801] ECOSYSTEM tps=465.0 biologyMs=0.2756 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.4630 renderGpuMs=0.2488 memoryMB=276.5 motes=1274 attacked=0.000 digested=0.000 emitted=816.334 recycled=5.024
+2026-09-14 15:01:32.071 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=130.08 livingCells=171 debrisCells=10 livingOrganisms=55
+2026-09-14 15:01:32.071 AlienMobileApp[74573:6797801] ALIEN debug: creatures=64 cells=181 generation=6 lineages=3 births=51 deaths=26 mutations=68 speed=4.0x
+2026-09-14 15:01:33.084 AlienMobileApp[74573:6797801] ALIEN device: fps=60.01 thermal=0 motorEnergy=66.38427 behaviorMutations=32
+2026-09-14 15:01:33.084 AlienMobileApp[74573:6797801] ECOSYSTEM tps=469.2 biologyMs=0.2804 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.4098 renderGpuMs=0.1836 memoryMB=276.5 motes=1269 attacked=0.000 digested=0.000 emitted=846.745 recycled=6.135
+2026-09-14 15:01:33.084 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=134.05 livingCells=176 debrisCells=5 livingOrganisms=56
+2026-09-14 15:01:33.084 AlienMobileApp[74573:6797801] ALIEN debug: creatures=61 cells=181 generation=6 lineages=4 births=53 deaths=30 mutations=73 speed=4.0x
+2026-09-14 15:01:34.087 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=70.80779 behaviorMutations=33
+2026-09-14 15:01:34.087 AlienMobileApp[74573:6797801] ECOSYSTEM tps=468.0 biologyMs=0.2854 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2565 renderGpuMs=0.1783 memoryMB=276.6 motes=1227 attacked=0.000 digested=0.000 emitted=874.068 recycled=6.661
+2026-09-14 15:01:34.087 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=137.95 livingCells=178 debrisCells=8 livingOrganisms=55
+2026-09-14 15:01:34.087 AlienMobileApp[74573:6797801] ALIEN debug: creatures=60 cells=186 generation=6 lineages=5 births=59 deaths=36 mutations=78 speed=4.0x
+2026-09-14 15:01:35.103 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=75.30692 behaviorMutations=35
+2026-09-14 15:01:35.103 AlienMobileApp[74573:6797801] ECOSYSTEM tps=464.3 biologyMs=0.2903 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2991 renderGpuMs=0.2847 memoryMB=276.6 motes=1203 attacked=0.000 digested=0.000 emitted=897.624 recycled=8.033
+2026-09-14 15:01:35.104 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=141.88 livingCells=186 debrisCells=1 livingOrganisms=57
+2026-09-14 15:01:35.104 AlienMobileApp[74573:6797801] ALIEN debug: creatures=58 cells=187 generation=6 lineages=4 births=60 deaths=38 mutations=81 speed=4.0x
+2026-09-14 15:01:36.117 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=79.82193 behaviorMutations=37
+2026-09-14 15:01:36.117 AlienMobileApp[74573:6797801] ECOSYSTEM tps=466.2 biologyMs=0.2939 syncMs=0.0001 metalMs=0.0000 renderCpuMs=0.6890 renderGpuMs=0.2177 memoryMB=276.5 motes=1129 attacked=0.000 digested=0.000 emitted=917.900 recycled=8.417
+2026-09-14 15:01:36.117 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=145.83 livingCells=182 debrisCells=8 livingOrganisms=55
+2026-09-14 15:01:36.118 AlienMobileApp[74573:6797801] ALIEN debug: creatures=63 cells=190 generation=6 lineages=4 births=65 deaths=46 mutations=86 speed=4.0x
+2026-09-14 15:01:37.136 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=84.40821 behaviorMutations=39
+2026-09-14 15:01:37.137 AlienMobileApp[74573:6797801] ECOSYSTEM tps=474.1 biologyMs=0.2938 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.3498 renderGpuMs=0.2334 memoryMB=276.6 motes=1030 attacked=0.000 digested=0.000 emitted=937.599 recycled=9.202
+2026-09-14 15:01:37.137 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=149.85 livingCells=194 debrisCells=1 livingOrganisms=57
+2026-09-14 15:01:37.137 AlienMobileApp[74573:6797801] ALIEN debug: creatures=58 cells=195 generation=6 lineages=4 births=70 deaths=47 mutations=89 speed=4.0x
+2026-09-14 15:01:38.153 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=89.54032 behaviorMutations=40
+2026-09-14 15:01:38.153 AlienMobileApp[74573:6797801] ECOSYSTEM tps=471.2 biologyMs=0.2937 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.3537 renderGpuMs=0.1686 memoryMB=276.6 motes=974 attacked=0.000 digested=0.000 emitted=959.318 recycled=9.298
+2026-09-14 15:01:38.153 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=153.84 livingCells=196 debrisCells=2 livingOrganisms=56
+2026-09-14 15:01:38.153 AlienMobileApp[74573:6797801] ALIEN debug: creatures=58 cells=198 generation=6 lineages=4 births=72 deaths=49 mutations=90 speed=4.0x
+2026-09-14 15:01:39.170 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=94.49964 behaviorMutations=41
+2026-09-14 15:01:39.170 AlienMobileApp[74573:6797801] ECOSYSTEM tps=466.2 biologyMs=0.2966 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2779 renderGpuMs=0.1592 memoryMB=276.6 motes=958 attacked=0.000 digested=0.000 emitted=984.767 recycled=9.648
+2026-09-14 15:01:39.170 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=157.79 livingCells=195 debrisCells=4 livingOrganisms=56
+2026-09-14 15:01:39.170 AlienMobileApp[74573:6797801] ALIEN debug: creatures=58 cells=199 generation=6 lineages=4 births=74 deaths=51 mutations=91 speed=4.0x
+2026-09-14 15:01:40.184 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=99.33106 behaviorMutations=42
+2026-09-14 15:01:40.184 AlienMobileApp[74573:6797801] ECOSYSTEM tps=476.1 biologyMs=0.2969 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.4331 renderGpuMs=0.1791 memoryMB=276.6 motes=1021 attacked=0.000 digested=0.000 emitted=1014.493 recycled=10.383
+2026-09-14 15:01:40.184 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=161.83 livingCells=183 debrisCells=8 livingOrganisms=57
+2026-09-14 15:01:40.184 AlienMobileApp[74573:6797801] ALIEN debug: creatures=64 cells=191 generation=6 lineages=4 births=74 deaths=56 mutations=95 speed=4.0x
+2026-09-14 15:01:41.202 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=103.93193 behaviorMutations=44
+2026-09-14 15:01:41.202 AlienMobileApp[74573:6797801] ECOSYSTEM tps=468.2 biologyMs=0.2989 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.3553 renderGpuMs=0.1953 memoryMB=276.6 motes=1067 attacked=0.000 digested=0.000 emitted=1045.084 recycled=11.141
+2026-09-14 15:01:41.202 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=165.79 livingCells=181 debrisCells=12 livingOrganisms=55
+2026-09-14 15:01:41.202 AlienMobileApp[74573:6797801] ALIEN debug: creatures=64 cells=193 generation=6 lineages=2 births=76 deaths=65 mutations=100 speed=4.0x
+2026-09-14 15:01:42.219 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=108.49829 behaviorMutations=47
+2026-09-14 15:01:42.219 AlienMobileApp[74573:6797801] ECOSYSTEM tps=465.2 biologyMs=0.3018 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.3927 renderGpuMs=0.2295 memoryMB=276.6 motes=1093 attacked=0.000 digested=0.000 emitted=1073.800 recycled=12.785
+2026-09-14 15:01:42.219 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=169.73 livingCells=178 debrisCells=9 livingOrganisms=55
+2026-09-14 15:01:42.220 AlienMobileApp[74573:6797801] ALIEN debug: creatures=63 cells=187 generation=7 lineages=2 births=79 deaths=71 mutations=105 speed=4.0x
+2026-09-14 15:01:43.219 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=112.43309 behaviorMutations=49
+2026-09-14 15:01:43.220 AlienMobileApp[74573:6797801] ECOSYSTEM tps=470.0 biologyMs=0.3039 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.4288 renderGpuMs=0.2435 memoryMB=276.6 motes=1117 attacked=0.000 digested=0.000 emitted=1098.609 recycled=13.343
+2026-09-14 15:01:43.220 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=173.65 livingCells=175 debrisCells=6 livingOrganisms=54
+2026-09-14 15:01:43.220 AlienMobileApp[74573:6797801] ALIEN debug: creatures=59 cells=181 generation=8 lineages=2 births=81 deaths=77 mutations=110 speed=4.0x
+2026-09-14 15:01:44.236 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=116.40226 behaviorMutations=50
+2026-09-14 15:01:44.237 AlienMobileApp[74573:6797801] ECOSYSTEM tps=467.2 biologyMs=0.3064 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2285 renderGpuMs=0.2816 memoryMB=276.6 motes=1143 attacked=0.000 digested=0.000 emitted=1119.840 recycled=13.906
+2026-09-14 15:01:44.237 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=177.61 livingCells=171 debrisCells=4 livingOrganisms=53
+2026-09-14 15:01:44.237 AlienMobileApp[74573:6797801] ALIEN debug: creatures=57 cells=175 generation=8 lineages=2 births=82 deaths=81 mutations=113 speed=4.0x
+2026-09-14 15:01:45.236 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=120.21360 behaviorMutations=50
+2026-09-14 15:01:45.236 AlienMobileApp[74573:6797801] ECOSYSTEM tps=466.0 biologyMs=0.3088 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.3865 renderGpuMs=0.1666 memoryMB=276.6 motes=1150 attacked=0.000 digested=0.000 emitted=1138.838 recycled=14.122
+2026-09-14 15:01:45.236 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=181.49 livingCells=169 debrisCells=2 livingOrganisms=53
+2026-09-14 15:01:45.237 AlienMobileApp[74573:6797801] ALIEN debug: creatures=55 cells=171 generation=8 lineages=2 births=83 deaths=82 mutations=114 speed=4.0x
+2026-09-14 15:01:46.253 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=124.29556 behaviorMutations=50
+2026-09-14 15:01:46.253 AlienMobileApp[74573:6797801] ECOSYSTEM tps=465.3 biologyMs=0.3112 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.5013 renderGpuMs=0.1700 memoryMB=276.6 motes=1134 attacked=0.000 digested=0.000 emitted=1159.204 recycled=14.194
+2026-09-14 15:01:46.253 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=185.43 livingCells=173 debrisCells=3 livingOrganisms=52
+2026-09-14 15:01:46.253 AlienMobileApp[74573:6797801] ALIEN debug: creatures=53 cells=176 generation=8 lineages=2 births=84 deaths=84 mutations=115 speed=4.0x
+2026-09-14 15:01:47.253 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=128.04558 behaviorMutations=53
+2026-09-14 15:01:47.253 AlienMobileApp[74573:6797801] ECOSYSTEM tps=474.0 biologyMs=0.3108 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.4950 renderGpuMs=0.1724 memoryMB=276.6 motes=1126 attacked=0.000 digested=0.000 emitted=1183.091 recycled=14.917
+2026-09-14 15:01:47.253 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=189.38 livingCells=155 debrisCells=7 livingOrganisms=49
+2026-09-14 15:01:47.253 AlienMobileApp[74573:6797801] ALIEN debug: creatures=54 cells=162 generation=8 lineages=2 births=88 deaths=90 mutations=118 speed=4.0x
+2026-09-14 15:01:48.267 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=131.45437 behaviorMutations=55
+2026-09-14 15:01:48.267 AlienMobileApp[74573:6797801] ECOSYSTEM tps=469.2 biologyMs=0.3103 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0410 renderGpuMs=0.1735 memoryMB=276.6 motes=1188 attacked=0.000 digested=0.000 emitted=1211.181 recycled=15.706
+2026-09-14 15:01:48.267 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=193.36 livingCells=132 debrisCells=14 livingOrganisms=43
+2026-09-14 15:01:48.267 AlienMobileApp[74573:6797801] ALIEN debug: creatures=51 cells=146 generation=8 lineages=2 births=88 deaths=100 mutations=121 speed=4.0x
+2026-09-14 15:01:49.269 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=134.87114 behaviorMutations=58
+2026-09-14 15:01:49.269 AlienMobileApp[74573:6797801] ECOSYSTEM tps=471.0 biologyMs=0.3114 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1806 renderGpuMs=0.1633 memoryMB=276.6 motes=1262 attacked=0.000 digested=0.000 emitted=1241.292 recycled=19.896
+2026-09-14 15:01:49.269 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=197.28 livingCells=135 debrisCells=4 livingOrganisms=44
+2026-09-14 15:01:49.269 AlienMobileApp[74573:6797801] ALIEN debug: creatures=48 cells=139 generation=8 lineages=1 births=92 deaths=104 mutations=125 speed=4.0x
+2026-09-14 15:01:50.283 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=138.08313 behaviorMutations=60
+2026-09-14 15:01:50.283 AlienMobileApp[74573:6797801] ECOSYSTEM tps=466.2 biologyMs=0.3119 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1217 renderGpuMs=0.1848 memoryMB=276.6 motes=1312 attacked=0.000 digested=0.000 emitted=1271.076 recycled=20.458
+2026-09-14 15:01:50.283 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=201.23 livingCells=137 debrisCells=0 livingOrganisms=46
+2026-09-14 15:01:50.284 AlienMobileApp[74573:6797801] ALIEN debug: creatures=46 cells=137 generation=8 lineages=1 births=92 deaths=106 mutations=128 speed=4.0x
+2026-09-14 15:01:51.302 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=141.32257 behaviorMutations=61
+2026-09-14 15:01:51.302 AlienMobileApp[74573:6797801] ECOSYSTEM tps=473.1 biologyMs=0.3122 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1671 renderGpuMs=0.1271 memoryMB=276.6 motes=1320 attacked=0.000 digested=0.000 emitted=1298.076 recycled=20.602
+2026-09-14 15:01:51.302 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=205.24 livingCells=138 debrisCells=4 livingOrganisms=46
+2026-09-14 15:01:51.303 AlienMobileApp[74573:6797801] ALIEN debug: creatures=50 cells=142 generation=8 lineages=2 births=93 deaths=110 mutations=131 speed=4.0x
+2026-09-14 15:01:52.316 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=144.70808 behaviorMutations=62
+2026-09-14 15:01:52.316 AlienMobileApp[74573:6797801] ECOSYSTEM tps=467.2 biologyMs=0.3136 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1961 renderGpuMs=0.2183 memoryMB=276.6 motes=1274 attacked=0.000 digested=0.000 emitted=1320.614 recycled=21.490
+2026-09-14 15:01:52.316 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=209.20 livingCells=146 debrisCells=3 livingOrganisms=48
+2026-09-14 15:01:52.317 AlienMobileApp[74573:6797801] ALIEN debug: creatures=51 cells=149 generation=8 lineages=2 births=97 deaths=112 mutations=133 speed=4.0x
+2026-09-14 15:01:53.318 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=148.30647 behaviorMutations=64
+2026-09-14 15:01:53.318 AlienMobileApp[74573:6797801] ECOSYSTEM tps=472.0 biologyMs=0.3155 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2824 renderGpuMs=0.1575 memoryMB=276.6 motes=1201 attacked=0.000 digested=0.000 emitted=1340.223 recycled=21.865
+2026-09-14 15:01:53.318 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=213.13 livingCells=154 debrisCells=4 livingOrganisms=52
+2026-09-14 15:01:53.318 AlienMobileApp[74573:6797801] ALIEN debug: creatures=55 cells=158 generation=9 lineages=3 births=101 deaths=115 mutations=139 speed=4.0x
+2026-09-14 15:01:54.318 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=152.35159 behaviorMutations=66
+2026-09-14 15:01:54.318 AlienMobileApp[74573:6797801] ECOSYSTEM tps=464.0 biologyMs=0.3173 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0740 renderGpuMs=0.1664 memoryMB=276.6 motes=1101 attacked=0.000 digested=0.000 emitted=1359.467 recycled=22.406
+2026-09-14 15:01:54.319 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=217.00 livingCells=161 debrisCells=4 livingOrganisms=54
+2026-09-14 15:01:54.319 AlienMobileApp[74573:6797801] ALIEN debug: creatures=57 cells=165 generation=9 lineages=3 births=102 deaths=117 mutations=143 speed=4.0x
+2026-09-14 15:01:55.318 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=156.20092 behaviorMutations=68
+2026-09-14 15:01:55.318 AlienMobileApp[74573:6797801] ECOSYSTEM tps=469.0 biologyMs=0.3186 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0332 renderGpuMs=0.1580 memoryMB=276.6 motes=1055 attacked=0.000 digested=0.000 emitted=1381.590 recycled=22.963
+2026-09-14 15:01:55.319 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=220.91 livingCells=162 debrisCells=6 livingOrganisms=55
+2026-09-14 15:01:55.319 AlienMobileApp[74573:6797801] ALIEN debug: creatures=59 cells=168 generation=9 lineages=3 births=106 deaths=122 mutations=147 speed=4.0x
+2026-09-14 15:01:56.319 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=160.05092 behaviorMutations=68
+2026-09-14 15:01:56.319 AlienMobileApp[74573:6797801] ECOSYSTEM tps=470.0 biologyMs=0.3201 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0736 renderGpuMs=0.1576 memoryMB=276.6 motes=1056 attacked=0.000 digested=0.000 emitted=1407.766 recycled=23.718
+2026-09-14 15:01:56.319 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=224.83 livingCells=174 debrisCells=0 livingOrganisms=58
+2026-09-14 15:01:56.319 AlienMobileApp[74573:6797801] ALIEN debug: creatures=58 cells=174 generation=9 lineages=3 births=106 deaths=122 mutations=147 speed=4.0x
+2026-09-14 15:01:57.319 AlienMobileApp[74573:6797801] ALIEN device: fps=59.99 thermal=0 motorEnergy=164.16013 behaviorMutations=68
+2026-09-14 15:01:57.319 AlienMobileApp[74573:6797801] ECOSYSTEM tps=472.9 biologyMs=0.3197 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1332 renderGpuMs=0.2593 memoryMB=276.6 motes=1059 attacked=0.000 digested=0.000 emitted=1437.350 recycled=23.790
+2026-09-14 15:01:57.319 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=228.77 livingCells=178 debrisCells=6 livingOrganisms=56
+2026-09-14 15:01:57.319 AlienMobileApp[74573:6797801] ALIEN debug: creatures=59 cells=184 generation=9 lineages=3 births=107 deaths=124 mutations=147 speed=4.0x
+2026-09-14 15:01:58.333 AlienMobileApp[74573:6797801] ALIEN device: fps=60.01 thermal=0 motorEnergy=168.84683 behaviorMutations=68
+2026-09-14 15:01:58.333 AlienMobileApp[74573:6797801] ECOSYSTEM tps=471.2 biologyMs=0.3202 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0577 renderGpuMs=0.2508 memoryMB=276.6 motes=1070 attacked=0.000 digested=0.000 emitted=1468.023 recycled=26.286
+2026-09-14 15:01:58.333 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=232.76 livingCells=172 debrisCells=6 livingOrganisms=56
+2026-09-14 15:01:58.333 AlienMobileApp[74573:6797801] ALIEN debug: creatures=61 cells=178 generation=9 lineages=3 births=110 deaths=129 mutations=149 speed=4.0x
+2026-09-14 15:01:59.336 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=173.36712 behaviorMutations=70
+2026-09-14 15:01:59.336 AlienMobileApp[74573:6797801] ECOSYSTEM tps=469.0 biologyMs=0.3209 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.4118 renderGpuMs=0.1579 memoryMB=276.6 motes=1054 attacked=0.000 digested=0.000 emitted=1495.843 recycled=27.219
+2026-09-14 15:01:59.336 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=236.67 livingCells=176 debrisCells=4 livingOrganisms=56
+2026-09-14 15:01:59.336 AlienMobileApp[74573:6797801] ALIEN debug: creatures=58 cells=180 generation=9 lineages=3 births=114 deaths=132 mutations=152 speed=4.0x
+2026-09-14 15:02:00.349 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=177.43326 behaviorMutations=70
+2026-09-14 15:02:00.349 AlienMobileApp[74573:6797801] ECOSYSTEM tps=468.2 biologyMs=0.3221 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0909 renderGpuMs=0.2197 memoryMB=276.6 motes=1055 attacked=0.000 digested=0.000 emitted=1520.097 recycled=27.723
+2026-09-14 15:02:00.350 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=240.63 livingCells=173 debrisCells=6 livingOrganisms=57
+2026-09-14 15:02:00.350 AlienMobileApp[74573:6797801] ALIEN debug: creatures=61 cells=179 generation=9 lineages=3 births=117 deaths=137 mutations=155 speed=4.0x
+2026-09-14 15:02:01.352 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=181.65684 behaviorMutations=71
+2026-09-14 15:02:01.352 AlienMobileApp[74573:6797801] ECOSYSTEM tps=472.0 biologyMs=0.3222 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0965 renderGpuMs=0.1814 memoryMB=276.6 motes=1034 attacked=0.000 digested=0.000 emitted=1540.582 recycled=28.240
+2026-09-14 15:02:01.353 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=244.57 livingCells=178 debrisCells=7 livingOrganisms=54
+2026-09-14 15:02:01.353 AlienMobileApp[74573:6797801] ALIEN debug: creatures=61 cells=185 generation=9 lineages=3 births=118 deaths=142 mutations=157 speed=4.0x
+2026-09-14 15:02:02.368 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=186.34053 behaviorMutations=74
+2026-09-14 15:02:02.368 AlienMobileApp[74573:6797801] ECOSYSTEM tps=468.2 biologyMs=0.3238 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0680 renderGpuMs=0.1641 memoryMB=276.6 motes=995 attacked=0.000 digested=0.000 emitted=1559.975 recycled=29.867
+2026-09-14 15:02:02.369 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=248.53 livingCells=168 debrisCells=8 livingOrganisms=53
+2026-09-14 15:02:02.369 AlienMobileApp[74573:6797801] ALIEN debug: creatures=56 cells=176 generation=9 lineages=2 births=119 deaths=148 mutations=161 speed=4.0x
+2026-09-14 15:02:03.368 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=190.66309 behaviorMutations=74
+2026-09-14 15:02:03.369 AlienMobileApp[74573:6797801] ECOSYSTEM tps=466.0 biologyMs=0.3254 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2389 renderGpuMs=0.1611 memoryMB=276.6 motes=979 attacked=0.000 digested=0.000 emitted=1580.641 recycled=32.436
+2026-09-14 15:02:03.369 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=252.42 livingCells=169 debrisCells=4 livingOrganisms=55
+2026-09-14 15:02:03.369 AlienMobileApp[74573:6797801] ALIEN debug: creatures=57 cells=173 generation=9 lineages=1 births=121 deaths=150 mutations=164 speed=4.0x
+2026-09-14 15:02:04.385 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=194.52798 behaviorMutations=75
+2026-09-14 15:02:04.385 AlienMobileApp[74573:6797801] ECOSYSTEM tps=469.2 biologyMs=0.3265 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0129 renderGpuMs=0.2168 memoryMB=276.6 motes=951 attacked=0.000 digested=0.000 emitted=1605.589 recycled=34.113
+2026-09-14 15:02:04.385 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=256.39 livingCells=169 debrisCells=2 livingOrganisms=54
+2026-09-14 15:02:04.385 AlienMobileApp[74573:6797801] ALIEN debug: creatures=56 cells=171 generation=9 lineages=1 births=122 deaths=153 mutations=165 speed=4.0x
+2026-09-14 15:02:05.385 AlienMobileApp[74573:6797801] ALIEN device: fps=59.99 thermal=0 motorEnergy=198.38208 behaviorMutations=77
+2026-09-14 15:02:05.385 AlienMobileApp[74573:6797801] ECOSYSTEM tps=466.0 biologyMs=0.3277 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0914 renderGpuMs=0.1611 memoryMB=276.6 motes=980 attacked=0.000 digested=0.000 emitted=1633.718 recycled=34.332
+2026-09-14 15:02:05.386 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=260.28 livingCells=171 debrisCells=3 livingOrganisms=55
+2026-09-14 15:02:05.386 AlienMobileApp[74573:6797801] ALIEN debug: creatures=57 cells=174 generation=9 lineages=1 births=127 deaths=156 mutations=168 speed=4.0x
+2026-09-14 15:02:06.402 AlienMobileApp[74573:6797801] ALIEN device: fps=60.01 thermal=0 motorEnergy=202.74449 behaviorMutations=78
+2026-09-14 15:02:06.402 AlienMobileApp[74573:6797801] ECOSYSTEM tps=464.3 biologyMs=0.3291 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0725 renderGpuMs=0.1927 memoryMB=276.6 motes=968 attacked=0.000 digested=0.000 emitted=1664.034 recycled=34.506
+2026-09-14 15:02:06.402 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=264.21 livingCells=182 debrisCells=0 livingOrganisms=59
+2026-09-14 15:02:06.402 AlienMobileApp[74573:6797801] ALIEN debug: creatures=59 cells=182 generation=9 lineages=1 births=130 deaths=157 mutations=169 speed=4.0x
+2026-09-14 15:02:07.418 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=207.28441 behaviorMutations=80
+2026-09-14 15:02:07.419 AlienMobileApp[74573:6797801] ECOSYSTEM tps=473.1 biologyMs=0.3287 syncMs=0.0001 metalMs=0.0000 renderCpuMs=0.8243 renderGpuMs=0.2028 memoryMB=276.6 motes=987 attacked=0.000 digested=0.000 emitted=1693.775 recycled=34.914
+2026-09-14 15:02:07.419 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=268.22 livingCells=170 debrisCells=10 livingOrganisms=55
+2026-09-14 15:02:07.419 AlienMobileApp[74573:6797801] ALIEN debug: creatures=62 cells=180 generation=9 lineages=1 births=132 deaths=164 mutations=171 speed=4.0x
+2026-09-14 15:02:08.432 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=211.52525 behaviorMutations=83
+2026-09-14 15:02:08.433 AlienMobileApp[74573:6797801] ECOSYSTEM tps=472.1 biologyMs=0.3297 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.3554 renderGpuMs=0.1443 memoryMB=276.6 motes=978 attacked=0.000 digested=0.000 emitted=1719.842 recycled=36.274
+2026-09-14 15:02:08.433 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=272.22 livingCells=172 debrisCells=7 livingOrganisms=55
+2026-09-14 15:02:08.433 AlienMobileApp[74573:6797801] ALIEN debug: creatures=59 cells=179 generation=9 lineages=1 births=134 deaths=170 mutations=176 speed=4.0x
+2026-09-14 15:02:09.435 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=215.97119 behaviorMutations=85
+2026-09-14 15:02:09.435 AlienMobileApp[74573:6797801] ECOSYSTEM tps=471.0 biologyMs=0.3299 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0776 renderGpuMs=0.1919 memoryMB=276.6 motes=913 attacked=0.000 digested=0.000 emitted=1741.440 recycled=36.851
+2026-09-14 15:02:09.435 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=276.14 livingCells=181 debrisCells=1 livingOrganisms=55
+2026-09-14 15:02:09.435 AlienMobileApp[74573:6797801] ALIEN debug: creatures=56 cells=182 generation=9 lineages=1 births=137 deaths=172 mutations=178 speed=4.0x
+2026-09-14 15:02:10.435 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=220.60038 behaviorMutations=85
+2026-09-14 15:02:10.435 AlienMobileApp[74573:6797801] ECOSYSTEM tps=469.0 biologyMs=0.3311 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0509 renderGpuMs=0.1795 memoryMB=276.6 motes=859 attacked=0.000 digested=0.000 emitted=1760.676 recycled=36.875
+2026-09-14 15:02:10.435 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=280.05 livingCells=188 debrisCells=0 livingOrganisms=56
+2026-09-14 15:02:10.435 AlienMobileApp[74573:6797801] ALIEN debug: creatures=56 cells=188 generation=9 lineages=1 births=137 deaths=172 mutations=179 speed=4.0x
+2026-09-14 15:02:11.451 AlienMobileApp[74573:6797801] ALIEN device: fps=60.01 thermal=0 motorEnergy=225.09324 behaviorMutations=85
+2026-09-14 15:02:11.451 AlienMobileApp[74573:6797801] ECOSYSTEM tps=474.1 biologyMs=0.3304 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0091 renderGpuMs=0.2012 memoryMB=276.6 motes=823 attacked=0.000 digested=0.000 emitted=1781.070 recycled=37.091
+2026-09-14 15:02:11.452 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=284.07 livingCells=180 debrisCells=7 livingOrganisms=55
+2026-09-14 15:02:11.452 AlienMobileApp[74573:6797801] ALIEN debug: creatures=60 cells=187 generation=9 lineages=1 births=140 deaths=177 mutations=182 speed=4.0x
+2026-09-14 15:02:12.451 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=229.58482 behaviorMutations=85
+2026-09-14 15:02:12.451 AlienMobileApp[74573:6797801] ECOSYSTEM tps=465.0 biologyMs=0.3313 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0346 renderGpuMs=0.2193 memoryMB=276.6 motes=810 attacked=0.000 digested=0.000 emitted=1803.883 recycled=37.826
+2026-09-14 15:02:12.451 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=287.94 livingCells=180 debrisCells=3 livingOrganisms=56
+2026-09-14 15:02:12.451 AlienMobileApp[74573:6797801] ALIEN debug: creatures=58 cells=183 generation=10 lineages=2 births=141 deaths=179 mutations=184 speed=4.0x
+2026-09-14 15:02:13.450 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=234.08792 behaviorMutations=86
+2026-09-14 15:02:13.450 AlienMobileApp[74573:6797801] ECOSYSTEM tps=467.0 biologyMs=0.3319 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1092 renderGpuMs=0.1394 memoryMB=276.6 motes=864 attacked=0.000 digested=0.000 emitted=1830.756 recycled=38.639
+2026-09-14 15:02:13.451 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=291.83 livingCells=178 debrisCells=2 livingOrganisms=57
+2026-09-14 15:02:13.451 AlienMobileApp[74573:6797801] ALIEN debug: creatures=59 cells=180 generation=10 lineages=2 births=141 deaths=182 mutations=187 speed=4.0x
+2026-09-14 15:02:14.451 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=238.15307 behaviorMutations=86
+2026-09-14 15:02:14.452 AlienMobileApp[74573:6797801] ECOSYSTEM tps=465.0 biologyMs=0.3329 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0422 renderGpuMs=0.1690 memoryMB=276.6 motes=939 attacked=0.000 digested=0.000 emitted=1860.238 recycled=38.975
+2026-09-14 15:02:14.452 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=295.71 livingCells=161 debrisCells=8 livingOrganisms=53
+2026-09-14 15:02:14.452 AlienMobileApp[74573:6797801] ALIEN debug: creatures=59 cells=169 generation=10 lineages=2 births=141 deaths=188 mutations=188 speed=4.0x
+2026-09-14 15:02:15.452 AlienMobileApp[74573:6797801] ALIEN device: fps=59.99 thermal=0 motorEnergy=242.12740 behaviorMutations=87
+2026-09-14 15:02:15.452 AlienMobileApp[74573:6797801] ECOSYSTEM tps=469.9 biologyMs=0.3340 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2489 renderGpuMs=0.1650 memoryMB=276.6 motes=978 attacked=0.000 digested=0.000 emitted=1890.120 recycled=40.305
+2026-09-14 15:02:15.452 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=299.63 livingCells=156 debrisCells=4 livingOrganisms=51
+2026-09-14 15:02:15.452 AlienMobileApp[74573:6797801] ALIEN debug: creatures=54 cells=160 generation=10 lineages=2 births=142 deaths=192 mutations=190 speed=4.0x
+2026-09-14 15:02:16.468 AlienMobileApp[74573:6797801] ALIEN device: fps=60.02 thermal=0 motorEnergy=246.15969 behaviorMutations=89
+2026-09-14 15:02:16.468 AlienMobileApp[74573:6797801] ECOSYSTEM tps=470.3 biologyMs=0.3350 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0908 renderGpuMs=0.1590 memoryMB=276.6 motes=1002 attacked=0.000 digested=0.000 emitted=1917.771 recycled=41.401
+2026-09-14 15:02:16.468 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=303.61 livingCells=145 debrisCells=8 livingOrganisms=48
+2026-09-14 15:02:16.469 AlienMobileApp[74573:6797801] ALIEN debug: creatures=53 cells=153 generation=10 lineages=2 births=146 deaths=198 mutations=193 speed=4.0x
+2026-09-14 15:02:17.482 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=250.03477 behaviorMutations=90
+2026-09-14 15:02:17.482 AlienMobileApp[74573:6797801] ECOSYSTEM tps=474.1 biologyMs=0.3346 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1317 renderGpuMs=0.1647 memoryMB=276.6 motes=1014 attacked=0.000 digested=0.000 emitted=1941.459 recycled=43.971
+2026-09-14 15:02:17.482 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=307.63 livingCells=145 debrisCells=4 livingOrganisms=50
+2026-09-14 15:02:17.482 AlienMobileApp[74573:6797801] ALIEN debug: creatures=53 cells=149 generation=11 lineages=2 births=148 deaths=202 mutations=198 speed=4.0x
+2026-09-14 15:02:18.482 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=253.89431 behaviorMutations=90
+2026-09-14 15:02:18.482 AlienMobileApp[74573:6797801] ECOSYSTEM tps=470.0 biologyMs=0.3345 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1443 renderGpuMs=0.1744 memoryMB=276.6 motes=1015 attacked=0.000 digested=0.000 emitted=1961.349 recycled=44.283
+2026-09-14 15:02:18.482 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=311.54 livingCells=148 debrisCells=5 livingOrganisms=49
+2026-09-14 15:02:18.482 AlienMobileApp[74573:6797801] ALIEN debug: creatures=54 cells=153 generation=11 lineages=1 births=150 deaths=207 mutations=201 speed=4.0x
+2026-09-14 15:02:19.484 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=257.63774 behaviorMutations=92
+2026-09-14 15:02:19.484 AlienMobileApp[74573:6797801] ECOSYSTEM tps=470.0 biologyMs=0.3337 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1140 renderGpuMs=0.1457 memoryMB=276.7 motes=1033 attacked=0.000 digested=0.000 emitted=1980.612 recycled=45.040
+2026-09-14 15:02:19.485 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=315.46 livingCells=150 debrisCells=1 livingOrganisms=50
+2026-09-14 15:02:19.485 AlienMobileApp[74573:6797801] ALIEN debug: creatures=51 cells=151 generation=12 lineages=1 births=153 deaths=209 mutations=204 speed=4.0x
+2026-09-14 15:02:20.484 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=260.98371 behaviorMutations=92
+2026-09-14 15:02:20.485 AlienMobileApp[74573:6797801] ECOSYSTEM tps=469.0 biologyMs=0.3342 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1278 renderGpuMs=0.2092 memoryMB=276.7 motes=1088 attacked=0.000 digested=0.000 emitted=2002.060 recycled=45.472
+2026-09-14 15:02:20.485 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=319.37 livingCells=131 debrisCells=9 livingOrganisms=42
+2026-09-14 15:02:20.485 AlienMobileApp[74573:6797801] ALIEN debug: creatures=50 cells=140 generation=12 lineages=1 births=153 deaths=220 mutations=205 speed=4.0x
+2026-09-14 15:02:21.501 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=264.46180 behaviorMutations=95
+2026-09-14 15:02:21.501 AlienMobileApp[74573:6797801] ECOSYSTEM tps=472.1 biologyMs=0.3332 syncMs=0.0001 metalMs=0.0000 renderCpuMs=0.5256 renderGpuMs=0.1610 memoryMB=276.7 motes=1159 attacked=0.000 digested=0.000 emitted=2028.047 recycled=46.862
+2026-09-14 15:02:21.501 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=323.37 livingCells=135 debrisCells=1 livingOrganisms=45
+2026-09-14 15:02:21.502 AlienMobileApp[74573:6797801] ALIEN debug: creatures=46 cells=136 generation=12 lineages=1 births=154 deaths=221 mutations=208 speed=4.0x
+2026-09-14 15:02:22.517 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=267.80969 behaviorMutations=97
+2026-09-14 15:02:22.517 AlienMobileApp[74573:6797801] ECOSYSTEM tps=466.2 biologyMs=0.3338 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0995 renderGpuMs=0.1606 memoryMB=276.7 motes=1201 attacked=0.000 digested=0.000 emitted=2057.290 recycled=46.958
+2026-09-14 15:02:22.518 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=327.32 livingCells=139 debrisCells=1 livingOrganisms=47
+2026-09-14 15:02:22.518 AlienMobileApp[74573:6797801] ALIEN debug: creatures=48 cells=140 generation=12 lineages=1 births=155 deaths=222 mutations=211 speed=4.0x
+2026-09-14 15:02:23.517 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=270.91822 behaviorMutations=99
+2026-09-14 15:02:23.518 AlienMobileApp[74573:6797801] ECOSYSTEM tps=470.0 biologyMs=0.3344 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1259 renderGpuMs=0.2003 memoryMB=276.7 motes=1254 attacked=0.000 digested=0.000 emitted=2087.491 recycled=47.054
+2026-09-14 15:02:23.518 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=331.23 livingCells=144 debrisCells=2 livingOrganisms=48
+2026-09-14 15:02:23.518 AlienMobileApp[74573:6797801] ALIEN debug: creatures=50 cells=146 generation=12 lineages=1 births=157 deaths=224 mutations=214 speed=4.0x
+2026-09-14 15:02:24.534 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=274.25855 behaviorMutations=100
+2026-09-14 15:02:24.534 AlienMobileApp[74573:6797801] ECOSYSTEM tps=467.2 biologyMs=0.3350 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1123 renderGpuMs=0.1748 memoryMB=276.7 motes=1303 attacked=0.000 digested=0.000 emitted=2116.248 recycled=47.962
+2026-09-14 15:02:24.534 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=335.19 livingCells=142 debrisCells=3 livingOrganisms=47
+2026-09-14 15:02:24.534 AlienMobileApp[74573:6797801] ALIEN debug: creatures=50 cells=145 generation=12 lineages=1 births=159 deaths=229 mutations=218 speed=4.0x
+2026-09-14 15:02:25.550 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=277.88550 behaviorMutations=101
+2026-09-14 15:02:25.551 AlienMobileApp[74573:6797801] ECOSYSTEM tps=465.3 biologyMs=0.3361 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1325 renderGpuMs=0.2543 memoryMB=276.7 motes=1346 attacked=0.000 digested=0.000 emitted=2141.085 recycled=48.393
+2026-09-14 15:02:25.551 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=339.13 livingCells=138 debrisCells=9 livingOrganisms=43
+2026-09-14 15:02:25.551 AlienMobileApp[74573:6797801] ALIEN debug: creatures=50 cells=147 generation=12 lineages=1 births=161 deaths=235 mutations=219 speed=4.0x
+2026-09-14 15:02:26.567 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=281.79095 behaviorMutations=102
+2026-09-14 15:02:26.567 AlienMobileApp[74573:6797801] ECOSYSTEM tps=470.2 biologyMs=0.3369 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2398 renderGpuMs=0.1634 memoryMB=276.7 motes=1363 attacked=0.000 digested=0.000 emitted=2162.332 recycled=49.334
+2026-09-14 15:02:26.567 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=343.12 livingCells=137 debrisCells=3 livingOrganisms=43
+2026-09-14 15:02:26.568 AlienMobileApp[74573:6797801] ALIEN debug: creatures=46 cells=140 generation=12 lineages=1 births=164 deaths=239 mutations=221 speed=4.0x
+2026-09-14 15:02:27.581 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=285.31701 behaviorMutations=104
+2026-09-14 15:02:27.582 AlienMobileApp[74573:6797801] ECOSYSTEM tps=472.1 biologyMs=0.3371 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2653 renderGpuMs=0.1950 memoryMB=276.7 motes=1326 attacked=0.000 digested=0.000 emitted=2181.890 recycled=50.073
+2026-09-14 15:02:27.582 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=347.12 livingCells=132 debrisCells=6 livingOrganisms=42
+2026-09-14 15:02:27.582 AlienMobileApp[74573:6797801] ALIEN debug: creatures=46 cells=138 generation=12 lineages=1 births=166 deaths=243 mutations=224 speed=4.0x
+2026-09-14 15:02:28.584 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=288.61025 behaviorMutations=105
+2026-09-14 15:02:28.584 AlienMobileApp[74573:6797801] ECOSYSTEM tps=472.0 biologyMs=0.3367 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2294 renderGpuMs=0.1606 memoryMB=276.7 motes=1327 attacked=0.000 digested=0.000 emitted=2202.392 recycled=50.746
+2026-09-14 15:02:28.584 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=351.05 livingCells=130 debrisCells=3 livingOrganisms=42
+2026-09-14 15:02:28.584 AlienMobileApp[74573:6797801] ALIEN debug: creatures=44 cells=133 generation=12 lineages=1 births=166 deaths=247 mutations=226 speed=4.0x
+2026-09-14 15:02:29.583 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=291.95542 behaviorMutations=106
+2026-09-14 15:02:29.583 AlienMobileApp[74573:6797801] ECOSYSTEM tps=470.0 biologyMs=0.3358 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2029 renderGpuMs=0.1610 memoryMB=276.7 motes=1340 attacked=0.000 digested=0.000 emitted=2226.340 recycled=50.959
+2026-09-14 15:02:29.584 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=354.97 livingCells=140 debrisCells=0 livingOrganisms=44
+2026-09-14 15:02:29.584 AlienMobileApp[74573:6797801] ALIEN debug: creatures=44 cells=140 generation=12 lineages=1 births=168 deaths=247 mutations=227 speed=4.0x
+2026-09-14 15:02:30.600 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=296.20198 behaviorMutations=106
+2026-09-14 15:02:30.600 AlienMobileApp[74573:6797801] ECOSYSTEM tps=465.2 biologyMs=0.3364 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0578 renderGpuMs=0.1891 memoryMB=276.7 motes=1366 attacked=0.000 digested=0.000 emitted=2254.389 recycled=51.079
+2026-09-14 15:02:30.600 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=358.91 livingCells=150 debrisCells=1 livingOrganisms=46
+2026-09-14 15:02:30.601 AlienMobileApp[74573:6797801] ALIEN debug: creatures=47 cells=151 generation=12 lineages=1 births=172 deaths=249 mutations=230 speed=4.0x
+2026-09-14 15:02:31.617 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=300.72304 behaviorMutations=107
+2026-09-14 15:02:31.617 AlienMobileApp[74573:6797801] ECOSYSTEM tps=476.1 biologyMs=0.3358 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0463 renderGpuMs=0.1786 memoryMB=276.6 motes=1419 attacked=0.000 digested=0.000 emitted=2285.385 recycled=51.247
+2026-09-14 15:02:31.618 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=362.94 livingCells=154 debrisCells=1 livingOrganisms=46
+2026-09-14 15:02:31.618 AlienMobileApp[74573:6797801] ALIEN debug: creatures=47 cells=155 generation=12 lineages=1 births=173 deaths=251 mutations=232 speed=4.0x
+2026-09-14 15:02:32.617 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=305.21102 behaviorMutations=108
+2026-09-14 15:02:32.618 AlienMobileApp[74573:6797801] ECOSYSTEM tps=474.0 biologyMs=0.3368 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.5066 renderGpuMs=0.2004 memoryMB=276.6 motes=1403 attacked=0.000 digested=0.000 emitted=2315.002 recycled=51.271
+2026-09-14 15:02:32.618 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=366.89 livingCells=172 debrisCells=0 livingOrganisms=52
+2026-09-14 15:02:32.618 AlienMobileApp[74573:6797801] ALIEN debug: creatures=52 cells=172 generation=12 lineages=1 births=177 deaths=251 mutations=238 speed=4.0x
+2026-09-14 15:02:33.634 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=309.47679 behaviorMutations=110
+2026-09-14 15:02:33.634 AlienMobileApp[74573:6797801] ECOSYSTEM tps=470.2 biologyMs=0.3380 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1298 renderGpuMs=0.1794 memoryMB=276.6 motes=1410 attacked=0.000 digested=0.000 emitted=2341.527 recycled=51.679
+2026-09-14 15:02:33.635 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=370.88 livingCells=163 debrisCells=11 livingOrganisms=49
+2026-09-14 15:02:33.635 AlienMobileApp[74573:6797801] ALIEN debug: creatures=58 cells=174 generation=12 lineages=2 births=183 deaths=259 mutations=243 speed=4.0x
+2026-09-14 15:02:34.633 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=313.92369 behaviorMutations=110
+2026-09-14 15:02:34.633 AlienMobileApp[74573:6797801] ECOSYSTEM tps=472.0 biologyMs=0.3390 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0951 renderGpuMs=0.1572 memoryMB=276.6 motes=1374 attacked=0.000 digested=0.000 emitted=2363.663 recycled=52.389
+2026-09-14 15:02:34.633 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=374.81 livingCells=166 debrisCells=2 livingOrganisms=53
+2026-09-14 15:02:34.633 AlienMobileApp[74573:6797801] ALIEN debug: creatures=55 cells=168 generation=12 lineages=2 births=184 deaths=260 mutations=246 speed=4.0x
+2026-09-14 15:02:35.634 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=318.18728 behaviorMutations=111
+2026-09-14 15:02:35.634 AlienMobileApp[74573:6797801] ECOSYSTEM tps=465.0 biologyMs=0.3403 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0844 renderGpuMs=0.1637 memoryMB=276.6 motes=1293 attacked=0.000 digested=0.000 emitted=2382.894 recycled=52.605
+2026-09-14 15:02:35.635 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=378.68 livingCells=165 debrisCells=8 livingOrganisms=54
+2026-09-14 15:02:35.635 AlienMobileApp[74573:6797801] ALIEN debug: creatures=58 cells=173 generation=12 lineages=2 births=186 deaths=265 mutations=249 speed=4.0x
+2026-09-14 15:02:36.650 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=322.43372 behaviorMutations=112
+2026-09-14 15:02:36.650 AlienMobileApp[74573:6797801] ECOSYSTEM tps=469.2 biologyMs=0.3413 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0543 renderGpuMs=0.1396 memoryMB=276.6 motes=1250 attacked=0.000 digested=0.000 emitted=2402.788 recycled=53.420
+2026-09-14 15:02:36.651 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=382.66 livingCells=163 debrisCells=2 livingOrganisms=54
+2026-09-14 15:02:36.651 AlienMobileApp[74573:6797801] ALIEN debug: creatures=56 cells=165 generation=12 lineages=2 births=188 deaths=268 mutations=251 speed=4.0x
+2026-09-14 15:02:37.664 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=326.49059 behaviorMutations=113
+2026-09-14 15:02:37.664 AlienMobileApp[74573:6797801] ECOSYSTEM tps=465.3 biologyMs=0.3417 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1159 renderGpuMs=0.1704 memoryMB=276.6 motes=1233 attacked=0.000 digested=0.000 emitted=2425.415 recycled=53.540
+2026-09-14 15:02:37.665 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=386.60 livingCells=165 debrisCells=2 livingOrganisms=55
+2026-09-14 15:02:37.665 AlienMobileApp[74573:6797801] ALIEN debug: creatures=57 cells=167 generation=12 lineages=2 births=190 deaths=270 mutations=253 speed=4.0x
+2026-09-14 15:02:38.667 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=330.36465 behaviorMutations=113
+2026-09-14 15:02:38.667 AlienMobileApp[74573:6797801] ECOSYSTEM tps=474.0 biologyMs=0.3409 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0475 renderGpuMs=0.2124 memoryMB=276.6 motes=1214 attacked=0.000 digested=0.000 emitted=2452.178 recycled=54.003
+2026-09-14 15:02:38.667 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=390.55 livingCells=165 debrisCells=2 livingOrganisms=53
+2026-09-14 15:02:38.667 AlienMobileApp[74573:6797801] ALIEN debug: creatures=55 cells=167 generation=12 lineages=2 births=191 deaths=273 mutations=253 speed=4.0x
+2026-09-14 15:02:39.681 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=334.50240 behaviorMutations=115
+2026-09-14 15:02:39.681 AlienMobileApp[74573:6797801] ECOSYSTEM tps=470.2 biologyMs=0.3404 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2338 renderGpuMs=0.1927 memoryMB=276.6 motes=1156 attacked=0.000 digested=0.000 emitted=2482.282 recycled=54.400
+2026-09-14 15:02:39.682 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=394.53 livingCells=169 debrisCells=5 livingOrganisms=55
+2026-09-14 15:02:39.682 AlienMobileApp[74573:6797801] ALIEN debug: creatures=59 cells=174 generation=12 lineages=2 births=195 deaths=276 mutations=258 speed=4.0x
+2026-09-14 15:02:40.682 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=339.08774 behaviorMutations=118
+2026-09-14 15:02:40.683 AlienMobileApp[74573:6797801] ECOSYSTEM tps=472.0 biologyMs=0.3413 syncMs=0.0001 metalMs=0.0000 renderCpuMs=0.9761 renderGpuMs=0.1710 memoryMB=276.6 motes=1157 attacked=0.000 digested=0.000 emitted=2512.412 recycled=54.760
+2026-09-14 15:02:40.683 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=398.47 livingCells=164 debrisCells=7 livingOrganisms=57
+2026-09-14 15:02:40.683 AlienMobileApp[74573:6797801] ALIEN debug: creatures=61 cells=171 generation=12 lineages=3 births=197 deaths=281 mutations=264 speed=4.0x
+2026-09-14 15:02:41.681 AlienMobileApp[74573:6797801] ALIEN device: fps=59.98 thermal=0 motorEnergy=343.27866 behaviorMutations=119
+2026-09-14 15:02:41.681 AlienMobileApp[74573:6797801] ECOSYSTEM tps=471.9 biologyMs=0.3408 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0653 renderGpuMs=0.1823 memoryMB=276.6 motes=1127 attacked=0.000 digested=0.000 emitted=2540.078 recycled=57.322
+2026-09-14 15:02:41.681 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=402.40 livingCells=173 debrisCells=2 livingOrganisms=60
+2026-09-14 15:02:41.681 AlienMobileApp[74573:6797801] ALIEN debug: creatures=62 cells=175 generation=12 lineages=3 births=200 deaths=284 mutations=269 speed=4.0x
+2026-09-14 15:02:42.700 AlienMobileApp[74573:6797801] ALIEN device: fps=60.01 thermal=0 motorEnergy=347.85382 behaviorMutations=121
+2026-09-14 15:02:42.701 AlienMobileApp[74573:6797801] ECOSYSTEM tps=470.3 biologyMs=0.3404 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1662 renderGpuMs=0.1739 memoryMB=276.6 motes=1099 attacked=0.000 digested=0.000 emitted=2564.019 recycled=57.490
+2026-09-14 15:02:42.701 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=406.38 livingCells=181 debrisCells=3 livingOrganisms=60
+2026-09-14 15:02:42.701 AlienMobileApp[74573:6797801] ALIEN debug: creatures=62 cells=184 generation=12 lineages=4 births=201 deaths=288 mutations=273 speed=4.0x
+2026-09-14 15:02:43.714 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=352.82515 behaviorMutations=121
+2026-09-14 15:02:43.714 AlienMobileApp[74573:6797801] ECOSYSTEM tps=470.2 biologyMs=0.3401 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.3260 renderGpuMs=0.1771 memoryMB=276.1 motes=1025 attacked=0.000 digested=0.000 emitted=2584.491 recycled=57.825
+2026-09-14 15:02:43.714 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=410.37 livingCells=192 debrisCells=2 livingOrganisms=61
+2026-09-14 15:02:43.715 AlienMobileApp[74573:6797801] ALIEN debug: creatures=63 cells=194 generation=12 lineages=4 births=207 deaths=290 mutations=275 speed=4.0x
+2026-09-14 15:02:44.717 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=357.72752 behaviorMutations=121
+2026-09-14 15:02:44.717 AlienMobileApp[74573:6797801] ECOSYSTEM tps=474.0 biologyMs=0.3393 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1642 renderGpuMs=0.1536 memoryMB=276.2 motes=956 attacked=0.000 digested=0.000 emitted=2603.850 recycled=57.945
+2026-09-14 15:02:44.717 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=414.32 livingCells=191 debrisCells=4 livingOrganisms=60
+2026-09-14 15:02:44.717 AlienMobileApp[74573:6797801] ALIEN debug: creatures=63 cells=195 generation=12 lineages=4 births=209 deaths=292 mutations=276 speed=4.0x
+2026-09-14 15:02:45.716 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=362.58083 behaviorMutations=121
+2026-09-14 15:02:45.717 AlienMobileApp[74573:6797801] ECOSYSTEM tps=477.0 biologyMs=0.3387 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.3213 renderGpuMs=0.0908 memoryMB=276.2 motes=901 attacked=0.000 digested=0.000 emitted=2625.395 recycled=58.161
+2026-09-14 15:02:45.717 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=418.29 livingCells=189 debrisCells=4 livingOrganisms=60
+2026-09-14 15:02:45.717 AlienMobileApp[74573:6797801] ALIEN debug: creatures=62 cells=193 generation=12 lineages=4 births=210 deaths=294 mutations=276 speed=4.0x
+2026-09-14 15:02:46.733 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=367.67488 behaviorMutations=124
+2026-09-14 15:02:46.734 AlienMobileApp[74573:6797801] ECOSYSTEM tps=468.2 biologyMs=0.3394 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2045 renderGpuMs=0.1394 memoryMB=276.2 motes=895 attacked=0.000 digested=0.000 emitted=2650.849 recycled=58.505
+2026-09-14 15:02:46.734 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=422.26 livingCells=188 debrisCells=2 livingOrganisms=61
+2026-09-14 15:02:46.734 AlienMobileApp[74573:6797801] ALIEN debug: creatures=63 cells=190 generation=12 lineages=5 births=213 deaths=299 mutations=280 speed=4.0x
+2026-09-14 15:02:47.749 AlienMobileApp[74573:6797801] ALIEN device: fps=60.01 thermal=0 motorEnergy=372.88862 behaviorMutations=124
+2026-09-14 15:02:47.750 AlienMobileApp[74573:6797801] ECOSYSTEM tps=478.1 biologyMs=0.3381 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0746 renderGpuMs=0.0600 memoryMB=276.1 motes=834 attacked=0.000 digested=0.000 emitted=2680.640 recycled=59.046
+2026-09-14 15:02:47.750 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=426.31 livingCells=188 debrisCells=3 livingOrganisms=61
+2026-09-14 15:02:47.750 AlienMobileApp[74573:6797801] ALIEN debug: creatures=64 cells=191 generation=12 lineages=5 births=215 deaths=303 mutations=283 speed=4.0x
+2026-09-14 15:02:48.766 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=378.23511 behaviorMutations=124
+2026-09-14 15:02:48.766 AlienMobileApp[74573:6797801] ECOSYSTEM tps=473.1 biologyMs=0.3376 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0390 renderGpuMs=0.1641 memoryMB=276.2 motes=816 attacked=0.000 digested=0.000 emitted=2711.552 recycled=59.334
+2026-09-14 15:02:48.767 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=430.32 livingCells=183 debrisCells=11 livingOrganisms=59
+2026-09-14 15:02:48.767 AlienMobileApp[74573:6797801] ALIEN debug: creatures=66 cells=194 generation=12 lineages=5 births=217 deaths=309 mutations=285 speed=4.0x
+2026-09-14 15:02:49.766 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=383.74012 behaviorMutations=126
+2026-09-14 15:02:49.767 AlienMobileApp[74573:6797801] ECOSYSTEM tps=473.0 biologyMs=0.3370 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0579 renderGpuMs=0.1950 memoryMB=276.2 motes=810 attacked=0.000 digested=0.000 emitted=2740.291 recycled=61.465
+2026-09-14 15:02:49.767 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=434.26 livingCells=194 debrisCells=1 livingOrganisms=62
+2026-09-14 15:02:49.767 AlienMobileApp[74573:6797801] ALIEN debug: creatures=63 cells=195 generation=12 lineages=4 births=222 deaths=311 mutations=290 speed=4.0x
+2026-09-14 15:02:50.783 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=389.26514 behaviorMutations=126
+2026-09-14 15:02:50.783 AlienMobileApp[74573:6797801] ECOSYSTEM tps=465.2 biologyMs=0.3374 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0542 renderGpuMs=0.2008 memoryMB=276.1 motes=751 attacked=0.000 digested=0.000 emitted=2765.277 recycled=61.546
+2026-09-14 15:02:50.783 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=438.20 livingCells=205 debrisCells=0 livingOrganisms=62
+2026-09-14 15:02:50.784 AlienMobileApp[74573:6797801] ALIEN debug: creatures=62 cells=205 generation=12 lineages=4 births=224 deaths=311 mutations=290 speed=4.0x
+2026-09-14 15:02:51.797 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=394.82386 behaviorMutations=127
+2026-09-14 15:02:51.798 AlienMobileApp[74573:6797801] ECOSYSTEM tps=467.2 biologyMs=0.3370 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.5503 renderGpuMs=0.0583 memoryMB=276.1 motes=743 attacked=0.000 digested=0.000 emitted=2786.511 recycled=61.690
+2026-09-14 15:02:51.798 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=442.16 livingCells=202 debrisCells=2 livingOrganisms=62
+2026-09-14 15:02:51.798 AlienMobileApp[74573:6797801] ALIEN debug: creatures=64 cells=204 generation=12 lineages=4 births=224 deaths=314 mutations=293 speed=4.0x
+2026-09-14 15:02:52.799 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=399.67578 behaviorMutations=128
+2026-09-14 15:02:52.799 AlienMobileApp[74573:6797801] ECOSYSTEM tps=468.0 biologyMs=0.3373 syncMs=0.0001 metalMs=0.0000 renderCpuMs=0.5449 renderGpuMs=0.2305 memoryMB=276.2 motes=710 attacked=0.000 digested=0.000 emitted=2805.592 recycled=62.074
+2026-09-14 15:02:52.799 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=446.06 livingCells=190 debrisCells=11 livingOrganisms=59
+2026-09-14 15:02:52.800 AlienMobileApp[74573:6797801] ALIEN debug: creatures=66 cells=201 generation=12 lineages=4 births=226 deaths=322 mutations=297 speed=4.0x
+2026-09-14 15:02:53.799 AlienMobileApp[74573:6797801] ALIEN device: fps=59.99 thermal=0 motorEnergy=404.77136 behaviorMutations=132
+2026-09-14 15:02:53.800 AlienMobileApp[74573:6797801] ECOSYSTEM tps=468.0 biologyMs=0.3376 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0461 renderGpuMs=0.1805 memoryMB=276.2 motes=703 attacked=0.000 digested=0.000 emitted=2825.735 recycled=66.883
+2026-09-14 15:02:53.800 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=449.96 livingCells=187 debrisCells=8 livingOrganisms=59
+2026-09-14 15:02:53.800 AlienMobileApp[74573:6797801] ALIEN debug: creatures=64 cells=195 generation=12 lineages=4 births=229 deaths=329 mutations=303 speed=4.0x
+2026-09-14 15:02:54.815 AlienMobileApp[74573:6797801] ALIEN device: fps=60.01 thermal=0 motorEnergy=409.63736 behaviorMutations=132
+2026-09-14 15:02:54.816 AlienMobileApp[74573:6797801] ECOSYSTEM tps=464.3 biologyMs=0.3379 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0458 renderGpuMs=0.0890 memoryMB=276.2 motes=689 attacked=0.000 digested=0.000 emitted=2849.481 recycled=68.483
+2026-09-14 15:02:54.816 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=453.89 livingCells=185 debrisCells=8 livingOrganisms=57
+2026-09-14 15:02:54.816 AlienMobileApp[74573:6797801] ALIEN debug: creatures=63 cells=193 generation=12 lineages=4 births=233 deaths=335 mutations=306 speed=4.0x
+2026-09-14 15:02:55.832 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=414.57063 behaviorMutations=133
+2026-09-14 15:02:55.833 AlienMobileApp[74573:6797801] ECOSYSTEM tps=466.2 biologyMs=0.3381 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1049 renderGpuMs=0.1154 memoryMB=276.2 motes=785 attacked=0.000 digested=0.000 emitted=2877.342 recycled=69.391
+2026-09-14 15:02:55.833 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=457.84 livingCells=188 debrisCells=2 livingOrganisms=58
+2026-09-14 15:02:55.833 AlienMobileApp[74573:6797801] ALIEN debug: creatures=60 cells=190 generation=12 lineages=4 births=235 deaths=337 mutations=308 speed=4.0x
+2026-09-14 15:02:56.849 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=419.45027 behaviorMutations=136
+2026-09-14 15:02:56.849 AlienMobileApp[74573:6797801] ECOSYSTEM tps=467.2 biologyMs=0.3385 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0920 renderGpuMs=0.1730 memoryMB=276.2 motes=829 attacked=0.000 digested=0.000 emitted=2907.692 recycled=69.511
+2026-09-14 15:02:56.850 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=461.80 livingCells=195 debrisCells=1 livingOrganisms=63
+2026-09-14 15:02:56.850 AlienMobileApp[74573:6797801] ALIEN debug: creatures=64 cells=196 generation=12 lineages=3 births=238 deaths=337 mutations=311 speed=4.0x
+2026-09-14 15:02:57.866 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=424.49632 behaviorMutations=138
+2026-09-14 15:02:57.866 AlienMobileApp[74573:6797801] ECOSYSTEM tps=468.2 biologyMs=0.3392 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1599 renderGpuMs=0.1790 memoryMB=276.2 motes=844 attacked=0.000 digested=0.000 emitted=2937.616 recycled=69.919
+2026-09-14 15:02:57.867 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=465.77 livingCells=184 debrisCells=11 livingOrganisms=60
+2026-09-14 15:02:57.867 AlienMobileApp[74573:6797801] ALIEN debug: creatures=68 cells=195 generation=12 lineages=3 births=241 deaths=345 mutations=316 speed=4.0x
+2026-09-14 15:02:58.866 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=429.78611 behaviorMutations=141
+2026-09-14 15:02:58.866 AlienMobileApp[74573:6797801] ECOSYSTEM tps=474.0 biologyMs=0.3387 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0910 renderGpuMs=0.2334 memoryMB=276.2 motes=818 attacked=0.000 digested=0.000 emitted=2964.276 recycled=70.825
+2026-09-14 15:02:58.867 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=469.72 livingCells=192 debrisCells=1 livingOrganisms=62
+2026-09-14 15:02:58.867 AlienMobileApp[74573:6797801] ALIEN debug: creatures=63 cells=193 generation=12 lineages=3 births=245 deaths=348 mutations=320 speed=4.0x
+2026-09-14 15:02:59.866 AlienMobileApp[74573:6797801] ALIEN device: fps=59.99 thermal=0 motorEnergy=434.95085 behaviorMutations=142
+2026-09-14 15:02:59.866 AlienMobileApp[74573:6797801] ECOSYSTEM tps=470.9 biologyMs=0.3383 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0786 renderGpuMs=0.1563 memoryMB=276.2 motes=813 attacked=0.000 digested=0.000 emitted=2986.715 recycled=71.137
+2026-09-14 15:02:59.866 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=473.64 livingCells=192 debrisCells=4 livingOrganisms=61
+2026-09-14 15:02:59.867 AlienMobileApp[74573:6797801] ALIEN debug: creatures=65 cells=196 generation=12 lineages=3 births=248 deaths=354 mutations=324 speed=4.0x
+2026-09-14 15:03:00.882 AlienMobileApp[74573:6797801] ALIEN device: fps=60.02 thermal=0 motorEnergy=440.42810 behaviorMutations=143
+2026-09-14 15:03:00.882 AlienMobileApp[74573:6797801] ECOSYSTEM tps=465.4 biologyMs=0.3385 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0219 renderGpuMs=0.2401 memoryMB=276.2 motes=750 attacked=0.000 digested=0.000 emitted=3006.410 recycled=71.698
+2026-09-14 15:03:00.883 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=477.58 livingCells=196 debrisCells=2 livingOrganisms=62
+2026-09-14 15:03:00.883 AlienMobileApp[74573:6797801] ALIEN debug: creatures=64 cells=198 generation=13 lineages=3 births=250 deaths=356 mutations=327 speed=4.0x
+2026-09-14 15:03:01.880 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=445.41150 behaviorMutations=144
+2026-09-14 15:03:01.880 AlienMobileApp[74573:6797801] ECOSYSTEM tps=472.0 biologyMs=0.3383 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.6360 renderGpuMs=0.2370 memoryMB=276.1 motes=741 attacked=0.000 digested=0.000 emitted=3025.964 recycled=71.962
+2026-09-14 15:03:01.880 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=481.52 livingCells=191 debrisCells=4 livingOrganisms=62
+2026-09-14 15:03:01.881 AlienMobileApp[74573:6797801] ALIEN debug: creatures=66 cells=195 generation=14 lineages=3 births=251 deaths=360 mutations=331 speed=4.0x
+2026-09-14 15:03:02.899 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=449.94901 behaviorMutations=145
+2026-09-14 15:03:02.900 AlienMobileApp[74573:6797801] ECOSYSTEM tps=468.2 biologyMs=0.3382 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1170 renderGpuMs=0.1543 memoryMB=276.2 motes=778 attacked=0.000 digested=0.000 emitted=3048.410 recycled=72.453
+2026-09-14 15:03:02.900 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=485.48 livingCells=190 debrisCells=2 livingOrganisms=62
+2026-09-14 15:03:02.900 AlienMobileApp[74573:6797801] ALIEN debug: creatures=63 cells=192 generation=14 lineages=3 births=252 deaths=363 mutations=334 speed=4.0x
+2026-09-14 15:03:03.913 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=454.44355 behaviorMutations=146
+2026-09-14 15:03:03.913 AlienMobileApp[74573:6797801] ECOSYSTEM tps=462.3 biologyMs=0.3384 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2588 renderGpuMs=0.1040 memoryMB=276.2 motes=782 attacked=0.000 digested=0.000 emitted=3074.605 recycled=72.764
+2026-09-14 15:03:03.914 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=489.40 livingCells=194 debrisCells=3 livingOrganisms=62
+2026-09-14 15:03:03.914 AlienMobileApp[74573:6797801] ALIEN debug: creatures=64 cells=197 generation=14 lineages=2 births=255 deaths=365 mutations=336 speed=4.0x
+2026-09-14 15:03:04.930 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=458.93219 behaviorMutations=146
+2026-09-14 15:03:04.930 AlienMobileApp[74573:6797801] ECOSYSTEM tps=468.2 biologyMs=0.3387 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1010 renderGpuMs=0.0500 memoryMB=276.2 motes=868 attacked=0.000 digested=0.000 emitted=3104.394 recycled=74.242
+2026-09-14 15:03:04.930 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=493.37 livingCells=190 debrisCells=4 livingOrganisms=61
+2026-09-14 15:03:04.930 AlienMobileApp[74573:6797801] ALIEN debug: creatures=64 cells=194 generation=14 lineages=2 births=256 deaths=368 mutations=338 speed=4.0x
+2026-09-14 15:03:05.933 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=463.49595 behaviorMutations=148
+2026-09-14 15:03:05.933 AlienMobileApp[74573:6797801] ECOSYSTEM tps=469.0 biologyMs=0.3394 syncMs=0.0001 metalMs=0.0000 renderCpuMs=0.9915 renderGpuMs=0.1823 memoryMB=276.2 motes=916 attacked=0.000 digested=0.000 emitted=3134.431 recycled=74.661
+2026-09-14 15:03:05.933 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=497.28 livingCells=182 debrisCells=8 livingOrganisms=61
+2026-09-14 15:03:05.933 AlienMobileApp[74573:6797801] ALIEN debug: creatures=66 cells=190 generation=14 lineages=2 births=260 deaths=373 mutations=343 speed=4.0x
+2026-09-14 15:03:06.932 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=468.11872 behaviorMutations=151
+2026-09-14 15:03:06.932 AlienMobileApp[74573:6797801] ECOSYSTEM tps=470.0 biologyMs=0.3397 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0521 renderGpuMs=0.1565 memoryMB=276.2 motes=948 attacked=0.000 digested=0.000 emitted=3162.339 recycled=75.374
+2026-09-14 15:03:06.932 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=501.19 livingCells=162 debrisCells=13 livingOrganisms=54
+2026-09-14 15:03:06.933 AlienMobileApp[74573:6797801] ALIEN debug: creatures=64 cells=175 generation=14 lineages=2 births=260 deaths=384 mutations=347 speed=4.0x
+2026-09-14 15:03:07.932 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=472.47430 behaviorMutations=152
+2026-09-14 15:03:07.932 AlienMobileApp[74573:6797801] ECOSYSTEM tps=468.0 biologyMs=0.3401 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0705 renderGpuMs=0.1606 memoryMB=276.2 motes=939 attacked=0.000 digested=0.000 emitted=3186.252 recycled=76.149
+2026-09-14 15:03:07.932 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=505.09 livingCells=166 debrisCells=1 livingOrganisms=56
+2026-09-14 15:03:07.932 AlienMobileApp[74573:6797801] ALIEN debug: creatures=57 cells=167 generation=14 lineages=3 births=262 deaths=387 mutations=351 speed=4.0x
+2026-09-14 15:03:08.949 AlienMobileApp[74573:6797801] ALIEN device: fps=59.99 thermal=0 motorEnergy=477.01034 behaviorMutations=153
+2026-09-14 15:03:08.949 AlienMobileApp[74573:6797801] ECOSYSTEM tps=472.1 biologyMs=0.3395 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0291 renderGpuMs=0.2051 memoryMB=276.2 motes=889 attacked=0.000 digested=0.000 emitted=3207.131 recycled=76.317
+2026-09-14 15:03:08.949 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=509.09 livingCells=170 debrisCells=4 livingOrganisms=55
+2026-09-14 15:03:08.949 AlienMobileApp[74573:6797801] ALIEN debug: creatures=57 cells=174 generation=14 lineages=3 births=265 deaths=390 mutations=353 speed=4.0x
+2026-09-14 15:03:09.963 AlienMobileApp[74573:6797801] ALIEN device: fps=60.01 thermal=0 motorEnergy=481.63082 behaviorMutations=153
+2026-09-14 15:03:09.963 AlienMobileApp[74573:6797801] ECOSYSTEM tps=471.2 biologyMs=0.3391 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1015 renderGpuMs=0.1670 memoryMB=276.2 motes=894 attacked=0.000 digested=0.000 emitted=3226.647 recycled=77.021
+2026-09-14 15:03:09.963 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=513.08 livingCells=164 debrisCells=3 livingOrganisms=56
+2026-09-14 15:03:09.963 AlienMobileApp[74573:6797801] ALIEN debug: creatures=58 cells=167 generation=14 lineages=3 births=266 deaths=393 mutations=355 speed=4.0x
+2026-09-14 15:03:10.965 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=486.34481 behaviorMutations=154
+2026-09-14 15:03:10.966 AlienMobileApp[74573:6797801] ECOSYSTEM tps=469.0 biologyMs=0.3392 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1218 renderGpuMs=0.1801 memoryMB=276.2 motes=940 attacked=0.000 digested=0.000 emitted=3247.452 recycled=77.213
+2026-09-14 15:03:10.966 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=516.99 livingCells=167 debrisCells=1 livingOrganisms=57
+2026-09-14 15:03:10.966 AlienMobileApp[74573:6797801] ALIEN debug: creatures=58 cells=168 generation=14 lineages=3 births=267 deaths=396 mutations=358 speed=4.0x
+2026-09-14 15:03:11.963 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=490.52215 behaviorMutations=155
+2026-09-14 15:03:11.963 AlienMobileApp[74573:6797801] ECOSYSTEM tps=471.0 biologyMs=0.3393 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1721 renderGpuMs=0.1459 memoryMB=276.2 motes=967 attacked=0.000 digested=0.000 emitted=3272.081 recycled=77.453
+2026-09-14 15:03:11.963 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=520.92 livingCells=162 debrisCells=6 livingOrganisms=55
+2026-09-14 15:03:11.963 AlienMobileApp[74573:6797801] ALIEN debug: creatures=59 cells=168 generation=14 lineages=3 births=269 deaths=401 mutations=360 speed=4.0x
+2026-09-14 15:03:12.967 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=494.20007 behaviorMutations=155
+2026-09-14 15:03:12.967 AlienMobileApp[74573:6797801] ECOSYSTEM tps=471.0 biologyMs=0.3387 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1010 renderGpuMs=0.1601 memoryMB=276.3 motes=1080 attacked=0.000 digested=0.000 emitted=3300.503 recycled=78.749
+2026-09-14 15:03:12.967 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=524.84 livingCells=155 debrisCells=3 livingOrganisms=52
+2026-09-14 15:03:12.967 AlienMobileApp[74573:6797801] ALIEN debug: creatures=55 cells=158 generation=14 lineages=3 births=269 deaths=405 mutations=360 speed=4.0x
+2026-09-14 15:03:13.982 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=497.63103 behaviorMutations=156
+2026-09-14 15:03:13.982 AlienMobileApp[74573:6797801] ECOSYSTEM tps=465.3 biologyMs=0.3390 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2429 renderGpuMs=0.1565 memoryMB=276.3 motes=1180 attacked=0.000 digested=0.000 emitted=3330.884 recycled=79.183
+2026-09-14 15:03:13.983 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=528.78 livingCells=151 debrisCells=4 livingOrganisms=52
+2026-09-14 15:03:13.983 AlienMobileApp[74573:6797801] ALIEN debug: creatures=55 cells=155 generation=14 lineages=2 births=269 deaths=407 mutations=362 speed=4.0x
+2026-09-14 15:03:14.999 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=500.93966 behaviorMutations=156
+2026-09-14 15:03:14.999 AlienMobileApp[74573:6797801] ECOSYSTEM tps=464.3 biologyMs=0.3396 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1781 renderGpuMs=0.1805 memoryMB=276.3 motes=1285 attacked=0.000 digested=0.000 emitted=3360.084 recycled=79.811
+2026-09-14 15:03:14.999 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=532.72 livingCells=141 debrisCells=7 livingOrganisms=48
+2026-09-14 15:03:14.999 AlienMobileApp[74573:6797801] ALIEN debug: creatures=53 cells=148 generation=14 lineages=2 births=270 deaths=412 mutations=362 speed=4.0x
+2026-09-14 15:03:16.015 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=504.11851 behaviorMutations=156
+2026-09-14 15:03:16.015 AlienMobileApp[74573:6797801] ECOSYSTEM tps=468.2 biologyMs=0.3401 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0516 renderGpuMs=0.1677 memoryMB=276.3 motes=1336 attacked=0.000 digested=0.000 emitted=3386.010 recycled=81.052
+2026-09-14 15:03:16.016 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=536.68 livingCells=120 debrisCells=10 livingOrganisms=41
+2026-09-14 15:03:16.016 AlienMobileApp[74573:6797801] ALIEN debug: creatures=48 cells=130 generation=14 lineages=2 births=272 deaths=421 mutations=363 speed=4.0x
+2026-09-14 15:03:17.016 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=507.15961 behaviorMutations=156
+2026-09-14 15:03:17.016 AlienMobileApp[74573:6797801] ECOSYSTEM tps=465.0 biologyMs=0.3403 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1498 renderGpuMs=0.2069 memoryMB=276.3 motes=1320 attacked=0.000 digested=0.000 emitted=3407.429 recycled=82.967
+2026-09-14 15:03:17.016 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=540.56 livingCells=121 debrisCells=5 livingOrganisms=40
+2026-09-14 15:03:17.017 AlienMobileApp[74573:6797801] ALIEN debug: creatures=45 cells=126 generation=14 lineages=2 births=273 deaths=426 mutations=367 speed=4.0x
+2026-09-14 15:03:18.032 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=510.28079 behaviorMutations=157
+2026-09-14 15:03:18.032 AlienMobileApp[74573:6797801] ECOSYSTEM tps=466.2 biologyMs=0.3403 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2066 renderGpuMs=0.1948 memoryMB=276.3 motes=1297 attacked=0.000 digested=0.000 emitted=3426.902 recycled=83.667
+2026-09-14 15:03:18.033 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=544.51 livingCells=112 debrisCells=5 livingOrganisms=39
+2026-09-14 15:03:18.033 AlienMobileApp[74573:6797801] ALIEN debug: creatures=44 cells=117 generation=14 lineages=2 births=276 deaths=432 mutations=372 speed=4.0x
+2026-09-14 15:03:19.048 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=513.70488 behaviorMutations=158
+2026-09-14 15:03:19.048 AlienMobileApp[74573:6797801] ECOSYSTEM tps=475.1 biologyMs=0.3395 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0598 renderGpuMs=0.2535 memoryMB=276.3 motes=1309 attacked=0.000 digested=0.000 emitted=3447.290 recycled=84.046
+2026-09-14 15:03:19.048 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=548.53 livingCells=115 debrisCells=3 livingOrganisms=40
+2026-09-14 15:03:19.048 AlienMobileApp[74573:6797801] ALIEN debug: creatures=42 cells=118 generation=14 lineages=2 births=277 deaths=435 mutations=375 speed=4.0x
+2026-09-14 15:03:20.062 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=517.11025 behaviorMutations=159
+2026-09-14 15:03:20.062 AlienMobileApp[74573:6797801] ECOSYSTEM tps=471.1 biologyMs=0.3390 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2088 renderGpuMs=0.1905 memoryMB=276.3 motes=1344 attacked=0.000 digested=0.000 emitted=3470.761 recycled=84.520
+2026-09-14 15:03:20.063 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=552.53 livingCells=121 debrisCells=0 livingOrganisms=41
+2026-09-14 15:03:20.063 AlienMobileApp[74573:6797801] ALIEN debug: creatures=41 cells=121 generation=14 lineages=2 births=277 deaths=435 mutations=376 speed=4.0x
+2026-09-14 15:03:21.064 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=519.95151 behaviorMutations=160
+2026-09-14 15:03:21.064 AlienMobileApp[74573:6797801] ECOSYSTEM tps=468.0 biologyMs=0.3389 syncMs=0.0001 metalMs=0.0000 renderCpuMs=0.8981 renderGpuMs=0.1088 memoryMB=276.2 motes=1413 attacked=0.000 digested=0.000 emitted=3497.722 recycled=84.520
+2026-09-14 15:03:21.065 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=556.43 livingCells=127 debrisCells=0 livingOrganisms=43
+2026-09-14 15:03:21.065 AlienMobileApp[74573:6797801] ALIEN debug: creatures=43 cells=127 generation=15 lineages=2 births=280 deaths=435 mutations=377 speed=4.0x
+2026-09-14 15:03:22.081 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=523.02751 behaviorMutations=161
+2026-09-14 15:03:22.081 AlienMobileApp[74573:6797801] ECOSYSTEM tps=472.1 biologyMs=0.3390 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0577 renderGpuMs=0.1700 memoryMB=276.3 motes=1490 attacked=0.000 digested=0.000 emitted=3528.187 recycled=84.712
+2026-09-14 15:03:22.082 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=560.43 livingCells=121 debrisCells=7 livingOrganisms=40
+2026-09-14 15:03:22.082 AlienMobileApp[74573:6797801] ALIEN debug: creatures=45 cells=128 generation=15 lineages=2 births=280 deaths=441 mutations=379 speed=4.0x
+2026-09-14 15:03:23.096 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=526.59666 behaviorMutations=161
+2026-09-14 15:03:23.096 AlienMobileApp[74573:6797801] ECOSYSTEM tps=474.1 biologyMs=0.3385 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1630 renderGpuMs=0.1984 memoryMB=276.3 motes=1564 attacked=0.000 digested=0.000 emitted=3558.743 recycled=86.384
+2026-09-14 15:03:23.096 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=564.44 livingCells=126 debrisCells=0 livingOrganisms=42
+2026-09-14 15:03:23.096 AlienMobileApp[74573:6797801] ALIEN debug: creatures=42 cells=126 generation=15 lineages=2 births=282 deaths=442 mutations=380 speed=4.0x
+2026-09-14 15:03:24.114 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=530.32814 behaviorMutations=161
+2026-09-14 15:03:24.114 AlienMobileApp[74573:6797801] ECOSYSTEM tps=469.2 biologyMs=0.3390 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2621 renderGpuMs=0.2558 memoryMB=276.3 motes=1522 attacked=0.000 digested=0.000 emitted=3586.088 recycled=86.384
+2026-09-14 15:03:24.114 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=568.42 livingCells=141 debrisCells=0 livingOrganisms=46
+2026-09-14 15:03:24.114 AlienMobileApp[74573:6797801] ALIEN debug: creatures=46 cells=141 generation=16 lineages=3 births=286 deaths=442 mutations=383 speed=4.0x
+2026-09-14 15:03:25.115 AlienMobileApp[74573:6797801] ALIEN device: fps=59.99 thermal=0 motorEnergy=534.09163 behaviorMutations=164
+2026-09-14 15:03:25.115 AlienMobileApp[74573:6797801] ECOSYSTEM tps=465.9 biologyMs=0.3393 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2029 renderGpuMs=0.1549 memoryMB=276.3 motes=1517 attacked=0.000 digested=0.000 emitted=3608.802 recycled=86.624
+2026-09-14 15:03:25.115 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=572.30 livingCells=140 debrisCells=2 livingOrganisms=45
+2026-09-14 15:03:25.116 AlienMobileApp[74573:6797801] ALIEN debug: creatures=47 cells=142 generation=16 lineages=3 births=287 deaths=446 mutations=386 speed=4.0x
+2026-09-14 15:03:26.131 AlienMobileApp[74573:6797801] ALIEN device: fps=60.01 thermal=0 motorEnergy=537.60723 behaviorMutations=164
+2026-09-14 15:03:26.131 AlienMobileApp[74573:6797801] ECOSYSTEM tps=465.3 biologyMs=0.3397 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0881 renderGpuMs=0.2091 memoryMB=276.3 motes=1458 attacked=0.000 digested=0.000 emitted=3628.751 recycled=86.816
+2026-09-14 15:03:26.131 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=576.24 livingCells=141 debrisCells=3 livingOrganisms=47
+2026-09-14 15:03:26.132 AlienMobileApp[74573:6797801] ALIEN debug: creatures=50 cells=144 generation=16 lineages=4 births=289 deaths=449 mutations=388 speed=4.0x
+2026-09-14 15:03:27.132 AlienMobileApp[74573:6797801] ALIEN device: fps=59.99 thermal=0 motorEnergy=541.71494 behaviorMutations=166
+2026-09-14 15:03:27.132 AlienMobileApp[74573:6797801] ECOSYSTEM tps=470.0 biologyMs=0.3401 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0979 renderGpuMs=0.1484 memoryMB=276.3 motes=1346 attacked=0.000 digested=0.000 emitted=3648.049 recycled=86.888
+2026-09-14 15:03:27.132 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=580.16 livingCells=155 debrisCells=0 livingOrganisms=52
+2026-09-14 15:03:27.132 AlienMobileApp[74573:6797801] ALIEN debug: creatures=52 cells=155 generation=16 lineages=4 births=290 deaths=449 mutations=391 speed=4.0x
+2026-09-14 15:03:28.148 AlienMobileApp[74573:6797801] ALIEN device: fps=60.01 thermal=0 motorEnergy=545.71511 behaviorMutations=166
+2026-09-14 15:03:28.148 AlienMobileApp[74573:6797801] ECOSYSTEM tps=466.3 biologyMs=0.3405 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1491 renderGpuMs=0.2060 memoryMB=276.3 motes=1306 attacked=0.000 digested=0.000 emitted=3669.873 recycled=86.960
+2026-09-14 15:03:28.148 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=584.11 livingCells=159 debrisCells=2 livingOrganisms=52
+2026-09-14 15:03:28.148 AlienMobileApp[74573:6797801] ALIEN debug: creatures=53 cells=161 generation=16 lineages=4 births=292 deaths=451 mutations=393 speed=4.0x
+2026-09-14 15:03:29.166 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=549.93997 behaviorMutations=167
+2026-09-14 15:03:29.167 AlienMobileApp[74573:6797801] ECOSYSTEM tps=471.1 biologyMs=0.3401 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.3351 renderGpuMs=0.2781 memoryMB=276.3 motes=1293 attacked=0.000 digested=0.000 emitted=3695.999 recycled=88.107
+2026-09-14 15:03:29.167 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=588.10 livingCells=160 debrisCells=0 livingOrganisms=50
+2026-09-14 15:03:29.167 AlienMobileApp[74573:6797801] ALIEN debug: creatures=50 cells=160 generation=16 lineages=3 births=294 deaths=454 mutations=394 speed=4.0x
+2026-09-14 15:03:30.179 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=553.85716 behaviorMutations=170
+2026-09-14 15:03:30.179 AlienMobileApp[74573:6797801] ECOSYSTEM tps=471.2 biologyMs=0.3402 syncMs=0.0001 metalMs=0.0000 renderCpuMs=0.8989 renderGpuMs=0.1728 memoryMB=276.3 motes=1307 attacked=0.000 digested=0.000 emitted=3725.678 recycled=88.395
+2026-09-14 15:03:30.179 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=592.09 livingCells=151 debrisCells=11 livingOrganisms=47
+2026-09-14 15:03:30.179 AlienMobileApp[74573:6797801] ALIEN debug: creatures=54 cells=162 generation=16 lineages=3 births=297 deaths=462 mutations=399 speed=4.0x
+2026-09-14 15:03:31.180 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=557.98621 behaviorMutations=171
+2026-09-14 15:03:31.181 AlienMobileApp[74573:6797801] ECOSYSTEM tps=475.0 biologyMs=0.3401 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2074 renderGpuMs=0.1748 memoryMB=276.3 motes=1316 attacked=0.000 digested=0.000 emitted=3756.174 recycled=90.681
+2026-09-14 15:03:31.181 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=596.05 livingCells=159 debrisCells=1 livingOrganisms=51
+2026-09-14 15:03:31.181 AlienMobileApp[74573:6797801] ALIEN debug: creatures=52 cells=160 generation=16 lineages=3 births=299 deaths=463 mutations=402 speed=4.0x
+2026-09-14 15:03:32.182 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=562.42683 behaviorMutations=173
+2026-09-14 15:03:32.182 AlienMobileApp[74573:6797801] ECOSYSTEM tps=473.0 biologyMs=0.3406 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1850 renderGpuMs=0.1900 memoryMB=276.2 motes=1339 attacked=0.000 digested=0.000 emitted=3784.611 recycled=90.825
+2026-09-14 15:03:32.182 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=599.99 livingCells=166 debrisCells=4 livingOrganisms=55
+2026-09-14 15:03:32.182 AlienMobileApp[74573:6797801] ALIEN debug: creatures=56 cells=170 generation=16 lineages=3 births=302 deaths=466 mutations=404 speed=4.0x
+2026-09-14 15:03:33.182 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=566.41057 behaviorMutations=173
+2026-09-14 15:03:33.182 AlienMobileApp[74573:6797801] ECOSYSTEM tps=474.0 biologyMs=0.3403 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0863 renderGpuMs=0.1553 memoryMB=276.2 motes=1299 attacked=0.000 digested=0.000 emitted=3809.235 recycled=91.348
+2026-09-14 15:03:33.182 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=603.94 livingCells=154 debrisCells=13 livingOrganisms=49
+2026-09-14 15:03:33.182 AlienMobileApp[74573:6797801] ALIEN debug: creatures=57 cells=167 generation=16 lineages=3 births=303 deaths=473 mutations=404 speed=4.0x
+2026-09-14 15:03:34.197 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=570.39158 behaviorMutations=175
+2026-09-14 15:03:34.197 AlienMobileApp[74573:6797801] ECOSYSTEM tps=464.3 biologyMs=0.3409 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.7278 renderGpuMs=0.1794 memoryMB=276.2 motes=1273 attacked=0.000 digested=0.000 emitted=3830.042 recycled=95.023
+2026-09-14 15:03:34.197 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=607.88 livingCells=151 debrisCells=3 livingOrganisms=48
+2026-09-14 15:03:34.198 AlienMobileApp[74573:6797801] ALIEN debug: creatures=51 cells=154 generation=17 lineages=3 births=304 deaths=477 mutations=406 speed=4.0x
+2026-09-14 15:03:35.198 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=574.24293 behaviorMutations=177
+2026-09-14 15:03:35.198 AlienMobileApp[74573:6797801] ECOSYSTEM tps=468.0 biologyMs=0.3414 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2183 renderGpuMs=0.1943 memoryMB=276.2 motes=1156 attacked=0.000 digested=0.000 emitted=3849.096 recycled=95.263
+2026-09-14 15:03:35.199 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=611.78 livingCells=157 debrisCells=5 livingOrganisms=52
+2026-09-14 15:03:35.199 AlienMobileApp[74573:6797801] ALIEN debug: creatures=56 cells=162 generation=17 lineages=3 births=307 deaths=480 mutations=411 speed=4.0x
+2026-09-14 15:03:36.215 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=578.37950 behaviorMutations=177
+2026-09-14 15:03:36.215 AlienMobileApp[74573:6797801] ECOSYSTEM tps=471.1 biologyMs=0.3418 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2853 renderGpuMs=0.1799 memoryMB=276.2 motes=1132 attacked=0.000 digested=0.000 emitted=3869.997 recycled=96.271
+2026-09-14 15:03:36.215 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=615.77 livingCells=156 debrisCells=6 livingOrganisms=48
+2026-09-14 15:03:36.215 AlienMobileApp[74573:6797801] ALIEN debug: creatures=52 cells=162 generation=17 lineages=3 births=308 deaths=485 mutations=412 speed=4.0x
+2026-09-14 15:03:37.231 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=582.55898 behaviorMutations=180
+2026-09-14 15:03:37.231 AlienMobileApp[74573:6797801] ECOSYSTEM tps=467.2 biologyMs=0.3424 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2256 renderGpuMs=0.1630 memoryMB=276.1 motes=1140 attacked=0.000 digested=0.000 emitted=3894.393 recycled=97.690
+2026-09-14 15:03:37.231 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=619.73 livingCells=159 debrisCells=2 livingOrganisms=50
+2026-09-14 15:03:37.231 AlienMobileApp[74573:6797801] ALIEN debug: creatures=51 cells=161 generation=17 lineages=3 births=309 deaths=486 mutations=415 speed=4.0x
+2026-09-14 15:03:38.247 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=586.51566 behaviorMutations=181
+2026-09-14 15:03:38.247 AlienMobileApp[74573:6797801] ECOSYSTEM tps=473.1 biologyMs=0.3427 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0797 renderGpuMs=0.1704 memoryMB=276.1 motes=1213 attacked=0.000 digested=0.000 emitted=3923.118 recycled=98.026
+2026-09-14 15:03:38.248 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=623.73 livingCells=148 debrisCells=6 livingOrganisms=47
+2026-09-14 15:03:38.248 AlienMobileApp[74573:6797801] ALIEN debug: creatures=51 cells=154 generation=17 lineages=3 births=310 deaths=491 mutations=417 speed=4.0x
+2026-09-14 15:03:39.262 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=590.16580 behaviorMutations=182
+2026-09-14 15:03:39.262 AlienMobileApp[74573:6797801] ECOSYSTEM tps=474.1 biologyMs=0.3423 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0015 renderGpuMs=0.2666 memoryMB=275.5 motes=1271 attacked=0.000 digested=0.000 emitted=3954.036 recycled=98.288
+2026-09-14 15:03:39.262 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=627.75 livingCells=154 debrisCells=0 livingOrganisms=50
+2026-09-14 15:03:39.262 AlienMobileApp[74573:6797801] ALIEN debug: creatures=50 cells=154 generation=17 lineages=4 births=311 deaths=491 mutations=419 speed=4.0x
+2026-09-14 15:03:40.278 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=594.27187 behaviorMutations=182
+2026-09-14 15:03:40.279 AlienMobileApp[74573:6797801] ECOSYSTEM tps=469.2 biologyMs=0.3425 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.0395 renderGpuMs=0.2345 memoryMB=275.5 motes=1290 attacked=0.000 digested=0.000 emitted=3983.682 recycled=98.409
+2026-09-14 15:03:40.279 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=631.73 livingCells=159 debrisCells=4 livingOrganisms=48
+2026-09-14 15:03:40.279 AlienMobileApp[74573:6797801] ALIEN debug: creatures=50 cells=163 generation=17 lineages=4 births=313 deaths=493 mutations=419 speed=4.0x
+2026-09-14 15:03:41.280 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=598.77274 behaviorMutations=182
+2026-09-14 15:03:41.281 AlienMobileApp[74573:6797801] ECOSYSTEM tps=471.0 biologyMs=0.3425 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1006 renderGpuMs=0.1628 memoryMB=266.0 motes=1260 attacked=0.000 digested=0.000 emitted=4009.564 recycled=99.679
+2026-09-14 15:03:41.281 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=635.65 livingCells=162 debrisCells=2 livingOrganisms=51
+2026-09-14 15:03:41.281 AlienMobileApp[74573:6797801] ALIEN debug: creatures=52 cells=164 generation=18 lineages=4 births=317 deaths=495 mutations=421 speed=4.0x
+2026-09-14 15:03:42.282 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=603.31660 behaviorMutations=184
+2026-09-14 15:03:42.282 AlienMobileApp[74573:6797801] ECOSYSTEM tps=472.0 biologyMs=0.3428 syncMs=0.0001 metalMs=0.0000 renderCpuMs=0.9507 renderGpuMs=0.1747 memoryMB=255.0 motes=1214 attacked=0.000 digested=0.000 emitted=4031.499 recycled=99.943
+2026-09-14 15:03:42.282 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=639.58 livingCells=162 debrisCells=2 livingOrganisms=52
+2026-09-14 15:03:42.282 AlienMobileApp[74573:6797801] ALIEN debug: creatures=54 cells=164 generation=18 lineages=5 births=318 deaths=499 mutations=426 speed=4.0x
+2026-09-14 15:03:43.297 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=607.41230 behaviorMutations=185
+2026-09-14 15:03:43.298 AlienMobileApp[74573:6797801] ECOSYSTEM tps=474.1 biologyMs=0.3425 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1573 renderGpuMs=0.2037 memoryMB=248.6 motes=1195 attacked=0.000 digested=0.000 emitted=4051.347 recycled=100.207
+2026-09-14 15:03:43.298 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=643.60 livingCells=158 debrisCells=8 livingOrganisms=49
+2026-09-14 15:03:43.298 AlienMobileApp[74573:6797801] ALIEN debug: creatures=54 cells=166 generation=18 lineages=5 births=320 deaths=505 mutations=429 speed=4.0x
+2026-09-14 15:03:44.314 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=611.68677 behaviorMutations=185
+2026-09-14 15:03:44.314 AlienMobileApp[74573:6797801] ECOSYSTEM tps=464.3 biologyMs=0.3426 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.5240 renderGpuMs=0.1804 memoryMB=248.5 motes=1172 attacked=0.000 digested=0.000 emitted=4071.184 recycled=100.949
+2026-09-14 15:03:44.315 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=647.53 livingCells=157 debrisCells=3 livingOrganisms=48
+2026-09-14 15:03:44.315 AlienMobileApp[74573:6797801] ALIEN debug: creatures=51 cells=160 generation=18 lineages=5 births=322 deaths=508 mutations=431 speed=4.0x
+2026-09-14 15:03:45.330 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=615.47325 behaviorMutations=186
+2026-09-14 15:03:45.330 AlienMobileApp[74573:6797801] ECOSYSTEM tps=470.2 biologyMs=0.3429 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.4882 renderGpuMs=0.2027 memoryMB=248.6 motes=1172 attacked=0.000 digested=0.000 emitted=4094.391 recycled=101.853
+2026-09-14 15:03:45.330 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=651.52 livingCells=153 debrisCells=7 livingOrganisms=48
+2026-09-14 15:03:45.331 AlienMobileApp[74573:6797801] ALIEN debug: creatures=52 cells=160 generation=18 lineages=5 births=323 deaths=512 mutations=435 speed=4.0x
+2026-09-14 15:03:46.330 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=619.25696 behaviorMutations=187
+2026-09-14 15:03:46.330 AlienMobileApp[74573:6797801] ECOSYSTEM tps=469.0 biologyMs=0.3429 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.2196 renderGpuMs=0.2308 memoryMB=248.6 motes=1226 attacked=0.000 digested=0.000 emitted=4121.206 recycled=103.257
+2026-09-14 15:03:46.330 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=655.43 livingCells=152 debrisCells=4 livingOrganisms=48
+2026-09-14 15:03:46.330 AlienMobileApp[74573:6797801] ALIEN debug: creatures=51 cells=156 generation=18 lineages=4 births=324 deaths=515 mutations=438 speed=4.0x
+2026-09-14 15:03:47.345 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=623.09303 behaviorMutations=188
+2026-09-14 15:03:47.345 AlienMobileApp[74573:6797801] ECOSYSTEM tps=480.0 biologyMs=0.3417 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1641 renderGpuMs=0.1286 memoryMB=248.6 motes=1274 attacked=0.000 digested=0.000 emitted=4152.102 recycled=103.737
+2026-09-14 15:03:47.345 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=659.49 livingCells=148 debrisCells=5 livingOrganisms=48
+2026-09-14 15:03:47.345 AlienMobileApp[74573:6797801] ALIEN debug: creatures=50 cells=153 generation=18 lineages=5 births=325 deaths=517 mutations=440 speed=4.0x
+2026-09-14 15:03:48.345 AlienMobileApp[74573:6797801] ALIEN device: fps=60.00 thermal=0 motorEnergy=626.76118 behaviorMutations=189
+2026-09-14 15:03:48.345 AlienMobileApp[74573:6797801] ECOSYSTEM tps=480.0 biologyMs=0.3406 syncMs=0.0001 metalMs=0.0000 renderCpuMs=1.1990 renderGpuMs=0.2100 memoryMB=248.6 motes=1333 attacked=0.000 digested=0.000 emitted=4182.591 recycled=106.793
+2026-09-14 15:03:48.345 AlienMobileApp[74573:6797801] MATERIAL simulatedSeconds=663.49 livingCells=140 debrisCells=5 livingOrganisms=45
+2026-09-14 15:03:48.345 AlienMobileApp[74573:6797801] ALIEN debug: creatures=50 cells=145 generation=18 lineages=5 births=325 deaths=523 mutations=442 speed=4.0x

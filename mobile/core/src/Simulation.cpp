@@ -216,7 +216,12 @@ bool Simulation::removeStarvingCreatures(float dt)
             if(cell.energy<=_config.starvationEnergyThreshold)cell.starvationTimer+=dt;
             else cell.starvationTimer=std::max<double>(0.f,cell.starvationTimer-dt*2);
             cell.viability=cell.starvationTimer>0 ? CellViability::Starving : CellViability::Healthy;
-            if(cell.deathRequested || cell.starvationTimer>=_config.starvationGracePeriod)removed.push_back(cell.id);
+            if(cell.deathRequested || cell.starvationTimer>=_config.starvationGracePeriod) {
+                removed.push_back(cell.id);
+                auto cause=cell.deathRequested ? LifeEventKind::DamageLoss : LifeEventKind::StarvationLoss;
+                if(cell.deathRequested)++_stats.damageLosses;else ++_stats.starvationLosses;
+                _world.recordEvent(cause,cell.creatureId,cell.id,cell.genomeNode,cell.position);
+            }
         }
         // Empty orphan reservations contain no material, but must not leak owners.
         _world.creatures.erase(std::remove_if(_world.creatures.begin(),_world.creatures.end(),[&](auto const& owner){
@@ -254,6 +259,12 @@ bool Simulation::removeStarvingCreatures(float dt)
     bool topologyChanged = false;
     for (auto const creatureId : starvingIds) {
         auto const previousCount = _world.creatures.size();
+        auto const indices = _world.cellIndicesForCreature(creatureId);
+        for(auto index:indices) {
+            auto const& cell=_world.cells[index];
+            ++_stats.starvationLosses;
+            _world.recordEvent(LifeEventKind::StarvationLoss,creatureId,cell.id,cell.genomeNode,cell.position);
+        }
         if (_world.removeCreatureAndCells(creatureId)) {
             _stats.deaths += previousCount - _world.creatures.size();
             topologyChanged = true;
@@ -302,6 +313,7 @@ void Simulation::updateConstructors(float dt)
 
     for (auto const creatureId : creatureIds) {
         auto* parent = _world.findCreature(creatureId);
+        if(parent)parent->constructor.wait=ConstructorState::None;
         if(parent && parent->developingFounder && !parent->developmentFailed) {
             constructNextNode(*parent,dt);
             continue;
@@ -321,10 +333,13 @@ void Simulation::updateConstructors(float dt)
 
         if (parent->constructor.status == ConstructorState::Idle) {
             if (parent->constructor.offspringCreatureId != kInvalidId || !canConstruct(*parent)) {
+                if(parent->rootCell<_world.cells.size() && _world.cells[parent->rootCell].energy<_config.constructionEnergy)
+                    parent->constructor.wait=ConstructorState::Energy;
                 continue;
             }
             if (_world.cells.size() >= _config.maxCellCount) {
                 _stats.populationCapReached = true;
+                parent->constructor.wait=ConstructorState::Capacity;++_stats.capacityWaitSteps;
                 continue;
             }
 
@@ -347,6 +362,8 @@ void Simulation::updateConstructors(float dt)
                 parent->proposedOffspringSummary=measureDevelopment(parent->proposedOffspring->genome);
             auto developmentSummary=*parent->proposedOffspringSummary;
             if(!developmentSummary.complete()) {
+                ++_stats.invalidDevelopmentAttempts;
+                _world.recordEvent(LifeEventKind::InvalidDevelopment,parent->id);
                 // A sterile developmental attempt consumes a reproductive
                 // cycle. Never search repeatedly for viable DNA in one frame.
                 parent->proposedOffspring.reset();
@@ -362,6 +379,7 @@ void Simulation::updateConstructors(float dt)
             }
             if (reserved + developmentSummary.cells > _config.maxCellCount) {
                 _stats.populationCapReached = true;
+                parent->constructor.wait=ConstructorState::Capacity;++_stats.capacityWaitSteps;
                 continue;
             }
             auto mutation=std::move(*parent->proposedOffspring);
@@ -418,13 +436,15 @@ void Simulation::constructNextNode(Creature& parent, float dt)
         parent.constructor = ConstructorState{};
         return;
     }
+    if(child->developmentFailed){parent.constructor.wait=ConstructorState::Development;return;}
     if (parent.constructor.nextNode >= child->expectedCells) {
         finishConstruction(parent, *child);
         return;
     }
 
     if(!child->pendingNode) child->pendingNode=child->development.next(child->genome);
-    if(!child->pendingNode) { child->developmentFailed=true; return; }
+    if(!child->pendingNode) { child->developmentFailed=true;parent.constructor.wait=ConstructorState::Development;
+        ++_stats.invalidDevelopmentAttempts;_world.recordEvent(LifeEventKind::InvalidDevelopment,child->id);return; }
     float interval=_config.constructionInterval*child->pendingNode->intervalScale;
     if(parent.constructor.timer<interval) return;
 
@@ -432,6 +452,7 @@ void Simulation::constructNextNode(Creature& parent, float dt)
     // kills a creature merely to make room.
     if (_world.cells.size() >= _config.maxCellCount) {
         _stats.populationCapReached = true;
+        parent.constructor.wait=ConstructorState::Capacity;++_stats.capacityWaitSteps;
         parent.constructor.timer = interval;
         return;
     }
@@ -440,6 +461,7 @@ void Simulation::constructNextNode(Creature& parent, float dt)
     // pauses construction.
     if (parent.rootCell == kInvalidId || parent.rootCell >= _world.cells.size()
         || _world.cells[parent.rootCell].energy < _config.constructionEnergy) {
+        parent.constructor.wait=ConstructorState::Energy;
         parent.constructor.timer = interval;
         return;
     }
@@ -461,6 +483,7 @@ void Simulation::constructNextNode(Creature& parent, float dt)
             ? kInvalidId
             : cellForCreatureNode(child->id, static_cast<uint32_t>(node.parentNode));
         if (parentCellIndex == kInvalidId || parentCellIndex >= _world.cells.size()) {
+            ++_stats.invalidDevelopmentAttempts;_world.recordEvent(LifeEventKind::InvalidDevelopment,child->id);
             child->developmentFailed=true;
             if(_config.localDamage) {child->fragment=true;child->mature=false;child->developingFounder=false;}
             parent.constructor=ConstructorState{};

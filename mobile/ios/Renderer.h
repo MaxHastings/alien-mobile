@@ -4,6 +4,7 @@
 
 #import "MetalPhysicsBackend.h"
 #include "alienmobile/Simulation.h"
+#include "alienmobile/CreatureFocus.h"
 
 @interface Renderer : NSObject <MTKViewDelegate> {
 @private
@@ -41,7 +42,8 @@
     alienmobile::Vec2 _lastCurrentPoint;
     BOOL _creatingCurrent;
     uint32_t _followedCreature;
-    BOOL _followEnded;
+    BOOL _followEnded, _tracking;
+    alienmobile::CreatureFocus _focus;
     NSMutableDictionary<NSNumber*,NSString*>* _familyNames;
 }
 
@@ -64,6 +66,10 @@
 - (uint32_t)followedCreatureId;
 - (BOOL)followChild;
 - (BOOL)hasChild;
+- (std::optional<alienmobile::SpecimenSnapshot>)focusedSpecimen;
+- (BOOL)isTracking;
+- (BOOL)refocus;
+- (void)showWholeWorld;
 - (void)clearFamilyNames;
 - (void)setFastMode:(BOOL)fastMode;
 - (void)setObservationSpeed:(NSUInteger)speed;

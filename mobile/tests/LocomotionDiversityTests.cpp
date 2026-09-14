@@ -5,9 +5,12 @@ using namespace alienmobile;
 int main() {
     auto c=ecosystemPlaytestConfig();c.ecosystemSeed=false;c.emissionRate=0;
     c.constructionEnergy=10;c.hazardStrength=c.metabolismRate=0;
-    // Exercise the catalog Ribbon itself: its generator, contractile link and
-    // later bending segment are not cosmetic additions to a fixture genome.
+    // Catalog Thread has thrust-driven locomotion. This test overrides thrust
+    // activation and changes tail geometry; it does not prove flex-only swimming.
     auto genome=makeCuratedSpecimenCatalog()[1].genome;
+    unsigned thrust=0,bend=0,contract=0,rhythm=0;
+    for(auto const& n:genome.genes[0].nodes){auto const& b=n.behavior;rhythm+=b.role==CellRole::Generator;if(b.role==CellRole::Motor){thrust+=b.motorMode==MotorMode::Thrust;bend+=b.motorMode==MotorMode::Bending;contract+=b.motorMode==MotorMode::Contractile;}}
+    std::cout<<"Actual Thread organs: thrust="<<thrust<<" bend="<<bend<<" contract="<<contract<<" rhythm="<<rhythm<<'\n';assert(thrust>0);
     // Identical inherited signals, different physical tail geometry.
     for(auto& node:genome.genes[0].nodes)if(node.behavior.role==CellRole::Motor && node.behavior.motorMode==MotorMode::Thrust) {
         node.behavior.weights={};node.behavior.biases[Activation]=0.5f;
@@ -45,7 +48,7 @@ int main() {
         world.addFounder(flexible?makeCuratedSpecimenCatalog()[1].genome:makeCuratedSpecimenCatalog()[0].genome,{-3,-1},0,0.5f);
         Simulation sim(world,cfg);for(int n=0;n<120*120;++n)sim.step();
         assert(sim.stats().births>0 && world.allValuesFinite());
-        std::cout<<"physical resource foraging: flexible="<<flexible<<" births="<<sim.stats().births
+        std::cout<<"physical resource foraging: thread="<<flexible<<" births="<<sim.stats().births
             <<" population="<<world.creatures.size()<<'\n';
     }
     std::cout<<"5000 combined replayed mutations: motor modes, contraction, oscillator amplitude, morphology inherited and valid\n";

@@ -17,5 +17,10 @@ cmake --build "$mobile_root/build-sim" --config Release -- CODE_SIGNING_ALLOWED=
 # Boot is harmlessly rejected if this Simulator is already booted.
 xcrun simctl boot "$simulator_id" 2>/dev/null || true
 xcrun simctl bootstatus "$simulator_id" -b
+# Clear historical observation fixtures so this always launches normal play.
+for setting in ALIEN_MOBILE_AUTOPLAY ALIEN_MOBILE_WORLD ALIEN_MOBILE_OBSERVATION_SPEED ALIEN_MOBILE_FOLLOWING_CHECK ALIEN_MOBILE_DEBUG_OVERLAY ALIEN_MOBILE_STRESS ALIEN_MOBILE_PARITY ALIEN_MOBILE_PHYSICS ALIEN_MOBILE_SEED; do
+  xcrun simctl spawn "$simulator_id" launchctl unsetenv "$setting"
+done
+open -a Simulator
 xcrun simctl install "$simulator_id" "$mobile_root/build-sim/Release-iphonesimulator/AlienMobileApp.app"
 xcrun simctl launch --terminate-running-process "$simulator_id" com.example.AlienMobilePrototype

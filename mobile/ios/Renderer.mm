@@ -1,3 +1,4 @@
+#include "alienmobile/Rehearsal.h"
 #import "Renderer.h"
 #include "alienmobile/Camera.h"
 #include "alienmobile/FrameStepBudget.h"
@@ -105,7 +106,7 @@ float energyBrightness(float energy)
     _lastFrameTime = 0.0;
     _lastDebugLogTime = 0.0;
     _creatingCurrent = NO;
-    _followedCreature = alienmobile::kInvalidId;_followEnded=NO;
+    _followedCreature = alienmobile::kInvalidId;_followEnded=NO;_tracking=NO;
     _familyNames=[NSMutableDictionary dictionary];
     _debugLoggingEnabled = NO;
     if (auto const* debug = std::getenv("ALIEN_MOBILE_DEBUG_OVERLAY")) {
@@ -208,6 +209,7 @@ float energyBrightness(float energy)
         }
 #endif
         _simulation->step();
+        _focus.observe(*_world);
         _simulationAccumulator -= fixedStep;
         ++steps;
         frameBudget.didStep();
@@ -346,9 +348,9 @@ float energyBrightness(float energy)
 
 - (void)rebuildRenderBuffersForView:(MTKView*)view pulseTime:(CFTimeInterval)pulseTime
 {
-    if(_followedCreature!=alienmobile::kInvalidId) {
+    if(_tracking && _followedCreature!=alienmobile::kInvalidId) {
         auto indices=_world->cellIndicesForCreature(_followedCreature);
-        if(indices.empty()) {_followEnded=YES;}
+        if(indices.empty()) {_followEnded=YES;_tracking=NO;}
         else { alienmobile::Vec2 center{};
             for(auto i:indices)center+=_world->cells[i].position;
             center=center/float(indices.size());
@@ -389,7 +391,18 @@ float energyBrightness(float energy)
         if (!cell.alive) {
             continue;
         }
-        auto const color = bodyColor(cell.creatureId);
+        auto color = bodyColor(cell.creatureId);
+        if(_focus.specimen){float factor=cell.creatureId==_followedCreature?1.35f:.62f;for(auto& channel:color)channel*=factor;}
+        // Absorption is an activity flash, not a new body color.  Replacing
+        // the lineage hue with gold made green, blue, and purple creatures
+        // appear to blink yellow whenever they ate.
+        if(cell.starvationTimer>.2f)color={1.f,.22f,.18f};
+        else if(cell.absorptionFlash>.05f) {
+            // Flash toward white while retaining the creature's own hue:
+            // green becomes bright green, blue becomes pale blue, etc.
+            auto const flash=alienmobile::clamp(.24f*cell.absorptionFlash,0.f,.24f);
+            for(auto& channel:color)channel += (1.f-channel)*flash;
+        }
         auto const brightness = energyBrightness(cell.energy);
         auto const* creature = _world->findCreature(cell.creatureId);
         auto const age = creature == nullptr ? 1.0f : alienmobile::clamp(cell.visualAge * 1.5f, 0.0f, 1.0f);
@@ -450,6 +463,10 @@ float energyBrightness(float energy)
             color[0], color[1], color[2], hazard ? 3.0f : 2.0f, 0.0f, 0.0f,
         });
     };
+    if(_focus.specimen)for(auto const& cell:_world->cells)if(cell.creatureId==_followedCreature) {
+        sourceState.push_back({cell.position.x,cell.position.y,0,0});
+        sourceMetadata.push_back({_simulation->config().cellRadius*1.9f,.45f,.65f,.94f,1.f,5,0,0});
+    }
     // Gold source and magenta hazard remain renderable for developer fixtures,
     // but are absent from the autonomous player experience.
     if(!_simulation->config().autonomousResources) {
@@ -534,7 +551,7 @@ float energyBrightness(float energy)
 
 - (void)panByScreenTranslation:(CGPoint)translation viewportSize:(CGSize)viewportSize
 {
-    _followedCreature = alienmobile::kInvalidId;_followEnded=NO;
+    _tracking=NO;
     auto const minimumDimension = static_cast<float>(std::max<CGFloat>(1.0, std::min(viewportSize.width, viewportSize.height)));
     auto const worldUnitsPerPoint = 2.0f / (minimumDimension * _cameraZoom);
     _cameraCenter.x -= static_cast<float>(translation.x) * worldUnitsPerPoint;
@@ -582,7 +599,7 @@ float energyBrightness(float energy)
     auto placed=_world->addSpecimenNearby(specimen,position);
     if(placed==alienmobile::kInvalidId) return NO;
     _familyNames[@(placed)]=[NSString stringWithUTF8String:specimen.name.c_str()];
-    _followedCreature=placed;_followEnded=NO;_cameraZoom=std::max(_cameraZoom,.22f);
+    [self selectCreature:placed];
     _simulation->notifyTopologyChanged();
     return YES;
 }
@@ -606,22 +623,39 @@ float energyBrightness(float energy)
         float distance=alienmobile::length(cell.position-p);
         if(distance<closest){closest=distance;chosen=cell.creatureId;}
     }
-    _followedCreature=chosen;_followEnded=NO;
     if(chosen==alienmobile::kInvalidId)return NO;
-    _cameraZoom=std::max(_cameraZoom,.22f);
+    [self selectCreature:chosen];
     return YES;
 }
-- (void)clearFamilyNames {[_familyNames removeAllObjects];}
-- (BOOL)hasChild {if(_followedCreature==alienmobile::kInvalidId)return NO;for(auto const& c:_world->creatures)if(c.parentId==_followedCreature && c.mature && !c.fragment)return YES;return NO;}
-- (BOOL)followChild {if(_followedCreature==alienmobile::kInvalidId)return NO;for(auto const& c:_world->creatures)if(c.parentId==_followedCreature && c.mature && !c.fragment){_followedCreature=c.id;_followEnded=NO;return YES;}return NO;}
+- (void)selectCreature:(uint32_t)identifier {
+    auto owner=_world->findCreature(identifier);if(!owner)return;
+    NSString* family=_familyNames[@(owner->ancestorId)]?:[NSString stringWithFormat:@"Ancestor %u",owner->ancestorId+1];
+    NSString* name=owner->generation ? [NSString stringWithFormat:@"%@ · G%u",family,owner->generation] : family;
+    if(!_focus.select(*_world,identifier,name.UTF8String))return;
+    _followedCreature=identifier;_followEnded=NO;[self refocus];
+}
+- (std::optional<alienmobile::SpecimenSnapshot>)focusedSpecimen {return _focus.specimen;}
+- (BOOL)isTracking {return _tracking;}
+- (BOOL)refocus {
+    auto cells=_world->cellIndicesForCreature(_followedCreature);if(cells.empty())return NO;
+    alienmobile::Vec2 center{};for(auto i:cells)center+=_world->cells[i].position;center=center/float(cells.size());
+    float radius=2.8f;for(auto i:cells)radius=std::max(radius,alienmobile::length(_world->cells[i].position-center)+1.5f);
+    _cameraCenter=center;_cameraZoom=std::min(.22f,1.f/radius);_tracking=YES;return YES;
+}
+- (void)showWholeWorld {_cameraCenter={0,0};_cameraZoom=.039f;_tracking=NO;}
+- (void)clearFamilyNames {[_familyNames removeAllObjects];_focus.clear();}
+- (BOOL)hasChild {return _focus.nextRelative(*_world)!=alienmobile::kInvalidId;}
+- (BOOL)followChild {auto next=_focus.nextRelative(*_world);if(next==alienmobile::kInvalidId)return NO;[self selectCreature:next];return YES;}
 - (uint32_t)followedCreatureId { return _followedCreature; }
 - (NSString*)focusDescription
 {
     auto owner=_world->findCreature(_followedCreature);
-    if(!owner)return _followEnded ? @"The organism you followed is gone · its descendants may remain" : @"";
-    NSString* event=owner->constructor.offspringCreatureId!=alienmobile::kInvalidId ? @" · building offspring" : @"";
+    if(!_focus.specimen)return @"";
+    if(!owner){auto cause=_focus.lossMessage();return [NSString stringWithFormat:@"%@ · %u living in family\n%@",[NSString stringWithUTF8String:_focus.specimen->name.c_str()],_focus.livingFamily(*_world),[NSString stringWithUTF8String:cause.c_str()]];}
+    auto evidence=alienmobile::observedLifeMessage(*_world,_followedCreature);
+    NSString* event=evidence.empty()?@"":[NSString stringWithFormat:@"\n%@",[NSString stringWithUTF8String:evidence.c_str()]];
     if(owner->rootCell<_world->cells.size() && _world->mutationExposure(_world->cells[owner->rootCell].position)>1)
-        event=@" · temporary exposure";
+        event=[event stringByAppendingString:@" · temporary exposure"];
     NSString* change=@"";
     if(owner->generation>0){switch(owner->birthMutation){
         case alienmobile::MutationKind::Geometry:change=@" · shape shifted";break;
@@ -630,7 +664,7 @@ float energyBrightness(float energy)
         case alienmobile::MutationKind::Behavior:case alienmobile::MutationKind::Property:change=@" · function varied";break;
         default:break;}}
     NSString* family=_familyNames[@(owner->ancestorId)]?:[NSString stringWithFormat:@"Ancestor %u",owner->ancestorId+1];
-    return [NSString stringWithFormat:@"%@ · generation %u%@%@",family,owner->generation,change,event];
+    return [NSString stringWithFormat:@"%@\nGeneration %u · %u living in family%@%@",family,owner->generation,_focus.livingFamily(*_world),change,event];
 }
 
 - (void)setFastMode:(BOOL)fastMode
@@ -648,11 +682,10 @@ float energyBrightness(float energy)
     if (!std::isfinite(scale) || scale <= 0.0) {
         return;
     }
-    _followedCreature=alienmobile::kInvalidId;_followEnded=NO;
     auto before = [self worldPointForScreenPoint:point viewportSize:viewportSize];
     _cameraZoom = alienmobile::clamp(_cameraZoom * static_cast<float>(scale), 0.025f, 1.5f);
     auto after = [self worldPointForScreenPoint:point viewportSize:viewportSize];
-    _cameraCenter += before - after;
+    if(!_tracking)_cameraCenter += before - after;
 }
 
 - (void)resetCamera
@@ -662,7 +695,7 @@ float energyBrightness(float energy)
     _simulationAccumulator = 0.0;
     _lastFrameTime = 0.0;
     _creatingCurrent = NO;
-    _followedCreature = alienmobile::kInvalidId;_followEnded=NO;
+    _followedCreature = alienmobile::kInvalidId;_followEnded=NO;_tracking=NO;
 }
 
 @end

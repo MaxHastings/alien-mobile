@@ -4,12 +4,21 @@
 #include <cstdint>
 #include <vector>
 #include <unordered_map>
+#include <deque>
 
 #include "alienmobile/Genome.h"
 #include "alienmobile/SimulationConfig.h"
 #include "alienmobile/Types.h"
 
 namespace alienmobile {
+enum class LifeEventKind { StarvationLoss, DamageLoss, InvalidDevelopment };
+struct LifeEvent {
+    LifeEventKind kind;
+    uint32_t creature, cell, node;
+    Vec2 position;
+    double time;
+};
+enum class PlacementFailure { None, InvalidData, Development, Capacity, Bounds, Occupied };
 
 struct EnergySource {
     Vec2 position;
@@ -107,6 +116,13 @@ public:
     std::vector<ResourcePatch> resourcePatches;
     std::vector<PlayerCurrent> playerCurrents;
     EnergyLedger energyLedger;
+    std::deque<LifeEvent> lifeEvents; // Bounded observation history, never selection input.
+    PlacementFailure lastPlacementFailure = PlacementFailure::None;
+    void recordEvent(LifeEventKind kind, uint32_t creature, uint32_t cell=kInvalidId,
+                     uint32_t node=kInvalidId, Vec2 position={}) {
+        lifeEvents.push_back({kind,creature,cell,node,position,ecologicalTime});
+        if(lifeEvents.size()>128)lifeEvents.pop_front();
+    }
     uint64_t nextMoteId=0;
     double emissionAccumulator=0;
     double ecologicalTime=0;

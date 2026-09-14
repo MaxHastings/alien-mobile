@@ -20,6 +20,8 @@ struct SimulationStats {
     uint32_t maximumMatureGeneration = 0;
     std::array<uint64_t,16> completedMutationBirths{};
     uint64_t completedMetaBirths=0;
+    uint64_t starvationLosses=0, damageLosses=0, invalidDevelopmentAttempts=0;
+    uint64_t capacityWaitSteps=0; // Sum of constructor steps denied technical space.
     bool populationCapReached = false;
 };
 
