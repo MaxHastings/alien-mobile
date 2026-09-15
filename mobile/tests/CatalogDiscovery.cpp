@@ -12,6 +12,9 @@ struct Life {int family=-1;unsigned generation=0,children=0;bool mature=false;Ge
 int main(int argc,char** argv){
  if(argc<8){std::cerr<<"mode seed profile seconds input output ablation [trace]\n";return 2;}
  std::string mode=argv[1],input=argv[5],output=argv[6],ablation=argv[7];unsigned seed=std::stoul(argv[2]),profile=std::stoul(argv[3]),seconds=std::stoul(argv[4]);
+ bool incubation=mode=="incubate-phase1"||mode=="incubate-phase2";
+ bool phase1=mode=="incubate-phase1";
+ bool phase2=mode=="incubate-phase2";
  std::filesystem::create_directories(output);
  auto historical=makeGardenFounders();std::vector<SpecimenSnapshot> seeds;char const* seedNames[]={"Dart","Ribbon","Crown","Vault","Lancer"};for(unsigned i=0;i<historical.size();++i)seeds.push_back({seedNames[i],historical[i],.4f,1,""});seeds.push_back({"Primitive",makePrimitiveGenome(),.4f,1,""});seeds.push_back({"Contractile",makeContractileFeederGenome(),.5f,1,""});
  if(input!="seeds") {seeds.clear();std::ifstream in(input);if(!in)throw std::runtime_error("cannot open genome manifest");std::string file;while(in>>file){auto path=std::filesystem::path(file);if(path.is_relative())path=std::filesystem::path(input).parent_path()/path;std::ifstream dna(path);seeds.push_back({std::filesystem::path(file).stem().string(),discovery::readGenome(dna),.4f,1,""});}}
@@ -47,6 +50,22 @@ int main(int argc,char** argv){
  if(ablation=="depot")for(auto& g:s.genome.genes)for(auto& n:g.nodes)if(n.behavior.role==CellRole::Depot)n.behavior.role=CellRole::Structural;
  if(ablation=="attack")for(auto& g:s.genome.genes)for(auto& n:g.nodes)if(n.behavior.role==CellRole::Attacker)n.behavior.role=CellRole::Structural;
  if(mode=="evolve")s.genome.mutationRates=MutationRates{};
+ // Incubation is deliberately staged. Phase 1 can adapt control and organ
+ // properties, but cannot change anatomy, roles, or development. Phase 2
+ // opens only conservative inherited structural edits.
+ if(phase1){
+   auto r=s.genome.mutationRates;
+   r.geometry=r.role=r.insert=r.erase=r.duplicateGene=r.deleteGene=r.copySection=r.moveSection=r.constructor=r.meta=0;
+   r.neural=.34f;r.property=.14f;r.neuralMagnitude=.55f;r.propertyMagnitude=.55f;r.geometryMagnitude=0;
+   s.genome.mutationRates=r;
+ }
+ if(phase2){
+   auto r=s.genome.mutationRates;
+   r.neural=.20f;r.geometry=.08f;r.property=.08f;r.role=.006f;r.insert=.006f;r.erase=.004f;
+   r.duplicateGene=.001f;r.deleteGene=.0005f;r.copySection=.001f;r.moveSection=.001f;r.constructor=.004f;r.meta=.001f;
+   r.neuralMagnitude=.65f;r.geometryMagnitude=.45f;r.propertyMagnitude=.55f;
+   s.genome.mutationRates=r;
+ }
  if(mode=="fixed")s.genome.mutationRates={0,0,0,0,0,0,0,0,0,0,0,0,1,1,1};
  seeds[j].genome=s.genome;
  // Common starting reserve; placement phase/patch/offset vary independently of DNA.
@@ -60,6 +79,7 @@ int main(int argc,char** argv){
  history<<"second,family,mature,births,max_generation,changed_births,late_births\n";
  if(argc>8){trace.open(output+"/bodies.csv");trace<<"second,id,parent,node,x,y,role,energy\n";}
  std::set<unsigned> archived;unsigned archiveCount=0;
+ unsigned const lateStart=seconds*3/4;
  std::ofstream longevity,poses;std::set<std::string> savedArchitectures;
  auto architecture=[](Genome const& dna){std::ostringstream out;out<<dna.entryGene<<':'<<dna.genes.size();for(auto const& g:dna.genes){out<<'[';for(auto const& n:g.nodes)out<<n.parentNode<<':'<<int(n.behavior.role)<<':'<<int(n.behavior.motorMode)<<':'<<n.construction.targetGene<<':'<<n.construction.branches<<':'<<n.construction.repetitions<<';';out<<']';}return out.str();};
  if(playerWorld){longevity.open(output+"/longevity.csv");longevity<<"second,family,mature,physical_cells,recognizable,tiny,intact,motors,sensors,depots,architectures,births,max_generation\n";
@@ -78,7 +98,7 @@ int main(int argc,char** argv){
  if(o.mature && !l.mature){l.mature=true;l.matureAt=step/120;++births[f];gen[f]=std::max(gen[f],o.generation);changed[f]+=o.genome!=seeds[f].genome;late[f]+=step>seconds*60;
  auto p=lives.find(o.parentId);if(p!=lives.end())++p->second.children;}
  // Save actual reproducing descendants, including novel structures. No genome edits.
- if(mode=="evolve" && step%120==0 && o.mature && l.children>=2 && o.generation>=2 && !archived.count(o.id)){
+ if((mode=="evolve"||incubation) && step%120==0 && o.mature && l.children>=3 && o.generation>=2 && step/120>=lateStart && !archived.count(o.id)){
  archived.insert(o.id);if(archiveCount<40){std::string name=output+"/g"+std::to_string(o.id)+".dna";std::ofstream dna(name);discovery::writeGenome(dna,o.genome);dna.close();std::ifstream check(name);if(discovery::readGenome(check)!=o.genome)throw std::runtime_error("DNA roundtrip");
  std::ofstream meta(output+"/archive.csv",std::ios::app);meta<<o.id<<','<<f<<','<<o.generation<<','<<l.children<<','<<step/120<<','<<measureDevelopment(o.genome).cells<<'\n';++archiveCount;}}
  }
@@ -110,7 +130,24 @@ int main(int argc,char** argv){
  uint64_t hash=1469598103934665603ULL;auto hashValue=[&](auto const& v){auto bytes=reinterpret_cast<unsigned char const*>(&v);for(unsigned i=0;i<sizeof(v);++i){hash^=bytes[i];hash*=1099511628211ULL;}};
  hashValue(w.rng.state());for(auto const& cell:w.cells){hashValue(cell.id);hashValue(cell.creatureId);hashValue(cell.position);hashValue(cell.velocity);hashValue(cell.energy);hashValue(cell.rawEnergy);hashValue(cell.currentSignals);}
  std::ofstream stateHash(output+"/state-hash.txt");stateHash<<hash<<'\n';
- std::ofstream integrity(output+"/integrity.txt");integrity<<"maximum_energy_error="<<maxEnergyError<<'\n';if(maxEnergyError>.1)return 4;
+ std::ofstream lineage(output+"/lineage.csv");
+ lineage<<"family,late_adults,late_births,max_generation,late_changed,late_defining_mechanism\n";
+ for(unsigned f=0;f<seeds.size();++f){
+   unsigned lateAdults=0,lateBirths=0,lateChanged=0,lateMechanism=0;
+   for(auto const& [id,l]:lives)if(l.family==int(f)&&l.lastSeen/120>=lateStart){
+     if(l.mature){++lateAdults;if(l.matureAt>=int(lateStart))++lateBirths;if(l.genome!=seeds[f].genome)++lateChanged;}
+     // A defining-mechanism proxy: descendants retain at least one active
+     // organ of the founder's role set. This is diagnostic only, never a
+     // runtime fitness score.
+     bool baseMotor=false,baseSensor=false,baseDepot=false,baseAttack=false;
+     bool childMotor=false,childSensor=false,childDepot=false,childAttack=false;
+     for(auto const& g:seeds[f].genome.genes)for(auto const& n:g.nodes){baseMotor|=n.behavior.role==CellRole::Motor;baseSensor|=n.behavior.role==CellRole::EnergySensor||n.behavior.role==CellRole::CreatureSensor;baseDepot|=n.behavior.role==CellRole::Depot;baseAttack|=n.behavior.role==CellRole::Attacker;}
+     for(auto const& g:l.genome.genes)for(auto const& n:g.nodes){childMotor|=n.behavior.role==CellRole::Motor;childSensor|=n.behavior.role==CellRole::EnergySensor||n.behavior.role==CellRole::CreatureSensor;childDepot|=n.behavior.role==CellRole::Depot;childAttack|=n.behavior.role==CellRole::Attacker;}
+     if((!baseMotor||childMotor)&&(!baseSensor||childSensor)&&(!baseDepot||childDepot)&&(!baseAttack||childAttack))++lateMechanism;
+   }
+   lineage<<f<<','<<lateAdults<<','<<lateBirths<<','<<gen[f]<<','<<lateChanged<<','<<lateMechanism<<'\n';
+ }
+ std::ofstream integrity(output+"/integrity.txt");integrity<<"maximum_energy_error="<<maxEnergyError<<'\n';integrity<<"late_start_seconds="<<lateStart<<'\n';integrity<<"selection_window=last_quarter_only\n";if(maxEnergyError>.1)return 4;
  for(unsigned f=0;f<seeds.size();++f){unsigned alive=0;for(auto const& o:w.creatures)if(o.mature&&!o.fragment&&lives.count(o.id)&&lives[o.id].family==int(f))++alive;
  std::cout<<seed<<','<<profile<<','<<seeds[f].name<<','<<alive<<','<<births[f]<<','<<gen[f]<<','<<changed[f]<<','<<late[f];unsigned physical=0;for(auto const& cell:w.cells)if(lives.count(cell.creatureId)&&lives[cell.creatureId].family==int(f))++physical;std::cout<<','<<physical<<'\n';}
  if(mode=="seeds")for(unsigned f=0;f<seeds.size();++f){std::ofstream dna(output+"/"+seeds[f].name+".dna");discovery::writeGenome(dna,seeds[f].genome);}

@@ -1,0 +1,69 @@
+{
+  "Dart": [
+    {
+      "name": "Dart",
+      "rank": 0,
+      "generation": 38,
+      "second": 1790,
+      "children": 3,
+      "cells": 4,
+      "dna": "/Users/maxhastings/Documents/ChatGPT/ALIEN/mobile/docs/incubation/candidates/Dart-0.dna"
+    }
+  ],
+  "Ribbon": [
+    {
+      "name": "Ribbon",
+      "rank": 0,
+      "generation": 24,
+      "second": 1780,
+      "children": 3,
+      "cells": 9,
+      "dna": "/Users/maxhastings/Documents/ChatGPT/ALIEN/mobile/docs/incubation/candidates/Ribbon-0.dna"
+    }
+  ],
+  "Crown": [
+    {
+      "name": "Crown",
+      "rank": 0,
+      "generation": 14,
+      "second": 1784,
+      "children": 3,
+      "cells": 7,
+      "dna": "/Users/maxhastings/Documents/ChatGPT/ALIEN/mobile/docs/incubation/candidates/Crown-0.dna"
+    }
+  ],
+  "Vault": [
+    {
+      "name": "Vault",
+      "rank": 0,
+      "generation": 9,
+      "second": 1641,
+      "children": 3,
+      "cells": 5,
+      "dna": "/Users/maxhastings/Documents/ChatGPT/ALIEN/mobile/docs/incubation/candidates/Vault-0.dna"
+    }
+  ],
+  "Lancer": [],
+  "Primitive": [
+    {
+      "name": "Primitive",
+      "rank": 0,
+      "generation": 37,
+      "second": 1350,
+      "children": 3,
+      "cells": 3,
+      "dna": "/Users/maxhastings/Documents/ChatGPT/ALIEN/mobile/docs/incubation/candidates/Primitive-0.dna"
+    }
+  ],
+  "Contractile": [
+    {
+      "name": "Contractile",
+      "rank": 0,
+      "generation": 25,
+      "second": 1798,
+      "children": 3,
+      "cells": 6,
+      "dna": "/Users/maxhastings/Documents/ChatGPT/ALIEN/mobile/docs/incubation/candidates/Contractile-0.dna"
+    }
+  ]
+}

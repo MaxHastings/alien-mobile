@@ -1,5 +1,9 @@
 # Creature catalog refoundation
 
+> Superseded as the catalog-selection protocol by the two-phase incubation
+> pipeline in [docs/incubation/PROTOCOL.md](../incubation/PROTOCOL.md). This
+> report remains the baseline comparison for the pre-incubation catalog.
+
 **READY FOR HUMAN CATALOG PLAYTEST**
 
 **Long-duration follow-up:** subsequent two-hour default-world tests found loss of starting-strategy diversity and, in some seeds, convergence to tiny passive bodies. See [the follow-up report](../longevity/REPORT.md). The playtest build remains available; this earlier verdict does not establish sustained unattended ecological diversity.

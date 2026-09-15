@@ -1,18 +1,18 @@
 [
   {
     "name": "Skiff",
-    "sha256": "f960a1a475971e853a681049073883cd57c7fc21aca23d5d286ad767eed1429b"
+    "sha256": "51e67b54647b80d40679d791098d7b6748aa6e7000b779318f231eac68fde8d1"
   },
   {
     "name": "Thread",
-    "sha256": "abbceabfe157e472d99bcff70d0a8dcd40db62ce4cd56558ad1a65950af83f41"
+    "sha256": "b7abbe344ed8724d3a67a6bd51a1fdd1b2a3dda41615e5a91524e04372d90c5d"
   },
   {
     "name": "Whorl",
-    "sha256": "f4d053cc16e02a22234087ed93f36faca4fbd7f9f8b2c2594ca7de62eddbed55"
+    "sha256": "9f6982ff5604118e6795b0934a0d3dcc9fa1ee8818ce3a13499dab45d056aca3"
   },
   {
     "name": "Husk",
-    "sha256": "4a42b926edde111032c196f97a941096b931b442eaa9bb39578621a2358a3160"
+    "sha256": "8880b99297373ee6d6b1ceef131bc273676e92bbede05796946a9a6dea66b42c"
   }
 ]

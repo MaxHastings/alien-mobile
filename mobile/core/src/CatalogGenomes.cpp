@@ -5,28 +5,28 @@ namespace alienmobile {
 std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     std::vector<SpecimenSnapshot> result;
     {
-    // Skiff: DNA sha256 f960a1a475971e853a681049073883cd57c7fc21aca23d5d286ad767eed1429b
+    // Skiff: DNA sha256 51e67b54647b80d40679d791098d7b6748aa6e7000b779318f231eac68fde8d1
     Genome genome;
     genome.entryGene=0;
     genome.genes.resize(1);
-    genome.mutationRates.neural=0.340000004f;
-    genome.mutationRates.geometry=0.239999995f;
-    genome.mutationRates.property=0.140000001f;
-    genome.mutationRates.role=0.0350000001f;
-    genome.mutationRates.insert=0.0399999991f;
-    genome.mutationRates.erase=0.0250000004f;
-    genome.mutationRates.duplicateGene=0.00800000038f;
-    genome.mutationRates.deleteGene=0.00400000019f;
-    genome.mutationRates.copySection=0.00999999978f;
-    genome.mutationRates.moveSection=0.00600000005f;
-    genome.mutationRates.constructor=0.0350000001f;
-    genome.mutationRates.meta=0.00200000009f;
-    genome.mutationRates.neuralMagnitude=1.0f;
-    genome.mutationRates.geometryMagnitude=1.0f;
-    genome.mutationRates.propertyMagnitude=1.0f;
+    genome.mutationRates.neural=0.200000003f;
+    genome.mutationRates.geometry=0.0799999982f;
+    genome.mutationRates.property=0.0799999982f;
+    genome.mutationRates.role=0.00600000005f;
+    genome.mutationRates.insert=0.00600000005f;
+    genome.mutationRates.erase=0.00400000019f;
+    genome.mutationRates.duplicateGene=0.00100000005f;
+    genome.mutationRates.deleteGene=0.000500000024f;
+    genome.mutationRates.copySection=0.00100000005f;
+    genome.mutationRates.moveSection=0.00100000005f;
+    genome.mutationRates.constructor=0.00400000019f;
+    genome.mutationRates.meta=0.00100000005f;
+    genome.mutationRates.neuralMagnitude=0.649999976f;
+    genome.mutationRates.geometryMagnitude=0.449999988f;
+    genome.mutationRates.propertyMagnitude=0.550000012f;
     {
     auto& gene=genome.genes[0];
-    gene.orientation=0.0f;gene.phaseAdvance=0.0f;
+    gene.orientation=0.0f;gene.phaseAdvance=-0.00792239793f;
     gene.nodes.resize(4);
     {
     auto& node=gene.nodes[0];
@@ -49,25 +49,25 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.bendingAngle=0.649999976f;
     node.behavior.contraction=0.280000001f;
     node.behavior.motorStrength=1.0f;
-    node.behavior.axisAngle=0.0f;
-    node.behavior.signalWeight=1.0f;
+    node.behavior.axisAngle=-0.0468449891f;
+    node.behavior.signalWeight=0.938559115f;
     node.behavior.motorChannel=0;
     node.behavior.sensorRange=4.0f;
-    node.behavior.sensitivity=1.0f;
+    node.behavior.sensitivity=0.936038792f;
     node.behavior.extractionRate=1.0f;
     node.behavior.digestionRate=1.0f;
     node.behavior.storageCapacity=3.0f;
-    node.behavior.defenseStrength=1.0f;
+    node.behavior.defenseStrength=0.912747443f;
     node.behavior.memoryMode=MemoryMode(0);
     node.behavior.memoryTime=0.5f;
     node.behavior.neural=false;
-    node.behavior.selfWeight=0.0f;
-    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,-0.033941105f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
-    node.behavior.biases={0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f};
+    node.behavior.selfWeight=0.0414537676f;
+    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,-0.0670323223f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,-0.0567445979f,0.0f,0.0f},Signals{0.0f,-0.00566048874f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
+    node.behavior.biases={0.0f,-0.0616364293f,0.0f,0.0f,0.0f,0.0f,-0.0483714826f,0.0f};
     }
     {
     auto& node=gene.nodes[1];
-    node.parentNode=0;node.relativePosition={1.04496205f,0.0126230046f};
+    node.parentNode=0;node.relativePosition={0.908508122f,-0.111439697f};
     node.constructorCell=false;node.stiffness=1.0f;
     node.construction.targetGene=-1;
     node.construction.branches=1;
@@ -85,27 +85,27 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.amplitude=1.0f;
     node.behavior.bendingAngle=0.649999976f;
     node.behavior.contraction=0.280000001f;
-    node.behavior.motorStrength=1.0f;
+    node.behavior.motorStrength=1.01258862f;
     node.behavior.axisAngle=0.0f;
-    node.behavior.signalWeight=1.0f;
+    node.behavior.signalWeight=1.03796375f;
     node.behavior.motorChannel=0;
     node.behavior.sensorRange=4.0f;
     node.behavior.sensitivity=2.0f;
-    node.behavior.extractionRate=1.0f;
+    node.behavior.extractionRate=1.10069394f;
     node.behavior.digestionRate=1.0f;
     node.behavior.storageCapacity=3.0f;
     node.behavior.defenseStrength=1.0f;
     node.behavior.memoryMode=MemoryMode(0);
     node.behavior.memoryTime=0.5f;
     node.behavior.neural=false;
-    node.behavior.selfWeight=0.0f;
-    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,-0.117092736f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
-    node.behavior.biases={0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f};
+    node.behavior.selfWeight=-0.0183475595f;
+    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,-0.0212208107f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,-0.0602606758f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
+    node.behavior.biases={0.0379057638f,0.0f,0.0f,0.0f,0.0f,-0.0269257855f,0.0358015075f,0.0f};
     }
     {
     auto& node=gene.nodes[2];
-    node.parentNode=1;node.relativePosition={-1.02260578f,0.955247581f};
-    node.constructorCell=false;node.stiffness=1.0f;
+    node.parentNode=1;node.relativePosition={-1.0f,0.850000024f};
+    node.constructorCell=false;node.stiffness=1.03411186f;
     node.construction.targetGene=-1;
     node.construction.branches=1;
     node.construction.repetitions=1;
@@ -124,20 +124,20 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.contraction=0.280000001f;
     node.behavior.motorStrength=1.29999995f;
     node.behavior.axisAngle=-2.4370985f;
-    node.behavior.signalWeight=0.941015303f;
+    node.behavior.signalWeight=0.951503694f;
     node.behavior.motorChannel=7;
     node.behavior.sensorRange=4.0f;
     node.behavior.sensitivity=1.0f;
-    node.behavior.extractionRate=1.0f;
-    node.behavior.digestionRate=1.15008652f;
+    node.behavior.extractionRate=0.954928339f;
+    node.behavior.digestionRate=1.0f;
     node.behavior.storageCapacity=3.0f;
     node.behavior.defenseStrength=1.0f;
     node.behavior.memoryMode=MemoryMode(0);
     node.behavior.memoryTime=0.5f;
     node.behavior.neural=true;
-    node.behavior.selfWeight=0.0268062707f;
-    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,-2.20000005f,-0.150000006f,-0.112087555f,0.0f,0.0f,0.0f}};
-    node.behavior.biases={0.0f,0.0f,0.0f,0.0555848591f,0.0f,0.0f,0.0f,0.349999994f};
+    node.behavior.selfWeight=0.00969074015f;
+    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.00462024473f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,-2.20000005f,-0.150000006f,0.0f,0.0f,0.0f,0.0f}};
+    node.behavior.biases={0.0f,0.0f,0.0270059519f,0.0f,0.0f,0.0f,0.0f,0.349999994f};
     }
     {
     auto& node=gene.nodes[3];
@@ -156,49 +156,49 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.motorMode=MotorMode(0);
     node.behavior.period=2.0f;
     node.behavior.phase=0.0f;
-    node.behavior.amplitude=1.0f;
+    node.behavior.amplitude=0.996646881f;
     node.behavior.bendingAngle=0.649999976f;
     node.behavior.contraction=0.280000001f;
     node.behavior.motorStrength=1.29999995f;
     node.behavior.axisAngle=2.4370985f;
-    node.behavior.signalWeight=1.0f;
+    node.behavior.signalWeight=1.06611133f;
     node.behavior.motorChannel=7;
     node.behavior.sensorRange=4.0f;
-    node.behavior.sensitivity=1.08008683f;
+    node.behavior.sensitivity=1.04776144f;
     node.behavior.extractionRate=1.0f;
     node.behavior.digestionRate=1.0f;
     node.behavior.storageCapacity=3.0f;
     node.behavior.defenseStrength=1.0f;
     node.behavior.memoryMode=MemoryMode(0);
-    node.behavior.memoryTime=0.5f;
+    node.behavior.memoryTime=0.49154225f;
     node.behavior.neural=true;
-    node.behavior.selfWeight=0.0f;
+    node.behavior.selfWeight=-0.0166061316f;
     node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,2.20000005f,-0.150000006f,0.0f,0.0f,0.0f,0.0f}};
-    node.behavior.biases={0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.349999994f};
+    node.behavior.biases={0.0f,-0.006452417f,0.0f,0.0f,0.0f,0.0f,0.0f,0.317283064f};
     }
     }
     result.push_back({"Skiff",std::move(genome),0.09f,1.0f,"A small swimmer follows food."});
     }
     {
-    // Thread: DNA sha256 abbceabfe157e472d99bcff70d0a8dcd40db62ce4cd56558ad1a65950af83f41
+    // Thread: DNA sha256 b7abbe344ed8724d3a67a6bd51a1fdd1b2a3dda41615e5a91524e04372d90c5d
     Genome genome;
     genome.entryGene=0;
     genome.genes.resize(1);
-    genome.mutationRates.neural=0.340000004f;
-    genome.mutationRates.geometry=0.239999995f;
-    genome.mutationRates.property=0.140000001f;
-    genome.mutationRates.role=0.0350000001f;
-    genome.mutationRates.insert=0.0399999991f;
-    genome.mutationRates.erase=0.0250000004f;
-    genome.mutationRates.duplicateGene=0.00800000038f;
-    genome.mutationRates.deleteGene=0.00400000019f;
-    genome.mutationRates.copySection=0.00999999978f;
-    genome.mutationRates.moveSection=0.00600000005f;
-    genome.mutationRates.constructor=0.0350000001f;
-    genome.mutationRates.meta=0.00200000009f;
-    genome.mutationRates.neuralMagnitude=1.0f;
-    genome.mutationRates.geometryMagnitude=1.0f;
-    genome.mutationRates.propertyMagnitude=1.0f;
+    genome.mutationRates.neural=0.200000003f;
+    genome.mutationRates.geometry=0.0799999982f;
+    genome.mutationRates.property=0.0799999982f;
+    genome.mutationRates.role=0.00600000005f;
+    genome.mutationRates.insert=0.00600000005f;
+    genome.mutationRates.erase=0.00400000019f;
+    genome.mutationRates.duplicateGene=0.00100000005f;
+    genome.mutationRates.deleteGene=0.000500000024f;
+    genome.mutationRates.copySection=0.00100000005f;
+    genome.mutationRates.moveSection=0.00100000005f;
+    genome.mutationRates.constructor=0.00400000019f;
+    genome.mutationRates.meta=0.00100000005f;
+    genome.mutationRates.neuralMagnitude=0.649999976f;
+    genome.mutationRates.geometryMagnitude=0.449999988f;
+    genome.mutationRates.propertyMagnitude=0.550000012f;
     {
     auto& gene=genome.genes[0];
     gene.orientation=0.0f;gene.phaseAdvance=0.0f;
@@ -234,15 +234,15 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.storageCapacity=3.0f;
     node.behavior.defenseStrength=1.0f;
     node.behavior.memoryMode=MemoryMode(0);
-    node.behavior.memoryTime=0.5f;
+    node.behavior.memoryTime=0.533990622f;
     node.behavior.neural=false;
-    node.behavior.selfWeight=0.0f;
+    node.behavior.selfWeight=0.00933859684f;
     node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
     node.behavior.biases={0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f};
     }
     {
     auto& node=gene.nodes[1];
-    node.parentNode=0;node.relativePosition={0.993307173f,0.0999691933f};
+    node.parentNode=0;node.relativePosition={1.0f,0.0f};
     node.constructorCell=false;node.stiffness=1.0f;
     node.construction.targetGene=-1;
     node.construction.branches=1;
@@ -262,7 +262,7 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.contraction=0.280000001f;
     node.behavior.motorStrength=1.0f;
     node.behavior.axisAngle=0.0f;
-    node.behavior.signalWeight=1.0f;
+    node.behavior.signalWeight=0.910353899f;
     node.behavior.motorChannel=0;
     node.behavior.sensorRange=4.0f;
     node.behavior.sensitivity=2.0f;
@@ -271,10 +271,10 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.storageCapacity=3.0f;
     node.behavior.defenseStrength=1.0f;
     node.behavior.memoryMode=MemoryMode(0);
-    node.behavior.memoryTime=0.5f;
+    node.behavior.memoryTime=0.426614463f;
     node.behavior.neural=false;
     node.behavior.selfWeight=0.0f;
-    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
+    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.075188607f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
     node.behavior.biases={0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f};
     }
     {
@@ -290,14 +290,14 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.construction.intervalScale=1.0f;
     node.construction.separateOffspring=true;
     node.behavior.role=CellRole(3);
-    node.behavior.waveform=Waveform(0);
+    node.behavior.waveform=Waveform(1);
     node.behavior.motorMode=MotorMode(0);
-    node.behavior.period=2.0f;
+    node.behavior.period=2.08739591f;
     node.behavior.phase=0.0f;
     node.behavior.amplitude=1.0f;
     node.behavior.bendingAngle=0.649999976f;
-    node.behavior.contraction=0.280000001f;
-    node.behavior.motorStrength=2.0999999f;
+    node.behavior.contraction=0.285866201f;
+    node.behavior.motorStrength=2.18732166f;
     node.behavior.axisAngle=-2.4370985f;
     node.behavior.signalWeight=1.0f;
     node.behavior.motorChannel=7;
@@ -311,12 +311,12 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.memoryTime=0.5f;
     node.behavior.neural=true;
     node.behavior.selfWeight=0.0f;
-    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.699999988f,-2.20000005f,0.0f,0.0f,0.0f,0.0f,0.0f}};
+    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0142965345f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.699999988f,-2.20000005f,0.0f,0.0f,0.0f,0.0f,0.0f}};
     node.behavior.biases={0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.100000001f};
     }
     {
     auto& node=gene.nodes[3];
-    node.parentNode=1;node.relativePosition={-1.0f,-0.850000024f};
+    node.parentNode=1;node.relativePosition={-0.928840637f,-0.929384351f};
     node.constructorCell=false;node.stiffness=1.0f;
     node.construction.targetGene=-1;
     node.construction.branches=1;
@@ -347,51 +347,14 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.memoryMode=MemoryMode(0);
     node.behavior.memoryTime=0.5f;
     node.behavior.neural=true;
-    node.behavior.selfWeight=0.0f;
-    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.699999988f,2.20000005f,0.0f,0.0f,0.0f,0.0f,0.0f}};
-    node.behavior.biases={0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.200000003f};
+    node.behavior.selfWeight=-0.0219768528f;
+    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0716590062f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.699999988f,2.20000005f,0.0f,0.0f,0.0f,0.0f,0.0f}};
+    node.behavior.biases={0.0f,0.0f,0.0404816195f,0.0f,0.0f,0.0f,0.0f,0.200000003f};
     }
     {
     auto& node=gene.nodes[4];
     node.parentNode=0;node.relativePosition={-1.25f,0.0f};
     node.constructorCell=false;node.stiffness=1.0f;
-    node.construction.targetGene=-1;
-    node.construction.branches=1;
-    node.construction.repetitions=1;
-    node.construction.angle=0.0f;
-    node.construction.branchAngle=1.04719758f;
-    node.construction.repetitionAngle=0.0f;
-    node.construction.intervalScale=1.0f;
-    node.construction.separateOffspring=true;
-    node.behavior.role=CellRole(0);
-    node.behavior.waveform=Waveform(1);
-    node.behavior.motorMode=MotorMode(0);
-    node.behavior.period=2.0f;
-    node.behavior.phase=0.0f;
-    node.behavior.amplitude=1.0f;
-    node.behavior.bendingAngle=0.649999976f;
-    node.behavior.contraction=0.280000001f;
-    node.behavior.motorStrength=1.27733433f;
-    node.behavior.axisAngle=0.0f;
-    node.behavior.signalWeight=1.0f;
-    node.behavior.motorChannel=0;
-    node.behavior.sensorRange=4.0f;
-    node.behavior.sensitivity=1.0f;
-    node.behavior.extractionRate=1.0f;
-    node.behavior.digestionRate=1.0f;
-    node.behavior.storageCapacity=3.0f;
-    node.behavior.defenseStrength=1.0f;
-    node.behavior.memoryMode=MemoryMode(0);
-    node.behavior.memoryTime=0.5f;
-    node.behavior.neural=false;
-    node.behavior.selfWeight=0.0f;
-    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0397690237f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
-    node.behavior.biases={0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f};
-    }
-    {
-    auto& node=gene.nodes[5];
-    node.parentNode=4;node.relativePosition={-1.25f,0.280000001f};
-    node.constructorCell=false;node.stiffness=0.349999994f;
     node.construction.targetGene=-1;
     node.construction.branches=1;
     node.construction.repetitions=1;
@@ -417,13 +380,50 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.extractionRate=1.0f;
     node.behavior.digestionRate=1.0f;
     node.behavior.storageCapacity=3.0f;
+    node.behavior.defenseStrength=0.997016311f;
+    node.behavior.memoryMode=MemoryMode(0);
+    node.behavior.memoryTime=0.5f;
+    node.behavior.neural=false;
+    node.behavior.selfWeight=-0.0460264198f;
+    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
+    node.behavior.biases={0.0f,0.0f,0.0f,0.011720499f,0.0f,0.0f,0.0f,0.0f};
+    }
+    {
+    auto& node=gene.nodes[5];
+    node.parentNode=4;node.relativePosition={-1.29790938f,0.251155287f};
+    node.constructorCell=false;node.stiffness=0.349999994f;
+    node.construction.targetGene=-1;
+    node.construction.branches=1;
+    node.construction.repetitions=1;
+    node.construction.angle=0.0f;
+    node.construction.branchAngle=1.04719758f;
+    node.construction.repetitionAngle=0.0f;
+    node.construction.intervalScale=1.0f;
+    node.construction.separateOffspring=true;
+    node.behavior.role=CellRole(0);
+    node.behavior.waveform=Waveform(1);
+    node.behavior.motorMode=MotorMode(0);
+    node.behavior.period=2.0f;
+    node.behavior.phase=0.0f;
+    node.behavior.amplitude=1.0f;
+    node.behavior.bendingAngle=0.649999976f;
+    node.behavior.contraction=0.280000001f;
+    node.behavior.motorStrength=1.0f;
+    node.behavior.axisAngle=0.0f;
+    node.behavior.signalWeight=1.0085088f;
+    node.behavior.motorChannel=0;
+    node.behavior.sensorRange=4.0f;
+    node.behavior.sensitivity=0.91216594f;
+    node.behavior.extractionRate=1.0f;
+    node.behavior.digestionRate=1.0f;
+    node.behavior.storageCapacity=3.0f;
     node.behavior.defenseStrength=1.0f;
     node.behavior.memoryMode=MemoryMode(0);
     node.behavior.memoryTime=0.5f;
     node.behavior.neural=false;
     node.behavior.selfWeight=0.0f;
-    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.040468134f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
-    node.behavior.biases={0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f};
+    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,-0.0700492412f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
+    node.behavior.biases={0.0f,0.0398264974f,0.0f,0.0f,0.0f,0.0f,0.0361888669f,0.0f};
     }
     {
     auto& node=gene.nodes[6];
@@ -452,14 +452,14 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.sensorRange=4.0f;
     node.behavior.sensitivity=1.0f;
     node.behavior.extractionRate=1.0f;
-    node.behavior.digestionRate=1.0f;
+    node.behavior.digestionRate=0.975456357f;
     node.behavior.storageCapacity=3.0f;
     node.behavior.defenseStrength=1.0f;
     node.behavior.memoryMode=MemoryMode(0);
-    node.behavior.memoryTime=0.5f;
+    node.behavior.memoryTime=0.485632777f;
     node.behavior.neural=false;
-    node.behavior.selfWeight=0.0f;
-    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
+    node.behavior.selfWeight=-0.0263383314f;
+    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,-0.0335288197f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
     node.behavior.biases={0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f};
     }
     {
@@ -482,27 +482,27 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.amplitude=1.0f;
     node.behavior.bendingAngle=0.649999976f;
     node.behavior.contraction=0.280000001f;
-    node.behavior.motorStrength=1.0f;
+    node.behavior.motorStrength=1.01266205f;
     node.behavior.axisAngle=0.0f;
-    node.behavior.signalWeight=1.0f;
+    node.behavior.signalWeight=0.969368935f;
     node.behavior.motorChannel=0;
     node.behavior.sensorRange=4.0f;
     node.behavior.sensitivity=1.0f;
-    node.behavior.extractionRate=1.0f;
+    node.behavior.extractionRate=0.954928339f;
     node.behavior.digestionRate=1.0f;
     node.behavior.storageCapacity=3.0f;
     node.behavior.defenseStrength=1.0f;
     node.behavior.memoryMode=MemoryMode(0);
     node.behavior.memoryTime=0.5f;
     node.behavior.neural=false;
-    node.behavior.selfWeight=0.0f;
-    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
+    node.behavior.selfWeight=-0.0501804613f;
+    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0651095286f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
     node.behavior.biases={0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f};
     }
     {
     auto& node=gene.nodes[8];
-    node.parentNode=7;node.relativePosition={-1.29299879f,-0.325451672f};
-    node.constructorCell=false;node.stiffness=0.349999994f;
+    node.parentNode=7;node.relativePosition={-1.24667144f,-0.296628445f};
+    node.constructorCell=false;node.stiffness=0.268317193f;
     node.construction.targetGene=-1;
     node.construction.branches=1;
     node.construction.repetitions=1;
@@ -521,11 +521,11 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.contraction=0.280000001f;
     node.behavior.motorStrength=1.0f;
     node.behavior.axisAngle=0.0f;
-    node.behavior.signalWeight=1.0f;
+    node.behavior.signalWeight=1.04217732f;
     node.behavior.motorChannel=0;
     node.behavior.sensorRange=4.0f;
     node.behavior.sensitivity=1.0f;
-    node.behavior.extractionRate=1.0f;
+    node.behavior.extractionRate=1.04359567f;
     node.behavior.digestionRate=1.0f;
     node.behavior.storageCapacity=3.0f;
     node.behavior.defenseStrength=1.0f;
@@ -534,44 +534,44 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.neural=false;
     node.behavior.selfWeight=0.0f;
     node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
-    node.behavior.biases={0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f};
+    node.behavior.biases={0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0451377891f};
     }
     }
     result.push_back({"Thread",std::move(genome),0.34f,1.0f,"A trailing body gathers passing food."});
     }
     {
-    // Whorl: DNA sha256 f4d053cc16e02a22234087ed93f36faca4fbd7f9f8b2c2594ca7de62eddbed55
+    // Whorl: DNA sha256 9f6982ff5604118e6795b0934a0d3dcc9fa1ee8818ce3a13499dab45d056aca3
     Genome genome;
     genome.entryGene=0;
-    genome.genes.resize(2);
-    genome.mutationRates.neural=0.340000004f;
-    genome.mutationRates.geometry=0.239999995f;
-    genome.mutationRates.property=0.140000001f;
-    genome.mutationRates.role=0.0350000001f;
-    genome.mutationRates.insert=0.0399999991f;
-    genome.mutationRates.erase=0.0250000004f;
-    genome.mutationRates.duplicateGene=0.00800000038f;
-    genome.mutationRates.deleteGene=0.00400000019f;
-    genome.mutationRates.copySection=0.00999999978f;
-    genome.mutationRates.moveSection=0.00600000005f;
-    genome.mutationRates.constructor=0.0350000001f;
-    genome.mutationRates.meta=0.00200000009f;
-    genome.mutationRates.neuralMagnitude=1.0f;
-    genome.mutationRates.geometryMagnitude=1.0f;
-    genome.mutationRates.propertyMagnitude=1.0f;
+    genome.genes.resize(1);
+    genome.mutationRates.neural=0.200000003f;
+    genome.mutationRates.geometry=0.0799999982f;
+    genome.mutationRates.property=0.0799999982f;
+    genome.mutationRates.role=0.00600000005f;
+    genome.mutationRates.insert=0.00600000005f;
+    genome.mutationRates.erase=0.00400000019f;
+    genome.mutationRates.duplicateGene=0.00100000005f;
+    genome.mutationRates.deleteGene=0.000500000024f;
+    genome.mutationRates.copySection=0.00100000005f;
+    genome.mutationRates.moveSection=0.00100000005f;
+    genome.mutationRates.constructor=0.00400000019f;
+    genome.mutationRates.meta=0.00100000005f;
+    genome.mutationRates.neuralMagnitude=0.649999976f;
+    genome.mutationRates.geometryMagnitude=0.449999988f;
+    genome.mutationRates.propertyMagnitude=0.550000012f;
     {
     auto& gene=genome.genes[0];
-    gene.orientation=-0.0680451319f;gene.phaseAdvance=0.0f;
-    gene.nodes.resize(1);
+    gene.orientation=0.0f;gene.phaseAdvance=0.0f;
+    gene.nodes.resize(6);
     {
     auto& node=gene.nodes[0];
     node.parentNode=-1;node.relativePosition={0.0f,0.0f};
     node.constructorCell=true;node.stiffness=1.0f;
-    node.construction.targetGene=1;
-    node.construction.branches=3;
+    node.construction.targetGene=-1;
+    node.construction.branches=1;
     node.construction.repetitions=1;
     node.construction.angle=0.0f;
-    node.construction.branchAngle=2.09439516f;
+    node.construction.branchAngle=1.04719758f;
     node.construction.repetitionAngle=0.0f;
     node.construction.intervalScale=1.0f;
     node.construction.separateOffspring=true;
@@ -583,31 +583,26 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.amplitude=1.0f;
     node.behavior.bendingAngle=0.649999976f;
     node.behavior.contraction=0.280000001f;
-    node.behavior.motorStrength=1.0f;
+    node.behavior.motorStrength=1.08139467f;
     node.behavior.axisAngle=0.0f;
-    node.behavior.signalWeight=1.0f;
+    node.behavior.signalWeight=0.860914409f;
     node.behavior.motorChannel=0;
-    node.behavior.sensorRange=4.0f;
+    node.behavior.sensorRange=4.17054939f;
     node.behavior.sensitivity=1.0f;
     node.behavior.extractionRate=1.0f;
-    node.behavior.digestionRate=1.0f;
-    node.behavior.storageCapacity=3.0f;
+    node.behavior.digestionRate=0.896608114f;
+    node.behavior.storageCapacity=3.15133691f;
     node.behavior.defenseStrength=1.0f;
     node.behavior.memoryMode=MemoryMode(0);
     node.behavior.memoryTime=0.5f;
     node.behavior.neural=false;
-    node.behavior.selfWeight=0.0f;
-    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
-    node.behavior.biases={0.0f,0.0f,0.0f,0.0f,0.0705883279f,0.0f,0.0f,0.0f};
-    }
+    node.behavior.selfWeight=0.0293179955f;
+    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,-0.0542442948f,-0.0504048243f,0.0f,0.0662339106f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
+    node.behavior.biases={0.0f,0.0f,-0.043499738f,0.0f,0.0f,0.0f,0.0f,0.0242589246f};
     }
     {
-    auto& gene=genome.genes[1];
-    gene.orientation=0.0f;gene.phaseAdvance=0.0f;
-    gene.nodes.resize(2);
-    {
-    auto& node=gene.nodes[0];
-    node.parentNode=-1;node.relativePosition={1.10000002f,0.0f};
+    auto& node=gene.nodes[1];
+    node.parentNode=0;node.relativePosition={1.0f,0.0f};
     node.constructorCell=false;node.stiffness=1.0f;
     node.construction.targetGene=-1;
     node.construction.branches=1;
@@ -617,7 +612,7 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.construction.repetitionAngle=0.0f;
     node.construction.intervalScale=1.0f;
     node.construction.separateOffspring=true;
-    node.behavior.role=CellRole(8);
+    node.behavior.role=CellRole(4);
     node.behavior.waveform=Waveform(1);
     node.behavior.motorMode=MotorMode(0);
     node.behavior.period=2.0f;
@@ -630,21 +625,58 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.signalWeight=1.0f;
     node.behavior.motorChannel=0;
     node.behavior.sensorRange=4.0f;
-    node.behavior.sensitivity=1.0f;
+    node.behavior.sensitivity=2.0f;
     node.behavior.extractionRate=1.0f;
     node.behavior.digestionRate=1.0f;
-    node.behavior.storageCapacity=0.800000012f;
-    node.behavior.defenseStrength=1.0f;
+    node.behavior.storageCapacity=3.0f;
+    node.behavior.defenseStrength=1.07527614f;
     node.behavior.memoryMode=MemoryMode(0);
     node.behavior.memoryTime=0.5f;
     node.behavior.neural=false;
-    node.behavior.selfWeight=0.0f;
-    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
-    node.behavior.biases={0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f};
+    node.behavior.selfWeight=-0.046867568f;
+    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,-0.0570698306f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0154224345f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
+    node.behavior.biases={0.0f,0.0f,0.0f,0.00334556797f,0.0f,0.0f,0.0f,0.0f};
     }
     {
-    auto& node=gene.nodes[1];
-    node.parentNode=0;node.relativePosition={0.982471228f,-0.102989025f};
+    auto& node=gene.nodes[2];
+    node.parentNode=1;node.relativePosition={-0.993204296f,0.805314422f};
+    node.constructorCell=false;node.stiffness=1.0f;
+    node.construction.targetGene=-1;
+    node.construction.branches=1;
+    node.construction.repetitions=1;
+    node.construction.angle=0.0f;
+    node.construction.branchAngle=1.04719758f;
+    node.construction.repetitionAngle=0.0f;
+    node.construction.intervalScale=1.0f;
+    node.construction.separateOffspring=true;
+    node.behavior.role=CellRole(3);
+    node.behavior.waveform=Waveform(1);
+    node.behavior.motorMode=MotorMode(0);
+    node.behavior.period=2.00962806f;
+    node.behavior.phase=0.0f;
+    node.behavior.amplitude=1.0f;
+    node.behavior.bendingAngle=0.649999976f;
+    node.behavior.contraction=0.280000001f;
+    node.behavior.motorStrength=1.29999995f;
+    node.behavior.axisAngle=-2.4370985f;
+    node.behavior.signalWeight=1.06018543f;
+    node.behavior.motorChannel=7;
+    node.behavior.sensorRange=4.0f;
+    node.behavior.sensitivity=1.0f;
+    node.behavior.extractionRate=1.06314409f;
+    node.behavior.digestionRate=1.0f;
+    node.behavior.storageCapacity=3.0f;
+    node.behavior.defenseStrength=1.0f;
+    node.behavior.memoryMode=MemoryMode(0);
+    node.behavior.memoryTime=0.5f;
+    node.behavior.neural=true;
+    node.behavior.selfWeight=-0.0408691429f;
+    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.699999988f,-2.20000005f,0.0f,0.0f,0.0f,0.0f,0.0f}};
+    node.behavior.biases={0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0128816962f,0.100000001f};
+    }
+    {
+    auto& node=gene.nodes[3];
+    node.parentNode=1;node.relativePosition={-0.995291948f,-0.794838905f};
     node.constructorCell=false;node.stiffness=1.0f;
     node.construction.targetGene=-1;
     node.construction.branches=1;
@@ -662,50 +694,124 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.amplitude=1.0f;
     node.behavior.bendingAngle=0.649999976f;
     node.behavior.contraction=0.280000001f;
-    node.behavior.motorStrength=0.800000012f;
-    node.behavior.axisAngle=1.57079625f;
+    node.behavior.motorStrength=1.29999995f;
+    node.behavior.axisAngle=2.53921938f;
     node.behavior.signalWeight=1.0f;
     node.behavior.motorChannel=7;
     node.behavior.sensorRange=4.0f;
     node.behavior.sensitivity=1.0f;
-    node.behavior.extractionRate=1.0f;
+    node.behavior.extractionRate=1.05765212f;
     node.behavior.digestionRate=1.0f;
     node.behavior.storageCapacity=3.0f;
     node.behavior.defenseStrength=1.0f;
     node.behavior.memoryMode=MemoryMode(0);
     node.behavior.memoryTime=0.5f;
     node.behavior.neural=true;
-    node.behavior.selfWeight=0.0f;
-    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
-    node.behavior.biases={0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.649999976f};
+    node.behavior.selfWeight=-0.0138599332f;
+    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0930348933f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{-0.066266723f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.699999988f,2.20000005f,0.0f,0.0f,0.0f,0.0f,0.0f}};
+    node.behavior.biases={0.0f,-0.0279897917f,0.0f,0.0f,0.0f,0.0f,0.0f,0.200000003f};
+    }
+    {
+    auto& node=gene.nodes[4];
+    node.parentNode=0;node.relativePosition={-1.01705313f,-0.00718348054f};
+    node.constructorCell=false;node.stiffness=1.0f;
+    node.construction.targetGene=-1;
+    node.construction.branches=1;
+    node.construction.repetitions=1;
+    node.construction.angle=0.0f;
+    node.construction.branchAngle=1.04719758f;
+    node.construction.repetitionAngle=0.0f;
+    node.construction.intervalScale=1.0f;
+    node.construction.separateOffspring=true;
+    node.behavior.role=CellRole(2);
+    node.behavior.waveform=Waveform(0);
+    node.behavior.motorMode=MotorMode(0);
+    node.behavior.period=2.79999995f;
+    node.behavior.phase=0.0f;
+    node.behavior.amplitude=1.0f;
+    node.behavior.bendingAngle=0.649999976f;
+    node.behavior.contraction=0.280000001f;
+    node.behavior.motorStrength=1.09279227f;
+    node.behavior.axisAngle=0.0f;
+    node.behavior.signalWeight=1.0f;
+    node.behavior.motorChannel=0;
+    node.behavior.sensorRange=4.0f;
+    node.behavior.sensitivity=1.0f;
+    node.behavior.extractionRate=0.96650815f;
+    node.behavior.digestionRate=1.0f;
+    node.behavior.storageCapacity=3.0f;
+    node.behavior.defenseStrength=1.0f;
+    node.behavior.memoryMode=MemoryMode(0);
+    node.behavior.memoryTime=0.510017276f;
+    node.behavior.neural=false;
+    node.behavior.selfWeight=0.0208751243f;
+    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,-0.0808007941f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
+    node.behavior.biases={0.0f,0.0f,0.0f,0.0f,0.0270175673f,0.0040831808f,0.0f,0.0f};
+    }
+    {
+    auto& node=gene.nodes[5];
+    node.parentNode=4;node.relativePosition={-0.990675747f,0.240621477f};
+    node.constructorCell=false;node.stiffness=1.0f;
+    node.construction.targetGene=-1;
+    node.construction.branches=1;
+    node.construction.repetitions=1;
+    node.construction.angle=0.0f;
+    node.construction.branchAngle=1.04719758f;
+    node.construction.repetitionAngle=0.0f;
+    node.construction.intervalScale=1.0f;
+    node.construction.separateOffspring=true;
+    node.behavior.role=CellRole(3);
+    node.behavior.waveform=Waveform(1);
+    node.behavior.motorMode=MotorMode(1);
+    node.behavior.period=2.0f;
+    node.behavior.phase=0.0f;
+    node.behavior.amplitude=1.0f;
+    node.behavior.bendingAngle=0.649999976f;
+    node.behavior.contraction=0.349999994f;
+    node.behavior.motorStrength=1.0f;
+    node.behavior.axisAngle=0.0f;
+    node.behavior.signalWeight=0.935924172f;
+    node.behavior.motorChannel=0;
+    node.behavior.sensorRange=4.0f;
+    node.behavior.sensitivity=1.0f;
+    node.behavior.extractionRate=1.0f;
+    node.behavior.digestionRate=1.00371885f;
+    node.behavior.storageCapacity=3.0f;
+    node.behavior.defenseStrength=1.0f;
+    node.behavior.memoryMode=MemoryMode(0);
+    node.behavior.memoryTime=0.5f;
+    node.behavior.neural=false;
+    node.behavior.selfWeight=-0.0729113221f;
+    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0886201039f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
+    node.behavior.biases={0.0f,-0.00731371297f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f};
     }
     }
     result.push_back({"Whorl",std::move(genome),0.57f,1.0f,"Three arms turn through food."});
     }
     {
-    // Husk: DNA sha256 4a42b926edde111032c196f97a941096b931b442eaa9bb39578621a2358a3160
+    // Husk: DNA sha256 8880b99297373ee6d6b1ceef131bc273676e92bbede05796946a9a6dea66b42c
     Genome genome;
     genome.entryGene=0;
     genome.genes.resize(1);
-    genome.mutationRates.neural=0.340000004f;
-    genome.mutationRates.geometry=0.239999995f;
-    genome.mutationRates.property=0.140000001f;
-    genome.mutationRates.role=0.0350000001f;
-    genome.mutationRates.insert=0.0399999991f;
-    genome.mutationRates.erase=0.0250000004f;
-    genome.mutationRates.duplicateGene=0.00800000038f;
-    genome.mutationRates.deleteGene=0.00400000019f;
-    genome.mutationRates.copySection=0.00999999978f;
-    genome.mutationRates.moveSection=0.00600000005f;
-    genome.mutationRates.constructor=0.0350000001f;
-    genome.mutationRates.meta=0.00200000009f;
-    genome.mutationRates.neuralMagnitude=1.0f;
-    genome.mutationRates.geometryMagnitude=1.0f;
-    genome.mutationRates.propertyMagnitude=1.0f;
+    genome.mutationRates.neural=0.200000003f;
+    genome.mutationRates.geometry=0.0799999982f;
+    genome.mutationRates.property=0.0799999982f;
+    genome.mutationRates.role=0.00600000005f;
+    genome.mutationRates.insert=0.00608806964f;
+    genome.mutationRates.erase=0.00400000019f;
+    genome.mutationRates.duplicateGene=0.00100000005f;
+    genome.mutationRates.deleteGene=0.000500000024f;
+    genome.mutationRates.copySection=0.00100000005f;
+    genome.mutationRates.moveSection=0.00100000005f;
+    genome.mutationRates.constructor=0.00400000019f;
+    genome.mutationRates.meta=0.00100000005f;
+    genome.mutationRates.neuralMagnitude=0.649999976f;
+    genome.mutationRates.geometryMagnitude=0.449999988f;
+    genome.mutationRates.propertyMagnitude=0.550000012f;
     {
     auto& gene=genome.genes[0];
     gene.orientation=0.0f;gene.phaseAdvance=0.0f;
-    gene.nodes.resize(5);
+    gene.nodes.resize(4);
     {
     auto& node=gene.nodes[0];
     node.parentNode=-1;node.relativePosition={0.0f,0.0f};
@@ -728,7 +834,7 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.contraction=0.280000001f;
     node.behavior.motorStrength=1.0f;
     node.behavior.axisAngle=0.0f;
-    node.behavior.signalWeight=1.0f;
+    node.behavior.signalWeight=1.03413022f;
     node.behavior.motorChannel=0;
     node.behavior.sensorRange=4.0f;
     node.behavior.sensitivity=1.0f;
@@ -739,14 +845,14 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.memoryMode=MemoryMode(0);
     node.behavior.memoryTime=0.5f;
     node.behavior.neural=false;
-    node.behavior.selfWeight=0.0f;
+    node.behavior.selfWeight=-0.044130832f;
     node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
-    node.behavior.biases={0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f};
+    node.behavior.biases={0.0f,0.0f,0.0f,-0.0563969463f,-0.037086729f,0.0f,0.0f,0.0f};
     }
     {
     auto& node=gene.nodes[1];
-    node.parentNode=0;node.relativePosition={0.819999993f,0.0f};
-    node.constructorCell=false;node.stiffness=1.0f;
+    node.parentNode=0;node.relativePosition={0.84280324f,0.0328415148f};
+    node.constructorCell=false;node.stiffness=0.92399019f;
     node.construction.targetGene=-1;
     node.construction.branches=1;
     node.construction.repetitions=1;
@@ -765,7 +871,7 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.contraction=0.280000001f;
     node.behavior.motorStrength=1.0f;
     node.behavior.axisAngle=0.0f;
-    node.behavior.signalWeight=1.0f;
+    node.behavior.signalWeight=0.982503891f;
     node.behavior.motorChannel=0;
     node.behavior.sensorRange=4.0f;
     node.behavior.sensitivity=1.0f;
@@ -774,15 +880,15 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.storageCapacity=2.4000001f;
     node.behavior.defenseStrength=1.0f;
     node.behavior.memoryMode=MemoryMode(0);
-    node.behavior.memoryTime=0.5f;
-    node.behavior.neural=false;
-    node.behavior.selfWeight=0.0f;
+    node.behavior.memoryTime=0.490635604f;
+    node.behavior.neural=true;
+    node.behavior.selfWeight=0.00721489638f;
     node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
     node.behavior.biases={0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f};
     }
     {
     auto& node=gene.nodes[2];
-    node.parentNode=0;node.relativePosition={-0.409999996f,0.709999979f};
+    node.parentNode=0;node.relativePosition={-0.419847876f,0.723456264f};
     node.constructorCell=false;node.stiffness=1.0f;
     node.construction.targetGene=-1;
     node.construction.branches=1;
@@ -795,17 +901,17 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.role=CellRole(8);
     node.behavior.waveform=Waveform(1);
     node.behavior.motorMode=MotorMode(0);
-    node.behavior.period=2.0f;
+    node.behavior.period=2.1518898f;
     node.behavior.phase=0.0f;
     node.behavior.amplitude=1.0f;
     node.behavior.bendingAngle=0.649999976f;
     node.behavior.contraction=0.280000001f;
     node.behavior.motorStrength=1.0f;
     node.behavior.axisAngle=0.0f;
-    node.behavior.signalWeight=1.0f;
+    node.behavior.signalWeight=1.0409224f;
     node.behavior.motorChannel=0;
     node.behavior.sensorRange=4.0f;
-    node.behavior.sensitivity=1.0f;
+    node.behavior.sensitivity=1.02801502f;
     node.behavior.extractionRate=1.0f;
     node.behavior.digestionRate=1.0f;
     node.behavior.storageCapacity=2.4000001f;
@@ -813,13 +919,13 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.memoryMode=MemoryMode(0);
     node.behavior.memoryTime=0.5f;
     node.behavior.neural=false;
-    node.behavior.selfWeight=0.0f;
+    node.behavior.selfWeight=-0.0281673986f;
     node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
     node.behavior.biases={0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f};
     }
     {
     auto& node=gene.nodes[3];
-    node.parentNode=0;node.relativePosition={-0.305603087f,-0.6389817f};
+    node.parentNode=0;node.relativePosition={-0.487519383f,-0.67174679f};
     node.constructorCell=false;node.stiffness=1.0f;
     node.construction.targetGene=-1;
     node.construction.branches=1;
@@ -834,9 +940,9 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.motorMode=MotorMode(0);
     node.behavior.period=2.0f;
     node.behavior.phase=0.0f;
-    node.behavior.amplitude=1.0f;
+    node.behavior.amplitude=0.98479414f;
     node.behavior.bendingAngle=0.649999976f;
-    node.behavior.contraction=0.280000001f;
+    node.behavior.contraction=0.26386863f;
     node.behavior.motorStrength=1.0f;
     node.behavior.axisAngle=0.0f;
     node.behavior.signalWeight=1.0f;
@@ -847,43 +953,6 @@ std::vector<SpecimenSnapshot> makeCuratedSpecimenCatalog() {
     node.behavior.digestionRate=1.0f;
     node.behavior.storageCapacity=2.4000001f;
     node.behavior.defenseStrength=1.0f;
-    node.behavior.memoryMode=MemoryMode(0);
-    node.behavior.memoryTime=0.5f;
-    node.behavior.neural=false;
-    node.behavior.selfWeight=0.0f;
-    node.behavior.weights={Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f},Signals{0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f}};
-    node.behavior.biases={0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f};
-    }
-    {
-    auto& node=gene.nodes[4];
-    node.parentNode=1;node.relativePosition={0.75f,0.0f};
-    node.constructorCell=false;node.stiffness=1.0f;
-    node.construction.targetGene=-1;
-    node.construction.branches=1;
-    node.construction.repetitions=1;
-    node.construction.angle=0.0f;
-    node.construction.branchAngle=1.04719758f;
-    node.construction.repetitionAngle=0.0f;
-    node.construction.intervalScale=1.0f;
-    node.construction.separateOffspring=true;
-    node.behavior.role=CellRole(0);
-    node.behavior.waveform=Waveform(1);
-    node.behavior.motorMode=MotorMode(0);
-    node.behavior.period=2.0f;
-    node.behavior.phase=0.0f;
-    node.behavior.amplitude=1.0f;
-    node.behavior.bendingAngle=0.649999976f;
-    node.behavior.contraction=0.280000001f;
-    node.behavior.motorStrength=1.0f;
-    node.behavior.axisAngle=0.0f;
-    node.behavior.signalWeight=1.0f;
-    node.behavior.motorChannel=0;
-    node.behavior.sensorRange=4.0f;
-    node.behavior.sensitivity=1.0f;
-    node.behavior.extractionRate=1.0f;
-    node.behavior.digestionRate=1.0f;
-    node.behavior.storageCapacity=3.0f;
-    node.behavior.defenseStrength=1.20000005f;
     node.behavior.memoryMode=MemoryMode(0);
     node.behavior.memoryTime=0.5f;
     node.behavior.neural=false;
