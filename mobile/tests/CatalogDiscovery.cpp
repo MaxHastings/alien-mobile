@@ -77,7 +77,7 @@ int main(int argc,char** argv){
  for(unsigned k=0;k<6;++k){auto pos=w.resourcePatchPosition(k);w.addSpecimen(prey,pos+Vec2{2.5f,2.5f},0);}}
  Simulation sim(w,c);double maxEnergyError=0;std::ofstream history(output+"/history.csv"),trace;
  history<<"second,family,mature,births,max_generation,changed_births,late_births\n";
- if(argc>8){trace.open(output+"/bodies.csv");trace<<"second,id,parent,node,x,y,role,energy\n";}
+ if(argc>8){trace.open(output+"/bodies.csv");trace<<"second,id,parent,node,organism_parent,lineage,x,y,role,energy\n";}
  std::set<unsigned> archived;unsigned archiveCount=0;
  unsigned const lateStart=seconds*3/4;
  std::ofstream longevity,poses;std::set<std::string> savedArchitectures;
@@ -120,7 +120,7 @@ int main(int argc,char** argv){
  }
  if(playerWorld && step%36000==0)for(auto const& cell:w.cells){auto o=w.findCreature(cell.creatureId);if(o->fragment||!lives.count(o->id))continue;
  poses<<step/120<<','<<o->id<<','<<lives[o->id].family<<','<<o->generation<<','<<cell.genomeNode<<','<<o->bodyNodes[cell.genomeNode].parentNode<<','<<cell.position.x<<','<<cell.position.y<<','<<int(cell.behavior.role)<<','<<cell.velocity.x<<','<<cell.velocity.y<<','<<length(cell.motorThrust)<<'\n';}
- if(trace && step%120==0)for(auto const& cell:w.cells){auto o=w.findCreature(cell.creatureId);trace<<step/120<<','<<cell.creatureId<<','<<o->bodyNodes[cell.genomeNode].parentNode<<','<<cell.genomeNode<<','<<cell.position.x<<','<<cell.position.y<<','<<int(cell.behavior.role)<<','<<cell.energy<<'\n';}
+ if(trace && step%120==0)for(auto const& cell:w.cells){auto o=w.findCreature(cell.creatureId);trace<<step/120<<','<<cell.creatureId<<','<<o->bodyNodes[cell.genomeNode].parentNode<<','<<cell.genomeNode<<','<<o->parentId<<','<<o->lineageId<<','<<cell.position.x<<','<<cell.position.y<<','<<int(cell.behavior.role)<<','<<cell.energy<<'\n';}
  if(w.creatures.empty())break;
  }
  std::ofstream pedigree(output+"/pedigree.csv");pedigree<<"id,family,generation,mature,mature_children,cells,changed,recognizable,parent,last_seen,mature_at\n";

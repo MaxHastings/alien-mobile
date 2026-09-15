@@ -23,10 +23,17 @@ fitness score:
 Lancer produced no late reproducing phase-1 candidate. Crown's defining
 mechanism was rarely retained in phase 2, so it was not promoted. Primitive
 was viable but overlapped the compact-feeder role; it was not used for a
-catalog slot. The four promoted late genomes are Dart, Ribbon, Contractile,
-and Vault, compiled under the existing player-facing names Skiff, Thread,
-Whorl, and Husk respectively. Their exact DNA hashes are in
-`docs/discovery/finalists/checksums.json`.
+catalog slot.
+
+The direct same-seed audit then rejected two promoted replacements: the new
+Contractile-derived Whorl had **0/9** surviving 1,800-second assay trials, and
+the new Ribbon-derived Thread underperformed the previous Thread. Those exact
+promoted genomes remain archived as failed candidates, but the playable
+catalog retains the previous Thread and Whorl. The incubated Dart and Vault
+descendants remain promoted as Skiff and Husk. This is an evidence-gated
+partial improvement, not a claim that incubation improved every slot.
+
+The final exact DNA hashes are in `docs/discovery/finalists/checksums.json`.
 
 This is evidence of multi-generation continuity and holdout viability, not a
 claim that the four are globally optimal. Births and adult counts were

@@ -1,0 +1,3 @@
+maximum_energy_error=1.47066e-06
+late_start_seconds=1350
+selection_window=last_quarter_only

@@ -5,11 +5,11 @@
   },
   {
     "name": "Thread",
-    "sha256": "b7abbe344ed8724d3a67a6bd51a1fdd1b2a3dda41615e5a91524e04372d90c5d"
+    "sha256": "abbceabfe157e472d99bcff70d0a8dcd40db62ce4cd56558ad1a65950af83f41"
   },
   {
     "name": "Whorl",
-    "sha256": "9f6982ff5604118e6795b0934a0d3dcc9fa1ee8818ce3a13499dab45d056aca3"
+    "sha256": "f4d053cc16e02a22234087ed93f36faca4fbd7f9f8b2c2594ca7de62eddbed55"
   },
   {
     "name": "Husk",
